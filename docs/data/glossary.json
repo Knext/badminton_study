@@ -1,0 +1,976 @@
+{
+  "terms": [
+    {
+      "id": "front-and-back",
+      "ko": "앞뒤 포메이션",
+      "en": "front and back",
+      "aka": [
+        "공격 포메이션",
+        "탑앤백"
+      ],
+      "desc": "한 명은 네트 앞(전위), 한 명은 코트 뒤(후위)에 서는 복식 대형. 셔틀을 아래로 칠 수 있을 때 쓰는 공격 대형이다.",
+      "src": [
+        {
+          "pdf_page": 177,
+          "printed_page": 148
+        }
+      ]
+    },
+    {
+      "id": "side-by-side",
+      "ko": "좌우 포메이션",
+      "en": "side by side",
+      "aka": [
+        "수비 포메이션",
+        "사이드바이사이드"
+      ],
+      "desc": "두 선수가 코트를 좌우 반씩 나눠 나란히 서는 복식 대형. 상대가 공격할 때 스매시를 받기 위한 수비 대형이다.",
+      "src": [
+        {
+          "pdf_page": 177,
+          "printed_page": 148
+        },
+        {
+          "pdf_page": 186,
+          "printed_page": 157
+        }
+      ]
+    },
+    {
+      "id": "rotation",
+      "ko": "로테이션",
+      "en": "rotation",
+      "aka": [
+        "자리 교대"
+      ],
+      "desc": "랠리 중 공격·수비 상황이 바뀔 때 두 선수가 앞뒤·좌우 대형을 바꾸거나 서로 자리를 맞바꾸는 움직임.",
+      "src": [
+        {
+          "pdf_page": 183,
+          "printed_page": 154
+        }
+      ]
+    },
+    {
+      "id": "base-position",
+      "ko": "기본 위치",
+      "en": "base position",
+      "aka": [
+        "베이스"
+      ],
+      "desc": "상대가 보낼 가능성이 높은 공에 가장 잘 대응할 수 있는 코트 위 자리. 고정된 점이 아니라 상황에 따라 움직이며, 상대가 칠 때 이 자리에서 스플릿 스텝을 한다.",
+      "src": [
+        {
+          "pdf_page": 164,
+          "printed_page": 135
+        }
+      ]
+    },
+    {
+      "id": "forecourt",
+      "ko": "전위 구역(포코트)",
+      "en": "forecourt",
+      "aka": [
+        "네트 앞"
+      ],
+      "desc": "네트에서 숏 서비스 라인 부근까지의 앞쪽 구역.",
+      "src": [
+        {
+          "pdf_page": 123,
+          "printed_page": 96
+        }
+      ]
+    },
+    {
+      "id": "midcourt",
+      "ko": "미드코트",
+      "en": "midcourt",
+      "aka": [
+        "중반"
+      ],
+      "desc": "코트 가운데 구역. 드라이브·블록·푸시가 주로 오가는 곳.",
+      "src": [
+        {
+          "pdf_page": 136,
+          "printed_page": 109
+        }
+      ]
+    },
+    {
+      "id": "rearcourt",
+      "ko": "후위 구역(리어코트)",
+      "en": "rearcourt",
+      "aka": [
+        "코트 뒤"
+      ],
+      "desc": "롱 서비스 라인 부근부터 엔드라인까지의 뒤쪽 구역. 클리어·스매시·드롭을 치는 곳.",
+      "src": [
+        {
+          "pdf_page": 143,
+          "printed_page": 116
+        }
+      ]
+    },
+    {
+      "id": "front-player",
+      "ko": "전위",
+      "en": "front player",
+      "aka": [
+        "앞 선수"
+      ],
+      "desc": "앞뒤 포메이션에서 네트 쪽을 맡는 선수. 미드·포코트를 덮고 일찍 끊어 공격을 이어 간다.",
+      "src": [
+        {
+          "pdf_page": 184,
+          "printed_page": 155
+        }
+      ]
+    },
+    {
+      "id": "rear-player",
+      "ko": "후위",
+      "en": "rear player",
+      "aka": [
+        "뒤 선수"
+      ],
+      "desc": "앞뒤 포메이션에서 코트 뒤를 맡는 선수. 미드·리어코트를 덮고 스매시·드롭으로 공격 기회를 만든다.",
+      "src": [
+        {
+          "pdf_page": 183,
+          "printed_page": 154
+        }
+      ]
+    },
+    {
+      "id": "straight-player",
+      "ko": "스트레이트 쪽 선수",
+      "en": "straight player",
+      "aka": [
+        "직선 수비수"
+      ],
+      "desc": "좌우 수비 대형에서 공격자와 같은 라인(직선 방향)에 선 수비수. 공이 가장 빨리 도착해 반응 시간이 가장 짧다.",
+      "src": [
+        {
+          "pdf_page": 183,
+          "printed_page": 154
+        }
+      ]
+    },
+    {
+      "id": "channel-attack",
+      "ko": "채널 어택",
+      "en": "channel attack",
+      "aka": [],
+      "desc": "셔틀이 뒤로 올라갔을 때 전위가 셔틀과 같은 쪽 미드코트에 자리 잡는 공격 위치. 스트레이트 쪽 선수나 가운데를 공격하면 2대1 상황을 만들기 쉽다.",
+      "src": [
+        {
+          "pdf_page": 184,
+          "printed_page": 155
+        }
+      ]
+    },
+    {
+      "id": "t-junction",
+      "ko": "T 존",
+      "en": "the \"T\"",
+      "aka": [
+        "티"
+      ],
+      "desc": "숏 서비스 라인과 센터 라인이 만나는 지점. 복식 서버가 주로 이 근처에서 서브한다.",
+      "src": [
+        {
+          "pdf_page": 177,
+          "printed_page": 148
+        }
+      ]
+    },
+    {
+      "id": "tramlines",
+      "ko": "복식 사이드 앨리",
+      "en": "tramlines",
+      "aka": [
+        "트램라인"
+      ],
+      "desc": "단식 사이드라인과 복식 사이드라인 사이(또는 뒤쪽 롱 서비스 라인과 엔드라인 사이)의 좁은 띠 구역.",
+      "src": [
+        {
+          "pdf_page": 177,
+          "printed_page": 148
+        }
+      ]
+    },
+    {
+      "id": "short-service-line",
+      "ko": "숏 서비스 라인",
+      "en": "short service line",
+      "aka": [
+        "로우 서비스 라인"
+      ],
+      "desc": "네트에서 1.98m 떨어진 선. 서브는 이 선을 넘어가야 한다.",
+      "src": [
+        {
+          "pdf_page": 172,
+          "printed_page": 143
+        }
+      ]
+    },
+    {
+      "id": "long-service-line",
+      "ko": "(복식) 롱 서비스 라인",
+      "en": "long service line for doubles",
+      "aka": [],
+      "desc": "복식 서브가 넘어가면 안 되는 뒤쪽 선. 엔드라인보다 0.76m 안쪽에 있다.",
+      "src": [
+        {
+          "pdf_page": 177,
+          "printed_page": 148
+        }
+      ]
+    },
+    {
+      "id": "attacking-situation",
+      "ko": "공격 상황",
+      "en": "attacking situation",
+      "aka": [],
+      "desc": "셔틀을 높은 곳에서, 네트 가까이서 칠 수 있어 아래로 내려칠 수 있는 상황.",
+      "src": [
+        {
+          "pdf_page": 161,
+          "printed_page": 132
+        }
+      ]
+    },
+    {
+      "id": "neutral-situation",
+      "ko": "중립 상황",
+      "en": "neutral situation",
+      "aka": [],
+      "desc": "어느 쪽도 뚜렷한 공격권이 없는 상황. 상대를 움직여 빈 공간을 만드는 것이 목표다.",
+      "src": [
+        {
+          "pdf_page": 161,
+          "printed_page": 132
+        },
+        {
+          "pdf_page": 171,
+          "printed_page": 142
+        }
+      ]
+    },
+    {
+      "id": "defensive-situation",
+      "ko": "수비 상황",
+      "en": "defensive situation",
+      "aka": [],
+      "desc": "셔틀을 낮은 곳이나 코트 뒤에서 쳐야 해 위로 올릴 수밖에 없는 상황.",
+      "src": [
+        {
+          "pdf_page": 161,
+          "printed_page": 132
+        }
+      ]
+    },
+    {
+      "id": "early",
+      "ko": "일찍 치기",
+      "en": "early",
+      "aka": [
+        "빠른 타점"
+      ],
+      "desc": "셔틀을 더 높이, 더 네트 가까이서 치는 것. 공격 기회가 늘고 상대 시간을 빼앗으며 선택지가 많아진다.",
+      "src": [
+        {
+          "pdf_page": 161,
+          "printed_page": 132
+        }
+      ]
+    },
+    {
+      "id": "tactical-awareness",
+      "ko": "전술 인식",
+      "en": "tactical awareness",
+      "aka": [
+        "읽기"
+      ],
+      "desc": "코트 상황을 읽는 능력. 공간(폭·깊이·높이)·자신·상대·속도·파트너를 인식하는 것이다.",
+      "src": [
+        {
+          "pdf_page": 162,
+          "printed_page": 133
+        }
+      ]
+    },
+    {
+      "id": "decision-making",
+      "ko": "의사결정",
+      "en": "decision making",
+      "aka": [
+        "반응"
+      ],
+      "desc": "읽은 정보에 반응해 무엇을 할지 고르는 것. 경기 전·랠리 사이·타구 사이에 일어난다.",
+      "src": [
+        {
+          "pdf_page": 162,
+          "printed_page": 133
+        }
+      ]
+    },
+    {
+      "id": "low-serve",
+      "ko": "로우 서브(숏 서브)",
+      "en": "low serve",
+      "aka": [
+        "숏 서브"
+      ],
+      "desc": "네트를 낮게 넘겨 숏 서비스 라인 근처에 떨어뜨리는 서브. 복식 서브의 기본이다.",
+      "src": [
+        {
+          "pdf_page": 115,
+          "printed_page": 88
+        },
+        {
+          "pdf_page": 167,
+          "printed_page": 138
+        }
+      ]
+    },
+    {
+      "id": "flick-serve",
+      "ko": "플릭 서브",
+      "en": "flick serve",
+      "aka": [],
+      "desc": "로우 서브처럼 보이다가 손목·손가락으로 순간 튕겨 리시버 머리 위로 넘기는 서브. 변화를 주는 용도다.",
+      "src": [
+        {
+          "pdf_page": 113,
+          "printed_page": 86
+        },
+        {
+          "pdf_page": 169,
+          "printed_page": 140
+        }
+      ]
+    },
+    {
+      "id": "high-serve",
+      "ko": "하이 서브",
+      "en": "high serve",
+      "aka": [
+        "롱 서브"
+      ],
+      "desc": "높고 깊게 코트 뒤로 보내는 서브. 주로 단식(특히 여자단식)에서 쓴다.",
+      "src": [
+        {
+          "pdf_page": 121,
+          "printed_page": 94
+        },
+        {
+          "pdf_page": 165,
+          "printed_page": 136
+        }
+      ]
+    },
+    {
+      "id": "smash",
+      "ko": "스매시",
+      "en": "smash",
+      "aka": [],
+      "desc": "높은 셔틀을 강하게 아래로 내려치는 공격 타구.",
+      "src": [
+        {
+          "pdf_page": 146,
+          "printed_page": 119
+        }
+      ]
+    },
+    {
+      "id": "half-smash",
+      "ko": "하프 스매시",
+      "en": "half smash",
+      "aka": [],
+      "desc": "힘을 줄이고 각도와 정확도를 살린 스매시. 균형이 무너졌을 때나 회복 시간이 필요할 때 쓴다.",
+      "src": [
+        {
+          "pdf_page": 182,
+          "printed_page": 153
+        }
+      ]
+    },
+    {
+      "id": "drop",
+      "ko": "드롭",
+      "en": "dropshot",
+      "aka": [
+        "드롭샷"
+      ],
+      "desc": "코트 뒤에서 네트 앞으로 부드럽게 떨어뜨리는 타구.",
+      "src": [
+        {
+          "pdf_page": 148,
+          "printed_page": 121
+        }
+      ]
+    },
+    {
+      "id": "pulled-drop",
+      "ko": "풀드 드롭",
+      "en": "pulled dropshot",
+      "aka": [
+        "슬라이스 드롭"
+      ],
+      "desc": "라켓면을 셔틀 옆으로 당기듯 쳐서 각도와 속도를 바꾸는 드롭.",
+      "src": [
+        {
+          "pdf_page": 150,
+          "printed_page": 123
+        }
+      ]
+    },
+    {
+      "id": "clear",
+      "ko": "클리어",
+      "en": "clear",
+      "aka": [
+        "하이클리어"
+      ],
+      "desc": "코트 뒤에서 상대 코트 뒤까지 높고 깊게 보내는 타구. 회복 시간을 번다.",
+      "src": [
+        {
+          "pdf_page": 144,
+          "printed_page": 117
+        }
+      ]
+    },
+    {
+      "id": "lift",
+      "ko": "리프트",
+      "en": "lift",
+      "aka": [
+        "띄우기"
+      ],
+      "desc": "네트 앞이나 미드코트에서 셔틀을 위로 올려 상대 코트 뒤로 보내는 타구.",
+      "src": [
+        {
+          "pdf_page": 128,
+          "printed_page": 101
+        }
+      ]
+    },
+    {
+      "id": "push",
+      "ko": "푸시",
+      "en": "push",
+      "aka": [],
+      "desc": "미드코트·네트 앞에서 셔틀을 평평하게 밀어 상대 미드코트로 보내는 타구.",
+      "src": [
+        {
+          "pdf_page": 136,
+          "printed_page": 109
+        }
+      ]
+    },
+    {
+      "id": "drive",
+      "ko": "드라이브",
+      "en": "drive",
+      "aka": [],
+      "desc": "네트 높이 근처에서 평평하고 빠르게 주고받는 타구.",
+      "src": [
+        {
+          "pdf_page": 139,
+          "printed_page": 112
+        }
+      ]
+    },
+    {
+      "id": "block",
+      "ko": "블록",
+      "en": "block",
+      "aka": [],
+      "desc": "스매시를 라켓면만 대서 짧게 네트 앞으로 떨어뜨리는 수비 타구.",
+      "src": [
+        {
+          "pdf_page": 175,
+          "printed_page": 146
+        }
+      ]
+    },
+    {
+      "id": "net-shot",
+      "ko": "네트샷",
+      "en": "net shot",
+      "aka": [
+        "헤어핀"
+      ],
+      "desc": "네트 앞에서 셔틀을 네트에 붙여 상대 네트 앞으로 넘기는 타구.",
+      "src": [
+        {
+          "pdf_page": 124,
+          "printed_page": 97
+        }
+      ]
+    },
+    {
+      "id": "kill",
+      "ko": "킬(푸시 킬)",
+      "en": "kill",
+      "aka": [
+        "네트 킬"
+      ],
+      "desc": "네트 위로 뜬 셔틀을 짧고 강하게 내려쳐 끝내는 타구.",
+      "src": [
+        {
+          "pdf_page": 132,
+          "printed_page": 105
+        }
+      ]
+    },
+    {
+      "id": "cross-court",
+      "ko": "크로스",
+      "en": "cross-court",
+      "aka": [
+        "대각"
+      ],
+      "desc": "코트를 대각선으로 가로질러 보내는 방향. 이동 거리가 길어 받는 쪽에 시간이 더 생기고, 친 쪽도 회복이 어렵다.",
+      "src": [
+        {
+          "pdf_page": 171,
+          "printed_page": 142
+        }
+      ]
+    },
+    {
+      "id": "straight",
+      "ko": "스트레이트",
+      "en": "straight",
+      "aka": [
+        "직선"
+      ],
+      "desc": "사이드라인과 나란히 직선으로 보내는 방향. 다음 공을 덮기 쉽다.",
+      "src": [
+        {
+          "pdf_page": 171,
+          "printed_page": 142
+        }
+      ]
+    },
+    {
+      "id": "split-step",
+      "ko": "스플릿 스텝",
+      "en": "split step",
+      "aka": [],
+      "desc": "상대가 셔틀을 치는 순간에 맞춰 살짝 뛰어 양발로 착지하는 준비 동작. 어느 방향으로든 빠르게 출발하게 해 준다.",
+      "src": [
+        {
+          "pdf_page": 77,
+          "printed_page": 53
+        }
+      ]
+    },
+    {
+      "id": "chasse",
+      "ko": "샤세",
+      "en": "chasse",
+      "aka": [
+        "사이드 스텝"
+      ],
+      "desc": "한 발이 다른 발을 따라붙듯 미끄러지는 스텝. 짧은 거리를 균형 있게 옮길 때 쓴다.",
+      "src": [
+        {
+          "pdf_page": 81,
+          "printed_page": 57
+        }
+      ]
+    },
+    {
+      "id": "lunge",
+      "ko": "런지",
+      "en": "lunge",
+      "aka": [],
+      "desc": "마지막 한 발을 길게 내디뎌 낮고 먼 셔틀에 닿는 동작. 주로 네트 앞에서 쓴다.",
+      "src": [
+        {
+          "pdf_page": 85,
+          "printed_page": 61
+        }
+      ]
+    },
+    {
+      "id": "approach",
+      "ko": "접근",
+      "en": "approach",
+      "aka": [],
+      "desc": "기본 위치에서 셔틀 쪽으로 이동하는 단계.",
+      "src": [
+        {
+          "pdf_page": 75,
+          "printed_page": 51
+        },
+        {
+          "pdf_page": 81,
+          "printed_page": 57
+        }
+      ]
+    },
+    {
+      "id": "recovery",
+      "ko": "회복",
+      "en": "recovery",
+      "aka": [
+        "복귀"
+      ],
+      "desc": "타구 후 다음 공에 대비해 기본 위치로 돌아가는 단계.",
+      "src": [
+        {
+          "pdf_page": 75,
+          "printed_page": 51
+        },
+        {
+          "pdf_page": 81,
+          "printed_page": 57
+        }
+      ]
+    },
+    {
+      "id": "running-step",
+      "ko": "러닝 스텝",
+      "en": "running steps",
+      "aka": [],
+      "desc": "앞으로는 뒤꿈치부터 길게, 뒤로는 발끝으로 짧고 빠르게 뛰는 걸음.",
+      "src": [
+        {
+          "pdf_page": 81,
+          "printed_page": 57
+        }
+      ]
+    },
+    {
+      "id": "cross-behind",
+      "ko": "크로스 비하인드",
+      "en": "cross-behind",
+      "aka": [
+        "뒤로 교차 스텝"
+      ],
+      "desc": "라켓을 들지 않은 쪽 다리가 라켓 쪽 다리 뒤로 교차하는 스텝.",
+      "src": [
+        {
+          "pdf_page": 81,
+          "printed_page": 57
+        }
+      ]
+    },
+    {
+      "id": "hop-pivot",
+      "ko": "홉·피벗",
+      "en": "hop/pivot",
+      "aka": [
+        "피벗"
+      ],
+      "desc": "한 발로 뛰어 같은 발로 착지하는 작은 점프(홉)를 몸 회전(피벗)과 묶어 거리를 버는 동작.",
+      "src": [
+        {
+          "pdf_page": 81,
+          "printed_page": 57
+        }
+      ]
+    },
+    {
+      "id": "jump",
+      "ko": "점프",
+      "en": "jump",
+      "aka": [],
+      "desc": "두 발이 모두 공중에 뜨는 동작. 준비·도약·착지 세 단계로 나뉜다.",
+      "src": [
+        {
+          "pdf_page": 85,
+          "printed_page": 61
+        }
+      ]
+    },
+    {
+      "id": "movement-cycle",
+      "ko": "움직임 주기",
+      "en": "movement cycle",
+      "aka": [],
+      "desc": "상대가 칠 때마다 반복되는 시작 → 접근 → 타구 → 회복의 네 단계.",
+      "src": [
+        {
+          "pdf_page": 75,
+          "printed_page": 51
+        }
+      ]
+    },
+    {
+      "id": "basic-grip",
+      "ko": "기본 그립(V 그립)",
+      "en": "basic grip",
+      "aka": [
+        "V 그립",
+        "이스턴 그립"
+      ],
+      "desc": "엄지와 검지가 손잡이 위에 V 자를 만드는 그립. 셔틀이 몸 옆 높이일 때 포·백핸드에 쓴다.",
+      "src": [
+        {
+          "pdf_page": 107,
+          "printed_page": 80
+        }
+      ]
+    },
+    {
+      "id": "thumb-grip",
+      "ko": "썸 그립",
+      "en": "thumb grip",
+      "aka": [
+        "백핸드 그립"
+      ],
+      "desc": "엄지를 손잡이 뒷면에 대는 그립. 몸 앞에서 치는 기본 백핸드에 쓴다.",
+      "src": [
+        {
+          "pdf_page": 108,
+          "printed_page": 81
+        }
+      ]
+    },
+    {
+      "id": "corner-grip",
+      "ko": "코너 그립",
+      "en": "corner grip",
+      "aka": [],
+      "desc": "셔틀이 몸 옆이나 약간 뒤일 때 쓰는 백핸드 대안 그립. 백핸드 클리어·드롭·스매시에 쓴다.",
+      "src": [
+        {
+          "pdf_page": 109,
+          "printed_page": 82
+        }
+      ]
+    },
+    {
+      "id": "panhandle-grip",
+      "ko": "팬핸들 그립",
+      "en": "panhandle grip",
+      "aka": [
+        "프라이팬 그립"
+      ],
+      "desc": "라켓면이 정면을 향하게 잡는 그립. 몸 훨씬 앞의 포핸드(네트 킬)나 몸 훨씬 뒤의 백핸드에 쓴다.",
+      "src": [
+        {
+          "pdf_page": 110,
+          "printed_page": 83
+        }
+      ]
+    },
+    {
+      "id": "forearm-rotation",
+      "ko": "아래팔 회전",
+      "en": "forearm rotation",
+      "aka": [
+        "전완 회전",
+        "회내·회외"
+      ],
+      "desc": "아래팔을 안쪽(엎침)·바깥쪽(뒤침)으로 돌리는 동작. 라켓 헤드 속도의 핵심 원천이다.",
+      "src": [
+        {
+          "pdf_page": 102,
+          "printed_page": 75
+        }
+      ]
+    },
+    {
+      "id": "deception",
+      "ko": "속임수",
+      "en": "deception",
+      "aka": [
+        "기만 동작",
+        "페이크"
+      ],
+      "desc": "비슷한 샷끼리 같은 모양으로 시작해 상대가 어느 샷인지 늦게 알게 만드는 것.",
+      "src": [
+        {
+          "pdf_page": 111,
+          "printed_page": 84
+        }
+      ]
+    },
+    {
+      "id": "conditioned-game",
+      "ko": "조건 게임",
+      "en": "conditioned game",
+      "aka": [],
+      "desc": "특정 샷만 허용하거나 특정 샷으로 이기면 보너스를 주는 등 규칙을 바꿔 원하는 기술·판단을 끌어내는 게임.",
+      "src": [
+        {
+          "pdf_page": 51,
+          "printed_page": 34
+        },
+        {
+          "pdf_page": 71,
+          "printed_page": 49
+        }
+      ]
+    },
+    {
+      "id": "progressive-practice",
+      "ko": "단계적 연습",
+      "en": "progressive practice",
+      "aka": [],
+      "desc": "단순→복잡, 느리게→빠르게, 예측 가능→예측 불가로 난이도를 올려 가는 연습 설계.",
+      "src": [
+        {
+          "pdf_page": 51,
+          "printed_page": 34
+        }
+      ]
+    },
+    {
+      "id": "feeding",
+      "ko": "피딩",
+      "en": "feeding",
+      "aka": [
+        "공 주기"
+      ],
+      "desc": "연습자가 실전 같은 공을 칠 수 있도록 손이나 라켓으로 셔틀을 보내 주는 것.",
+      "src": [
+        {
+          "pdf_page": 52,
+          "printed_page": 35
+        }
+      ]
+    },
+    {
+      "id": "warm-up",
+      "ko": "워밍업",
+      "en": "warm-up",
+      "aka": [
+        "준비 운동"
+      ],
+      "desc": "몸과 마음을 본 운동에 맞는 상태로 끌어올리는 과정. 맥박 올리기·관절 가동·균형·순발력·몸풀기 랠리 중 골라 쓴다.",
+      "src": [
+        {
+          "pdf_page": 216,
+          "printed_page": 185
+        }
+      ]
+    },
+    {
+      "id": "cool-down",
+      "ko": "쿨다운",
+      "en": "cool-down",
+      "aka": [
+        "정리 운동"
+      ],
+      "desc": "운동 뒤 가벼운 유산소로 강도를 낮추고 정적 스트레칭으로 근육을 원래 길이로 되돌리는 과정.",
+      "src": [
+        {
+          "pdf_page": 225,
+          "printed_page": 194
+        }
+      ]
+    },
+    {
+      "id": "para-badminton",
+      "ko": "파라 배드민턴",
+      "en": "para-badminton",
+      "aka": [
+        "장애인 배드민턴"
+      ],
+      "desc": "지체장애 선수의 배드민턴. 휠체어·입식·저신장 6개 등급으로 겨루며 2020 도쿄부터 패럴림픽 종목이다.",
+      "src": [
+        {
+          "pdf_page": 257,
+          "printed_page": 216
+        }
+      ]
+    },
+    {
+      "id": "sport-class",
+      "ko": "스포츠 등급",
+      "en": "sport class",
+      "aka": [
+        "등급 분류"
+      ],
+      "desc": "장애 정도가 비슷한 선수끼리 겨루도록 나눈 등급(WH1·WH2·SL3·SL4·SU5·SS6). 숫자가 클수록 장애가 가볍다.",
+      "src": [
+        {
+          "pdf_page": 257,
+          "printed_page": 216
+        }
+      ]
+    },
+    {
+      "id": "ms",
+      "ko": "남자단식",
+      "en": "men's singles",
+      "aka": [
+        "남단"
+      ],
+      "desc": "남자 선수 1대1 경기.",
+      "src": [
+        {
+          "pdf_page": 165,
+          "printed_page": 136
+        }
+      ]
+    },
+    {
+      "id": "ws",
+      "ko": "여자단식",
+      "en": "women's singles",
+      "aka": [
+        "여단"
+      ],
+      "desc": "여자 선수 1대1 경기.",
+      "src": [
+        {
+          "pdf_page": 165,
+          "printed_page": 136
+        }
+      ]
+    },
+    {
+      "id": "md",
+      "ko": "남자복식",
+      "en": "men's doubles",
+      "aka": [
+        "남복"
+      ],
+      "desc": "남자 선수 2대2 경기.",
+      "src": [
+        {
+          "pdf_page": 177,
+          "printed_page": 148
+        }
+      ]
+    },
+    {
+      "id": "wd",
+      "ko": "여자복식",
+      "en": "women's doubles",
+      "aka": [
+        "여복"
+      ],
+      "desc": "여자 선수 2대2 경기.",
+      "src": [
+        {
+          "pdf_page": 177,
+          "printed_page": 148
+        }
+      ]
+    },
+    {
+      "id": "xd",
+      "ko": "혼합복식",
+      "en": "mixed doubles",
+      "aka": [
+        "혼복"
+      ],
+      "desc": "남녀 한 명씩 한 팀이 되는 2대2 경기. 여자가 앞, 남자가 뒤를 맡는 앞뒤 포메이션이 기본이다.",
+      "src": [
+        {
+          "pdf_page": 199,
+          "printed_page": 170
+        }
+      ]
+    }
+  ]
+}

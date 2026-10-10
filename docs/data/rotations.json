@@ -1,0 +1,8753 @@
+{
+ "scenarios": [
+  {
+   "id": "sc-basics-formation",
+   "title": "앞뒤 ↔ 좌우 전환의 기본",
+   "category": "basics",
+   "discipline": [
+    "MD",
+    "WD"
+   ],
+   "levels": [
+    "beginner",
+    "novice",
+    "intermediate"
+   ],
+   "summary": "셔틀을 누가 띄웠느냐가 포메이션을 정한다. 우리가 띄우면 좌우로 서서 막고, 상대가 띄우면 앞뒤로 서서 친다.",
+   "start": "n-bas-01",
+   "src": [
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    },
+    {
+     "pdf_page": 161,
+     "printed_page": 132
+    },
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    },
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ]
+  },
+  {
+   "id": "sc-def-counter",
+   "title": "스매시 수비 → 블록·드라이브로 전환",
+   "category": "defense",
+   "discipline": [
+    "MD",
+    "WD"
+   ],
+   "levels": [
+    "beginner",
+    "novice",
+    "intermediate"
+   ],
+   "summary": "좌우로 막다가 스매시를 빈 곳으로 블록·드라이브하고 앞으로 나와 공격권을 되찾는다.",
+   "start": "n-dc-01",
+   "src": [
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    },
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 197,
+     "printed_page": 168
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ]
+  },
+  {
+   "id": "sc-def-lift",
+   "title": "리프트 방향 선택과 수비 이동",
+   "category": "defense",
+   "discipline": [
+    "MD",
+    "WD"
+   ],
+   "levels": [
+    "novice",
+    "intermediate"
+   ],
+   "summary": "띄워야 한다면 방향이 중요하다. 상대 공격과 반대 방향으로 띄워 공격 팀을 많이 움직이게 하고, 압박받는 공격자에게는 둘 다 다가선다.",
+   "start": "n-dl-01",
+   "src": [
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    },
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 197,
+     "printed_page": 168
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ]
+  },
+  {
+   "id": "sc-def-cross-block",
+   "title": "크로스 블록 — 누가 앞으로 나가나",
+   "category": "defense",
+   "discipline": [
+    "MD",
+    "WD"
+   ],
+   "levels": [
+    "intermediate"
+   ],
+   "summary": "블록한 선수가 앞으로 나가는 것이 원칙이지만, 크로스 블록이면 셔틀에 더 가까운 파트너가 나가는 편이 나을 수 있다.",
+   "start": "n-dx-01",
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ]
+  },
+  {
+   "id": "sc-xd-defense",
+   "title": "혼복 수비 — 남녀 위치와 리프트 방향",
+   "category": "defense",
+   "discipline": [
+    "XD"
+   ],
+   "levels": [
+    "novice",
+    "intermediate"
+   ],
+   "summary": "혼합복식 수비는 좌우이되 여자가 셔틀의 크로스 쪽에 선다. 여자는 크로스로, 남자는 스트레이트로 띄워 다음 공격이 남자에게 가게 한다.",
+   "start": "n-xdd-01",
+   "src": [
+    {
+     "pdf_page": 207,
+     "printed_page": 178
+    },
+    {
+     "pdf_page": 208,
+     "printed_page": 179
+    }
+   ]
+  },
+  {
+   "id": "sc-att-rear",
+   "title": "후위의 샷 선택과 전위의 반응",
+   "category": "attack",
+   "discipline": [
+    "MD",
+    "WD"
+   ],
+   "levels": [
+    "beginner",
+    "novice",
+    "intermediate"
+   ],
+   "summary": "앞뒤 공격에서 후위는 스트레이트 선수·가운데 스매시, 가파른 드롭으로 기회를 만들고, 전위는 돌아오는 공을 일찍 잡아 끝낸다.",
+   "start": "n-ar-01",
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    },
+    {
+     "pdf_page": 195,
+     "printed_page": 166
+    },
+    {
+     "pdf_page": 196,
+     "printed_page": 167
+    }
+   ]
+  },
+  {
+   "id": "sc-att-channel",
+   "title": "채널 어택 — 전위는 셔틀 쪽 미드코트",
+   "category": "attack",
+   "discipline": [
+    "MD",
+    "WD"
+   ],
+   "levels": [
+    "novice",
+    "intermediate"
+   ],
+   "summary": "셔틀이 리어로 오면 전위는 셔틀과 같은 쪽 미드코트에 선다. 스트레이트나 가운데로 공격하면 상대 한 명을 둘이 노리는 2대1 이 된다.",
+   "start": "n-ac-01",
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 195,
+     "printed_page": 166
+    },
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    }
+   ]
+  },
+  {
+   "id": "sc-att-follow",
+   "title": "자리 교대 — 스매시 후 따라 들어가기",
+   "category": "attack",
+   "discipline": [
+    "MD",
+    "WD"
+   ],
+   "levels": [
+    "intermediate"
+   ],
+   "summary": "짧고 넓은 리프트가 오면 후위가 스매시 후 따라 들어갈 수 있다. 단, 전위가 센터 쪽으로 비켜 줘야 하고, 다음 깊은 공은 원래 전위가 뒤로 간다.",
+   "start": "n-af-01",
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    },
+    {
+     "pdf_page": 196,
+     "printed_page": 167
+    }
+   ]
+  },
+  {
+   "id": "sc-xd-attack",
+   "title": "혼복 공격 — 남자 뒤·여자 앞",
+   "category": "attack",
+   "discipline": [
+    "XD"
+   ],
+   "levels": [
+    "novice",
+    "intermediate"
+   ],
+   "summary": "혼합복식 공격은 남자가 미드·리어, 여자가 미드·포코트를 맡는 앞뒤다. 인내심 있게 각도로 기회를 만들고, 여자 공략은 지나치지 않게 쓴다.",
+   "start": "n-xa-01",
+   "src": [
+    {
+     "pdf_page": 205,
+     "printed_page": 176
+    },
+    {
+     "pdf_page": 206,
+     "printed_page": 177
+    }
+   ]
+  },
+  {
+   "id": "sc-serve-low",
+   "title": "로우 서브와 서브 후 위치",
+   "category": "serve",
+   "discipline": [
+    "MD",
+    "WD"
+   ],
+   "levels": [
+    "beginner",
+    "novice",
+    "intermediate"
+   ],
+   "summary": "서버는 T 근처, 파트너는 중앙 미드코트. 로우 서브는 주로 센터로 보내 리턴 각도를 줄이고, 서브 후 서버는 네트 리턴을, 파트너는 미드·리어를 맡는다.",
+   "start": "n-sl-01",
+   "src": [
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    },
+    {
+     "pdf_page": 178,
+     "printed_page": 149
+    },
+    {
+     "pdf_page": 188,
+     "printed_page": 159
+    },
+    {
+     "pdf_page": 189,
+     "printed_page": 160
+    },
+    {
+     "pdf_page": 181,
+     "printed_page": 152
+    },
+    {
+     "pdf_page": 192,
+     "printed_page": 163
+    }
+   ]
+  },
+  {
+   "id": "sc-receive",
+   "title": "로우 서브 리시브 — 리턴과 그다음 위치",
+   "category": "serve",
+   "discipline": [
+    "MD",
+    "WD"
+   ],
+   "levels": [
+    "novice",
+    "intermediate"
+   ],
+   "summary": "리턴의 종류가 다음 위치를 정한다. 네트로 리턴하면 네트를 장악하고, 스트레이트로 밀면 스트레이트 리플라이를 가로채고, 리턴이 떠 버렸으면 물러나 좌우로 선다.",
+   "start": "n-rc-01",
+   "src": [
+    {
+     "pdf_page": 179,
+     "printed_page": 150
+    },
+    {
+     "pdf_page": 180,
+     "printed_page": 151
+    },
+    {
+     "pdf_page": 190,
+     "printed_page": 161
+    },
+    {
+     "pdf_page": 191,
+     "printed_page": 162
+    }
+   ]
+  },
+  {
+   "id": "sc-serve-flick",
+   "title": "플릭 서브를 받았을 때의 리턴",
+   "category": "serve",
+   "discipline": [
+    "MD",
+    "WD"
+   ],
+   "levels": [
+    "novice",
+    "intermediate"
+   ],
+   "summary": "플릭 서브는 리시버를 뒤로 밀어 균형을 깬다. 균형이 잡혔다면 스트레이트 선수나 가운데로 공격하고, 무너졌다면 하프 스매시·드롭처럼 회복할 시간을 주는 샷을 고른다.",
+   "start": "n-sf-01",
+   "src": [
+    {
+     "pdf_page": 181,
+     "printed_page": 152
+    },
+    {
+     "pdf_page": 182,
+     "printed_page": 153
+    },
+    {
+     "pdf_page": 192,
+     "printed_page": 163
+    },
+    {
+     "pdf_page": 193,
+     "printed_page": 164
+    },
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    }
+   ]
+  },
+  {
+   "id": "sc-rally-cycle",
+   "title": "랠리 전체 — 공격 ↔ 수비 순환",
+   "category": "transition",
+   "discipline": [
+    "MD",
+    "WD"
+   ],
+   "levels": [
+    "novice",
+    "intermediate"
+   ],
+   "summary": "공격하다 띄우면 좌우로 막고, 블록으로 상대가 띄우게 만들면 다시 앞뒤로 친다. 한 랠리 안에서 포메이션이 몇 번이고 바뀐다.",
+   "start": "n-cy-01",
+   "src": [
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    },
+    {
+     "pdf_page": 161,
+     "printed_page": 132
+    },
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    },
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    }
+   ]
+  }
+ ],
+ "players": {
+  "A1": {
+   "team": "A",
+   "gender": "M"
+  },
+  "A2": {
+   "team": "A",
+   "gender": "F"
+  },
+  "B1": {
+   "team": "B",
+   "gender": "M"
+  },
+  "B2": {
+   "team": "B",
+   "gender": "F"
+  }
+ },
+ "nodes": {
+  "n-bas-01": {
+   "scenario": "sc-basics-formation",
+   "kind": "decision",
+   "title": "네트 앞에서 어쩔 수 없이 띄웠다",
+   "pos": {
+    "A1": [
+     450,
+     1150
+    ],
+    "A2": [
+     330,
+     800
+    ],
+    "B1": [
+     440,
+     340
+    ],
+    "B2": [
+     180,
+     360
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    },
+    {
+     "pdf_page": 161,
+     "printed_page": 132
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "shuttle": [
+    {
+     "from": [
+      330,
+      800
+     ],
+     "to": [
+      150,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c1",
+     "label": "둘이 좌우로 나란히 선다",
+     "next": "n-bas-02a",
+     "quality": "good",
+     "why": "복식의 수비 포메이션은 좌우 나란히다. 둘이 코트 폭을 나눠 맡아야 스매시가 어느 쪽으로 와도 받을 수 있다. (매뉴얼 p.148)"
+    },
+    {
+     "id": "c2",
+     "label": "앞뒤 그대로 선다",
+     "next": "n-bas-02b",
+     "quality": "risky",
+     "why": "앞뒤는 공격 포메이션이다. 상대가 내려치는데 앞뒤로 서 있으면 한쪽 옆이 통째로 빈다. (매뉴얼 p.148)"
+    }
+   ],
+   "explain": {
+    "beginner": "앞뒤로 공격하던 중 상대가 네트로 떨어뜨려, 전위 A2 가 셔틀을 높이 띄울(리프트) 수밖에 없었다. 이제 상대가 위에서 내려칠 차례다.",
+    "intermediate": "셔틀 높이가 공수 방향을 정한다. 우리가 띄운 순간 상대는 공격 상황, 우리는 수비 상황이 된다(매뉴얼의 공격·중립·수비 상황 구분)."
+   }
+  },
+  "n-bas-02a": {
+   "scenario": "sc-basics-formation",
+   "kind": "step",
+   "title": "좌우로 섰다 — 스매시가 와도 나눠 받는다",
+   "pos": {
+    "A1": [
+     410,
+     970
+    ],
+    "A2": [
+     175,
+     1000
+    ],
+    "B1": [
+     230,
+     470
+    ],
+    "B2": [
+     150,
+     110
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    },
+    {
+     "pdf_page": 197,
+     "printed_page": 168
+    }
+   ],
+   "formation": {
+    "A": "side_by_side",
+    "B": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      150,
+      110
+     ],
+     "to": [
+      175,
+      990
+     ],
+     "shot": "smash",
+     "by": "B2"
+    }
+   ],
+   "next": "n-bas-03",
+   "explain": {
+    "beginner": "A2 는 물러나고 A1 은 올라와 나란히 선다. 셔틀이 간 쪽(왼쪽)으로 둘이 함께 조금 치우친다.",
+    "intermediate": "크로스 쪽 선수(A1)는 조금 더 앞에 선다. 크로스 공격은 도착이 늦어 반응할 시간이 있고, 가운데 드롭을 미리 노릴 수 있다."
+   }
+  },
+  "n-bas-03": {
+   "scenario": "sc-basics-formation",
+   "kind": "decision",
+   "title": "블록이 넘어가자 상대가 셔틀을 띄웠다",
+   "pos": {
+    "A1": [
+     400,
+     960
+    ],
+    "A2": [
+     190,
+     820
+    ],
+    "B1": [
+     120,
+     590
+    ],
+    "B2": [
+     200,
+     250
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    },
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      175,
+      990
+     ],
+     "to": [
+      120,
+      600
+     ],
+     "shot": "block",
+     "by": "A2"
+    },
+    {
+     "from": [
+      120,
+      590
+     ],
+     "to": [
+      460,
+      1240
+     ],
+     "shot": "lift",
+     "by": "B1"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c1",
+     "label": "앞뒤로 바꾼다 — A1 은 뒤로, A2 는 앞(셔틀 쪽)",
+     "next": "n-bas-04a",
+     "quality": "good",
+     "why": "상대가 띄우면 우리는 공격 포메이션인 앞뒤로 선다. 뒤 선수가 내려치고 앞 선수가 돌아오는 공을 일찍 끊는다. (매뉴얼 p.148, p.155)"
+    },
+    {
+     "id": "c2",
+     "label": "좌우 그대로 서서 친다",
+     "next": "n-bas-04b",
+     "quality": "ok",
+     "why": "좌우로 선 채 공격하면 네트 앞을 지키는 사람이 없어 상대의 블록을 끊지 못한다. 전위가 할 일(일찍 잡기·가로채기)이 사라진다. (매뉴얼 p.148, p.155)"
+    }
+   ],
+   "explain": {
+    "beginner": "A2 가 스매시를 네트 앞 빈 곳으로 블록하고 앞으로 나왔다. 상대 B1 이 네트에서 높이 띄운다 — 이제 우리가 내려칠 차례다.",
+    "intermediate": "블록·드라이브로 빈 곳을 찌르고 친 선수가 앞으로 나오는 것이 수비를 공격으로 바꾸는 기본 경로다."
+   }
+  },
+  "n-bas-04a": {
+   "scenario": "sc-basics-formation",
+   "kind": "outcome",
+   "title": "공격 포메이션 완성",
+   "pos": {
+    "A1": [
+     455,
+     1205
+    ],
+    "A2": [
+     385,
+     875
+    ],
+    "B1": [
+     175,
+     370
+    ],
+    "B2": [
+     445,
+     330
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    },
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "result": "attack_gained",
+   "summary": "띄우면 좌우, 받아 올리게 만들면 앞뒤 — 포메이션 전환 성공.",
+   "continue": "sc-att-rear",
+   "explain": {
+    "beginner": "A1 은 뒤에서 내려치고 A2 는 셔틀 쪽 미드코트에서 돌아오는 공을 노린다. 상대는 거꾸로 좌우로 갈라 막는다."
+   }
+  },
+  "n-bas-04b": {
+   "scenario": "sc-basics-formation",
+   "kind": "step",
+   "title": "좌우로 선 채 스매시",
+   "pos": {
+    "A1": [
+     450,
+     1190
+    ],
+    "A2": [
+     200,
+     1000
+    ],
+    "B1": [
+     175,
+     380
+    ],
+    "B2": [
+     440,
+     345
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      450,
+      1190
+     ],
+     "to": [
+      440,
+      350
+     ],
+     "shot": "smash",
+     "by": "A1"
+    }
+   ],
+   "next": "n-bas-05b",
+   "explain": {
+    "beginner": "A1 이 뒤에서 스매시했지만 A2 는 뒤에 그대로 있다. 네트 앞 가운데가 비어 있다."
+   }
+  },
+  "n-bas-05b": {
+   "scenario": "sc-basics-formation",
+   "kind": "outcome",
+   "title": "블록에 끌려 나와 다시 띄웠다",
+   "pos": {
+    "A1": [
+     430,
+     1060
+    ],
+    "A2": [
+     290,
+     800
+    ],
+    "B1": [
+     180,
+     380
+    ],
+    "B2": [
+     430,
+     380
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      440,
+      350
+     ],
+     "to": [
+      300,
+      770
+     ],
+     "shot": "block",
+     "by": "B2"
+    },
+    {
+     "from": [
+      290,
+      800
+     ],
+     "to": [
+      460,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "result": "neutral",
+   "summary": "공격을 잡고도 앞을 비워 다시 수비로 돌아갔다.",
+   "continue": "sc-def-counter",
+   "explain": {
+    "beginner": "상대가 네트 가운데로 블록하자 A2 가 멀리서 달려 나와 다시 띄울 수밖에 없었다. 공격권이 넘어갔다."
+   }
+  },
+  "n-bas-02b": {
+   "scenario": "sc-basics-formation",
+   "kind": "step",
+   "title": "앞뒤 그대로 — 왼쪽이 비었다",
+   "pos": {
+    "A1": [
+     420,
+     1130
+    ],
+    "A2": [
+     310,
+     830
+    ],
+    "B1": [
+     230,
+     470
+    ],
+    "B2": [
+     150,
+     110
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      150,
+      110
+     ],
+     "to": [
+      110,
+      1060
+     ],
+     "shot": "smash",
+     "by": "B2"
+    }
+   ],
+   "next": "n-bas-04c",
+   "explain": {
+    "beginner": "두 선수가 모두 오른쪽 가운데에 몰려 있다. 상대 B2 가 왼쪽 직선으로 내려친다."
+   }
+  },
+  "n-bas-04c": {
+   "scenario": "sc-basics-formation",
+   "kind": "outcome",
+   "title": "빈 옆줄로 스매시 — 실점",
+   "pos": {
+    "A1": [
+     260,
+     1060
+    ],
+    "A2": [
+     250,
+     860
+    ],
+    "B1": [
+     230,
+     480
+    ],
+    "B2": [
+     160,
+     130
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    }
+   ],
+   "result": "point_lost",
+   "summary": "우리가 띄웠으면 곧바로 좌우로 갈라 서야 한다.",
+   "continue": "sc-def-counter",
+   "explain": {
+    "beginner": "아무도 왼쪽 옆을 맡지 않아 스매시가 그대로 떨어졌다."
+   }
+  },
+  "n-dc-01": {
+   "scenario": "sc-def-counter",
+   "kind": "decision",
+   "title": "스트레이트 스매시가 A2 에게 온다",
+   "pos": {
+    "A1": [
+     400,
+     975
+    ],
+    "A2": [
+     165,
+     1010
+    ],
+    "B1": [
+     150,
+     110
+    ],
+    "B2": [
+     215,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    },
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 197,
+     "printed_page": 168
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ],
+   "formation": {
+    "A": "side_by_side",
+    "B": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      150,
+      110
+     ],
+     "to": [
+      175,
+      1000
+     ],
+     "shot": "smash",
+     "by": "B1"
+    }
+   ],
+   "zones": [
+    {
+     "rect": [
+      0,
+      870,
+      305,
+      470
+     ],
+     "label": "A2 담당",
+     "team": "A"
+    },
+    {
+     "rect": [
+      305,
+      870,
+      305,
+      470
+     ],
+     "label": "A1 담당",
+     "team": "A"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-block",
+     "label": "네트 앞 빈 곳으로 블록",
+     "next": "n-dc-02a",
+     "quality": "good",
+     "why": "블록·드라이브를 빈 곳으로 보내면 수비를 공격으로 바꿀 수 있다. (매뉴얼 p.158, p.169)"
+    },
+    {
+     "id": "c-drive",
+     "label": "상대 전위 옆으로 낮게 드라이브",
+     "next": "n-dc-02b",
+     "quality": "good",
+     "why": "드라이브도 블록과 같은 원리다 — 빈 곳으로 보내고 친 선수가 앞으로 나와 상대가 띄우게 만든다. (매뉴얼 p.158, p.169)",
+     "levels": [
+      "novice",
+      "intermediate"
+     ]
+    },
+    {
+     "id": "c-lift",
+     "label": "높고 깊게 리프트",
+     "next": "n-dc-02c",
+     "quality": "ok",
+     "why": "리프트는 수비를 유지할 뿐 공격권을 가져오지 못한다. 매뉴얼은 공격 전환 수단으로 블록·드라이브를 든다. (매뉴얼 p.158, p.169)"
+    }
+   ],
+   "explain": {
+    "beginner": "상대 B1 이 왼쪽 깊은 곳에서 스트레이트로 스매시한다. 우리는 좌우로 서서 막는 중이다.",
+    "intermediate": "수비 측이 공격을 되찾는 길은 빈 곳으로 블록·드라이브하는 것이다. 리프트는 수비를 이어 갈 뿐이다."
+   }
+  },
+  "n-dc-02a": {
+   "scenario": "sc-def-counter",
+   "kind": "decision",
+   "title": "블록이 넘어갔다 — 친 선수는?",
+   "pos": {
+    "A1": [
+     395,
+     970
+    ],
+    "A2": [
+     170,
+     980
+    ],
+    "B1": [
+     180,
+     230
+    ],
+    "B2": [
+     150,
+     540
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      175,
+      995
+     ],
+     "to": [
+      110,
+      610
+     ],
+     "shot": "block",
+     "by": "A2"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-fwd",
+     "label": "A2 가 앞으로 나가 네트를 덮는다",
+     "next": "n-dc-03a",
+     "quality": "good",
+     "why": "블록·드라이브한 선수는 가능하면 앞으로 나가 네트를 덮고 상대가 띄우게 만들어야 한다. (매뉴얼 p.158, p.169)"
+    },
+    {
+     "id": "c-stay",
+     "label": "A2 는 제자리에 머문다",
+     "next": "n-dc-03b",
+     "quality": "ok",
+     "why": "제자리에 있으면 상대가 네트 앞에서 편하게 받아친다. 블록으로 만든 기회를 놓친다. (매뉴얼 p.158, p.169)"
+    }
+   ],
+   "explain": {
+    "beginner": "A2 의 블록이 네트 앞 빈 곳으로 떨어진다. 상대 B2 가 달려 나온다.",
+    "intermediate": "블록한 선수가 앞으로 나오면 상대는 네트샷을 못 하고 들어 올릴 수밖에 없다. 그 들어 올린 공이 우리 공격의 시작이다."
+   }
+  },
+  "n-dc-03a": {
+   "scenario": "sc-def-counter",
+   "kind": "step",
+   "title": "앞으로 나온 A2 — 상대가 띄운다",
+   "pos": {
+    "A1": [
+     390,
+     960
+    ],
+    "A2": [
+     170,
+     815
+    ],
+    "B1": [
+     200,
+     300
+    ],
+    "B2": [
+     115,
+     600
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      115,
+      600
+     ],
+     "to": [
+      455,
+      1240
+     ],
+     "shot": "lift",
+     "by": "B2"
+    }
+   ],
+   "next": "n-dc-04a",
+   "explain": {
+    "beginner": "A2 가 네트를 덮자 B2 는 네트샷을 못 하고 우리 오른쪽 깊은 곳으로 띄운다."
+   }
+  },
+  "n-dc-04a": {
+   "scenario": "sc-def-counter",
+   "kind": "outcome",
+   "title": "공격권 획득 — 앞뒤로 전환",
+   "pos": {
+    "A1": [
+     455,
+     1205
+    ],
+    "A2": [
+     385,
+     870
+    ],
+    "B1": [
+     445,
+     330
+    ],
+    "B2": [
+     175,
+     375
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "result": "attack_gained",
+   "summary": "블록 → 전진 → 상대 리프트. 수비가 공격으로 바뀌었다.",
+   "continue": "sc-att-rear",
+   "explain": {
+    "beginner": "A1 이 뒤로 가서 내려치고, A2 는 셔틀 쪽 미드코트로 옮겨 앞을 맡는다.",
+    "intermediate": "A2 가 셔틀과 같은 쪽 미드코트에 서는 것이 채널 어택 위치다."
+   }
+  },
+  "n-dc-03b": {
+   "scenario": "sc-def-counter",
+   "kind": "step",
+   "title": "제자리에 남았다 — 상대가 네트를 잡는다",
+   "pos": {
+    "A1": [
+     395,
+     975
+    ],
+    "A2": [
+     175,
+     1000
+    ],
+    "B1": [
+     200,
+     300
+    ],
+    "B2": [
+     120,
+     600
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      120,
+      600
+     ],
+     "to": [
+      140,
+      720
+     ],
+     "shot": "net",
+     "by": "B2"
+    }
+   ],
+   "next": "n-dc-04b",
+   "explain": {
+    "beginner": "A2 가 뒤에 남아 있어 B2 가 여유 있게 네트 앞으로 짧게 떨어뜨린다."
+   }
+  },
+  "n-dc-04b": {
+   "scenario": "sc-def-counter",
+   "kind": "outcome",
+   "title": "끌려 나와 다시 띄웠다",
+   "pos": {
+    "A1": [
+     420,
+     1000
+    ],
+    "A2": [
+     150,
+     760
+    ],
+    "B1": [
+     450,
+     140
+    ],
+    "B2": [
+     200,
+     480
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      150,
+      760
+     ],
+     "to": [
+      460,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "result": "defense_held",
+   "summary": "버티긴 했지만 공격권을 되찾을 기회를 놓쳤다.",
+   "explain": {
+    "beginner": "A2 가 멀리서 달려 나와 낮은 셔틀을 다시 띄웠다. 상대가 계속 공격한다."
+   }
+  },
+  "n-dc-02b": {
+   "scenario": "sc-def-counter",
+   "kind": "step",
+   "title": "드라이브가 상대 전위 옆을 지난다",
+   "pos": {
+    "A1": [
+     395,
+     970
+    ],
+    "A2": [
+     180,
+     950
+    ],
+    "B1": [
+     160,
+     240
+    ],
+    "B2": [
+     215,
+     480
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      170,
+      990
+     ],
+     "to": [
+      90,
+      380
+     ],
+     "shot": "drive",
+     "by": "A2"
+    }
+   ],
+   "next": "n-dc-03c",
+   "explain": {
+    "novice": "A2 가 낮고 빠르게 옆줄을 따라 드라이브한다. 전위 B2 가 손을 못 대고, 뒤에서 B1 이 받으러 나온다."
+   }
+  },
+  "n-dc-03c": {
+   "scenario": "sc-def-counter",
+   "kind": "step",
+   "title": "상대가 미드코트에서 띄운다",
+   "pos": {
+    "A1": [
+     380,
+     1000
+    ],
+    "A2": [
+     190,
+     840
+    ],
+    "B1": [
+     100,
+     400
+    ],
+    "B2": [
+     250,
+     450
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      100,
+      400
+     ],
+     "to": [
+      150,
+      1240
+     ],
+     "shot": "lift",
+     "by": "B1"
+    }
+   ],
+   "next": "n-dc-04c",
+   "explain": {
+    "novice": "A2 는 드라이브를 친 뒤 앞으로 나와 있다. B1 은 낮은 셔틀을 받아 높이 띄울 수밖에 없다."
+   }
+  },
+  "n-dc-04c": {
+   "scenario": "sc-def-counter",
+   "kind": "outcome",
+   "title": "공격권 획득 — 왼쪽에서 앞뒤",
+   "pos": {
+    "A1": [
+     165,
+     1205
+    ],
+    "A2": [
+     225,
+     870
+    ],
+    "B1": [
+     435,
+     370
+    ],
+    "B2": [
+     175,
+     335
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "result": "attack_gained",
+   "summary": "드라이브로 빈 곳을 찌르고 전진 — 공격으로 전환.",
+   "continue": "sc-att-rear",
+   "explain": {
+    "novice": "A1 이 왼쪽 뒤로 가서 공격하고 A2 는 같은 쪽 미드코트(채널)에 선다."
+   }
+  },
+  "n-dc-02c": {
+   "scenario": "sc-def-counter",
+   "kind": "step",
+   "title": "높고 깊은 크로스 리프트",
+   "pos": {
+    "A1": [
+     400,
+     975
+    ],
+    "A2": [
+     175,
+     995
+    ],
+    "B1": [
+     200,
+     180
+    ],
+    "B2": [
+     230,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      175,
+      990
+     ],
+     "to": [
+      460,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "next": "n-dc-03d",
+   "explain": {
+    "beginner": "A2 가 오른쪽 깊숙이 띄운다. 상대는 다시 공격할 시간을 얻는다."
+   }
+  },
+  "n-dc-03d": {
+   "scenario": "sc-def-counter",
+   "kind": "outcome",
+   "title": "수비 유지 — 둘이 함께 오른쪽으로",
+   "pos": {
+    "A1": [
+     440,
+     1000
+    ],
+    "A2": [
+     195,
+     965
+    ],
+    "B1": [
+     455,
+     120
+    ],
+    "B2": [
+     400,
+     480
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    },
+    {
+     "pdf_page": 197,
+     "printed_page": 168
+    }
+   ],
+   "formation": {
+    "A": "side_by_side",
+    "B": "front_back"
+   },
+   "result": "defense_held",
+   "summary": "리프트로 버텼다. 다음 스매시에서 블록·드라이브 기회를 노린다.",
+   "explain": {
+    "beginner": "셔틀이 오른쪽으로 갔으니 둘이 함께 오른쪽으로 옮긴다. 크로스 쪽 A2 는 조금 앞에 선다.",
+    "intermediate": "넓은 리프트 뒤에는 셔틀이 간 쪽으로 함께 이동한다 — 가장 흔한 리턴인 스트레이트·가운데 공격을 받기 쉽다."
+   }
+  },
+  "n-dl-01": {
+   "scenario": "sc-def-lift",
+   "kind": "decision",
+   "title": "스트레이트 스매시 — 띄워야 한다",
+   "pos": {
+    "A1": [
+     400,
+     975
+    ],
+    "A2": [
+     165,
+     1010
+    ],
+    "B1": [
+     150,
+     110
+    ],
+    "B2": [
+     215,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    },
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    }
+   ],
+   "formation": {
+    "A": "side_by_side",
+    "B": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      150,
+      110
+     ],
+     "to": [
+      175,
+      1000
+     ],
+     "shot": "smash",
+     "by": "B1"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-cross",
+     "label": "크로스 리프트 (반대쪽 깊숙이)",
+     "next": "n-dl-02a",
+     "quality": "good",
+     "why": "스트레이트 공격에는 크로스 리프트를 고려하라 — 공격 팀을 더 많이 움직여 공격을 이어 가기 어렵게 만든다. (매뉴얼 p.158, p.169)"
+    },
+    {
+     "id": "c-straight",
+     "label": "스트레이트 리프트 (같은 코너로)",
+     "next": "n-dl-02b",
+     "quality": "risky",
+     "why": "스트레이트 공격에 같은 쪽으로 띄우면 공격자는 거의 움직이지 않고 다시 때린다. 매뉴얼 권고(반대 방향)의 정반대다. (매뉴얼 p.158, p.169)"
+    },
+    {
+     "id": "c-short",
+     "label": "짧고 넓게 띄운다",
+     "next": "n-dl-02c",
+     "quality": "risky",
+     "why": "짧고 넓은 리프트는 공격자에게 스매시 후 따라 들어올 기회를 준다 — 매뉴얼 연습에서 일부러 그 기회를 만들 때 쓰는 공이다. (매뉴얼 p.154, p.165)",
+     "levels": [
+      "intermediate"
+     ]
+    }
+   ],
+   "explain": {
+    "novice": "상대 B1 이 왼쪽 깊은 곳에서 스트레이트로 공격했다. A2 는 블록할 여유가 없어 띄워야 한다. 어느 쪽으로 띄울까?",
+    "intermediate": "같은 방향 리프트는 공격자가 제자리에서 계속 때리게 해 준다. 반대 방향 리프트는 공격자를 뛰게 해 공격을 이어 가기 어렵게 만든다."
+   }
+  },
+  "n-dl-02a": {
+   "scenario": "sc-def-lift",
+   "kind": "step",
+   "title": "크로스 리프트 — 공격자가 뛴다",
+   "pos": {
+    "A1": [
+     400,
+     975
+    ],
+    "A2": [
+     175,
+     1000
+    ],
+    "B1": [
+     200,
+     150
+    ],
+    "B2": [
+     230,
+     480
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      175,
+      1000
+     ],
+     "to": [
+      470,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "next": "n-dl-03a",
+   "explain": {
+    "novice": "셔틀이 반대쪽 깊은 곳으로 간다. B1 이 코트를 가로질러 뛰어야 한다."
+   }
+  },
+  "n-dl-03a": {
+   "scenario": "sc-def-lift",
+   "kind": "decision",
+   "title": "공격자가 코너에서 쫓기고 있다",
+   "pos": {
+    "A1": [
+     440,
+     1000
+    ],
+    "A2": [
+     200,
+     980
+    ],
+    "B1": [
+     455,
+     115
+    ],
+    "B2": [
+     400,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    },
+    {
+     "pdf_page": 197,
+     "printed_page": 168
+    }
+   ],
+   "formation": {
+    "A": "side_by_side",
+    "B": "front_back"
+   },
+   "choices": [
+    {
+     "id": "c-fwd",
+     "label": "둘 다 앞으로, 크로스 쪽 A2 는 더 앞으로",
+     "next": "n-dl-04a",
+     "quality": "good",
+     "why": "공격자가 리어 코너에서 압박받으면 둘 다 더 앞으로 나설 수 있고, 크로스 쪽 선수는 가운데 드롭을 노려 더 앞에 선다. (매뉴얼 p.157, p.168)"
+    },
+    {
+     "id": "c-back",
+     "label": "그대로 뒤에 머문다",
+     "next": "n-dl-04b",
+     "quality": "ok",
+     "why": "뒤에 머물면 안전하지만, 압박받은 공격자가 칠 가운데 드롭에 늦는다. (매뉴얼 p.157, p.168)"
+    }
+   ],
+   "explain": {
+    "novice": "B1 이 오른쪽 코너 끝에서 겨우 셔틀에 닿았다. 우리 둘은 셔틀 쪽으로 함께 옮겨 섰다. 다음 위치는?",
+    "intermediate": "공격자가 압박받으면 강한 스매시가 어렵다. 앞으로 다가서면 드롭·약한 공을 일찍 잡을 수 있다. 크로스 쪽 선수는 크로스 공이 늦게 오므로 더 앞에 설 수 있다."
+   }
+  },
+  "n-dl-04a": {
+   "scenario": "sc-def-lift",
+   "kind": "step",
+   "title": "가운데 드롭을 일찍 잡는다",
+   "pos": {
+    "A1": [
+     430,
+     940
+    ],
+    "A2": [
+     235,
+     880
+    ],
+    "B1": [
+     455,
+     115
+    ],
+    "B2": [
+     400,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    },
+    {
+     "pdf_page": 197,
+     "printed_page": 168
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      455,
+      115
+     ],
+     "to": [
+      300,
+      820
+     ],
+     "shot": "drop",
+     "by": "B1"
+    }
+   ],
+   "next": "n-dl-05a",
+   "explain": {
+    "novice": "B1 이 쫓기며 가운데로 드롭한다. 앞에 나와 있던 A2 가 일찍 닿는다."
+   }
+  },
+  "n-dl-05a": {
+   "scenario": "sc-def-lift",
+   "kind": "outcome",
+   "title": "밀어 넣어 공격권을 가져왔다",
+   "pos": {
+    "A1": [
+     400,
+     1120
+    ],
+    "A2": [
+     290,
+     830
+    ],
+    "B1": [
+     430,
+     250
+    ],
+    "B2": [
+     380,
+     400
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    },
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    }
+   ],
+   "formation": {
+    "A": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      290,
+      830
+     ],
+     "to": [
+      370,
+      340
+     ],
+     "shot": "push",
+     "by": "A2"
+    }
+   ],
+   "result": "attack_gained",
+   "summary": "방향을 바꾼 리프트 → 압박 → 전진. 수비에서 공격으로 넘어갔다.",
+   "continue": "sc-att-channel",
+   "explain": {
+    "novice": "A2 가 드롭을 높은 타점에서 상대 미드코트로 밀어 넣는다. 상대는 들어 올릴 수밖에 없다."
+   }
+  },
+  "n-dl-04b": {
+   "scenario": "sc-def-lift",
+   "kind": "step",
+   "title": "가운데 드롭에 늦었다",
+   "pos": {
+    "A1": [
+     440,
+     1010
+    ],
+    "A2": [
+     200,
+     990
+    ],
+    "B1": [
+     455,
+     115
+    ],
+    "B2": [
+     380,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      455,
+      115
+     ],
+     "to": [
+      300,
+      800
+     ],
+     "shot": "drop",
+     "by": "B1"
+    }
+   ],
+   "next": "n-dl-05b",
+   "explain": {
+    "novice": "B1 의 가운데 드롭이 두 선수 앞에 떨어진다. 둘 다 멀다."
+   }
+  },
+  "n-dl-05b": {
+   "scenario": "sc-def-lift",
+   "kind": "outcome",
+   "title": "다시 띄워 버틴다",
+   "pos": {
+    "A1": [
+     430,
+     1000
+    ],
+    "A2": [
+     285,
+     790
+    ],
+    "B1": [
+     400,
+     200
+    ],
+    "B2": [
+     380,
+     480
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      285,
+      790
+     ],
+     "to": [
+      150,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "result": "defense_held",
+   "summary": "버텼지만 앞으로 다가설 기회를 놓쳤다.",
+   "continue": "sc-def-counter",
+   "explain": {
+    "novice": "A2 가 늦게 닿아 다시 띄웠다. 수비는 이어 가지만 주도권은 여전히 상대에게 있다."
+   }
+  },
+  "n-dl-02b": {
+   "scenario": "sc-def-lift",
+   "kind": "step",
+   "title": "같은 코너로 리프트",
+   "pos": {
+    "A1": [
+     400,
+     975
+    ],
+    "A2": [
+     170,
+     1005
+    ],
+    "B1": [
+     160,
+     150
+    ],
+    "B2": [
+     215,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      175,
+      1000
+     ],
+     "to": [
+      150,
+      95
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "next": "n-dl-03b",
+   "explain": {
+    "novice": "셔틀이 방금 스매시가 나온 그 코너로 다시 간다. B1 은 거의 움직이지 않는다."
+   }
+  },
+  "n-dl-03b": {
+   "scenario": "sc-def-lift",
+   "kind": "step",
+   "title": "같은 자리에서 또 스매시",
+   "pos": {
+    "A1": [
+     400,
+     975
+    ],
+    "A2": [
+     175,
+     1010
+    ],
+    "B1": [
+     150,
+     110
+    ],
+    "B2": [
+     210,
+     500
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      150,
+      110
+     ],
+     "to": [
+      180,
+      990
+     ],
+     "shot": "smash",
+     "by": "B1"
+    }
+   ],
+   "next": "n-dl-04c",
+   "explain": {
+    "novice": "B1 이 자세를 잡고 다시 A2 몸 쪽으로 가파르게 때린다."
+   }
+  },
+  "n-dl-04c": {
+   "scenario": "sc-def-lift",
+   "kind": "outcome",
+   "title": "짧게 뜬 공을 전위가 끝냈다",
+   "pos": {
+    "A1": [
+     390,
+     980
+    ],
+    "A2": [
+     180,
+     1000
+    ],
+    "B1": [
+     180,
+     250
+    ],
+    "B2": [
+     205,
+     560
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      175,
+      1000
+     ],
+     "to": [
+      200,
+      640
+     ],
+     "shot": "block",
+     "by": "A2"
+    },
+    {
+     "from": [
+      205,
+      560
+     ],
+     "to": [
+      260,
+      900
+     ],
+     "shot": "kill",
+     "by": "B2"
+    }
+   ],
+   "result": "point_lost",
+   "summary": "같은 방향 리프트는 상대 공격을 이어 가게 돕는다.",
+   "continue": "sc-receive",
+   "explain": {
+    "novice": "몸 쪽 스매시에 A2 의 리턴이 짧게 떴고, 기다리던 B2 가 내리꽂았다."
+   }
+  },
+  "n-dl-02c": {
+   "scenario": "sc-def-lift",
+   "kind": "step",
+   "title": "짧고 넓은 리프트",
+   "pos": {
+    "A1": [
+     400,
+     975
+    ],
+    "A2": [
+     175,
+     1000
+    ],
+    "B1": [
+     440,
+     300
+    ],
+    "B2": [
+     230,
+     480
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      175,
+      1000
+     ],
+     "to": [
+      470,
+      330
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "next": "n-dl-03c",
+   "explain": {
+    "intermediate": "셔틀이 반대쪽 미드코트로 짧게 간다. B1 이 앞으로 뛰어들며 내려칠 자세를 잡는다."
+   }
+  },
+  "n-dl-03c": {
+   "scenario": "sc-def-lift",
+   "kind": "outcome",
+   "title": "가까이서 내리꽂는 스매시",
+   "pos": {
+    "A1": [
+     380,
+     980
+    ],
+    "A2": [
+     200,
+     1000
+    ],
+    "B1": [
+     455,
+     320
+    ],
+    "B2": [
+     250,
+     500
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      455,
+      320
+     ],
+     "to": [
+      300,
+      960
+     ],
+     "shot": "smash",
+     "by": "B1"
+    }
+   ],
+   "result": "point_lost",
+   "summary": "짧은 리프트는 공격자에게 가장 좋은 기회를 준다.",
+   "continue": "sc-receive",
+   "explain": {
+    "intermediate": "B1 이 미드코트에서 가파르게 두 선수 사이로 때렸다. 거리가 가까워 반응할 시간이 없다."
+   }
+  },
+  "n-dx-01": {
+   "scenario": "sc-def-cross-block",
+   "kind": "decision",
+   "title": "스매시를 어느 쪽으로 블록할까",
+   "pos": {
+    "A1": [
+     400,
+     975
+    ],
+    "A2": [
+     165,
+     1010
+    ],
+    "B1": [
+     150,
+     110
+    ],
+    "B2": [
+     215,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ],
+   "formation": {
+    "A": "side_by_side",
+    "B": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      150,
+      110
+     ],
+     "to": [
+      175,
+      1000
+     ],
+     "shot": "smash",
+     "by": "B1"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-cross",
+     "label": "크로스 블록 (반대쪽 빈 네트로)",
+     "next": "n-dx-02a",
+     "quality": "good",
+     "why": "블록은 빈 곳으로 보낸다. 상대 전위가 왼쪽에 있으니 오른쪽 네트가 빈 곳이다. (매뉴얼 p.158, p.169)"
+    },
+    {
+     "id": "c-straight",
+     "label": "스트레이트 블록 (바로 앞 네트로)",
+     "next": "n-dx-02b",
+     "quality": "good",
+     "why": "빈 곳으로 블록하고 블록한 선수가 앞으로 나가는 기본 경로다. (매뉴얼 p.158, p.169)"
+    }
+   ],
+   "explain": {
+    "intermediate": "상대 B1 이 왼쪽 깊은 곳에서 A2 에게 스트레이트 스매시. 상대 전위 B2 는 셔틀 쪽(왼쪽)에 있어 반대쪽 네트가 비어 있다."
+   }
+  },
+  "n-dx-02a": {
+   "scenario": "sc-def-cross-block",
+   "kind": "decision",
+   "title": "크로스 블록이 넘어간다 — 누가 앞으로?",
+   "pos": {
+    "A1": [
+     400,
+     975
+    ],
+    "A2": [
+     170,
+     985
+    ],
+    "B1": [
+     190,
+     220
+    ],
+    "B2": [
+     260,
+     500
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      175,
+      995
+     ],
+     "to": [
+      480,
+      600
+     ],
+     "shot": "block",
+     "by": "A2"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-partner",
+     "label": "파트너 A1 이 앞으로, A2 는 뒤를 맡는다",
+     "next": "n-dx-03a",
+     "quality": "good",
+     "why": "특히 크로스 블록이면 블록한 선수의 파트너가 앞으로 나가는 편이 나을 수 있다. (매뉴얼 p.158, p.169)"
+    },
+    {
+     "id": "c-self",
+     "label": "블록한 A2 가 대각선으로 달려 나간다",
+     "next": "n-dx-03b",
+     "quality": "ok",
+     "why": "원칙대로 블록한 선수가 나가지만, 대각선으로 멀리 뛰는 동안 왼쪽 뒤가 비고 두 선수가 오른쪽에 몰린다. (매뉴얼 p.158, p.169)"
+    },
+    {
+     "id": "c-none",
+     "label": "둘 다 그대로 있는다",
+     "next": "n-dx-03c",
+     "quality": "risky",
+     "why": "아무도 네트를 덮지 않으면 상대가 여유 있게 받아쳐 블록으로 만든 기회가 사라진다. 블록 뒤에는 누군가 앞으로 나가 상대가 띄우게 만들어야 한다. (매뉴얼 p.158, p.169)"
+    }
+   ],
+   "explain": {
+    "intermediate": "셔틀이 A1 앞쪽 네트로 대각선으로 넘어간다. 블록한 A2 는 반대쪽 뒤에 있다. 블록한 선수가 전진하는 것이 원칙이지만 크로스 블록이면 셔틀이 파트너 쪽으로 간다. 누가 더 빨리, 덜 비우고 네트를 덮을 수 있는지가 기준이다."
+   }
+  },
+  "n-dx-03a": {
+   "scenario": "sc-def-cross-block",
+   "kind": "step",
+   "title": "A1 전진 · A2 후방 — 상대가 띄운다",
+   "pos": {
+    "A1": [
+     420,
+     830
+    ],
+    "A2": [
+     245,
+     1060
+    ],
+    "B1": [
+     250,
+     300
+    ],
+    "B2": [
+     470,
+     600
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ],
+   "formation": {
+    "A": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      470,
+      600
+     ],
+     "to": [
+      180,
+      1240
+     ],
+     "shot": "lift",
+     "by": "B2"
+    }
+   ],
+   "next": "n-dx-04a",
+   "explain": {
+    "intermediate": "A1 이 네트를 덮자 B2 는 네트샷 대신 왼쪽 깊은 곳으로 띄운다."
+   }
+  },
+  "n-dx-04a": {
+   "scenario": "sc-def-cross-block",
+   "kind": "outcome",
+   "title": "공격권 획득 — 역할이 바뀐 앞뒤",
+   "pos": {
+    "A1": [
+     235,
+     870
+    ],
+    "A2": [
+     180,
+     1205
+    ],
+    "B1": [
+     175,
+     335
+    ],
+    "B2": [
+     430,
+     370
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "result": "attack_gained",
+   "summary": "크로스 블록 → 파트너 전진 → 상대 리프트.",
+   "continue": "sc-att-follow",
+   "explain": {
+    "intermediate": "뒤에 있던 A2 가 리어에서 공격하고 A1 은 셔틀 쪽 미드코트(채널)에 선다. 수비 때의 좌우가 그대로 앞뒤 역할로 이어졌다."
+   }
+  },
+  "n-dx-03b": {
+   "scenario": "sc-def-cross-block",
+   "kind": "step",
+   "title": "A2 가 대각선으로 — 왼쪽 뒤가 비었다",
+   "pos": {
+    "A1": [
+     405,
+     975
+    ],
+    "A2": [
+     370,
+     840
+    ],
+    "B1": [
+     250,
+     300
+    ],
+    "B2": [
+     470,
+     600
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      470,
+      600
+     ],
+     "to": [
+      150,
+      1240
+     ],
+     "shot": "lift",
+     "by": "B2"
+    }
+   ],
+   "next": "n-dx-04b",
+   "explain": {
+    "intermediate": "A2 가 오른쪽 네트로 달려가는 동안 두 선수가 오른쪽에 몰렸다. B2 가 비어 있는 왼쪽 뒤로 띄운다."
+   }
+  },
+  "n-dx-04b": {
+   "scenario": "sc-def-cross-block",
+   "kind": "outcome",
+   "title": "뒤로 쫓겨 클리어로 버틴다",
+   "pos": {
+    "A1": [
+     165,
+     1200
+    ],
+    "A2": [
+     330,
+     980
+    ],
+    "B1": [
+     440,
+     150
+    ],
+    "B2": [
+     250,
+     450
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      165,
+      1200
+     ],
+     "to": [
+      440,
+      90
+     ],
+     "shot": "clear",
+     "by": "A1"
+    }
+   ],
+   "result": "neutral",
+   "summary": "블록은 좋았지만 전진 방식 때문에 코트가 비었다.",
+   "continue": "sc-def-counter",
+   "explain": {
+    "intermediate": "A1 이 왼쪽 뒤까지 뛰어가 겨우 높게 넘겼다. 공격으로 넘어갈 기회가 중립으로 돌아갔다."
+   }
+  },
+  "n-dx-03c": {
+   "scenario": "sc-def-cross-block",
+   "kind": "step",
+   "title": "아무도 안 나왔다 — 상대가 네트에서 친다",
+   "pos": {
+    "A1": [
+     400,
+     975
+    ],
+    "A2": [
+     175,
+     1000
+    ],
+    "B1": [
+     250,
+     300
+    ],
+    "B2": [
+     470,
+     600
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      470,
+      600
+     ],
+     "to": [
+      300,
+      930
+     ],
+     "shot": "push",
+     "by": "B2"
+    }
+   ],
+   "next": "n-dx-04c",
+   "explain": {
+    "intermediate": "B2 가 여유 있게 네트 앞에 닿아 두 선수 사이 미드코트로 밀어 넣는다."
+   }
+  },
+  "n-dx-04c": {
+   "scenario": "sc-def-cross-block",
+   "kind": "outcome",
+   "title": "가운데 푸시에 실점",
+   "pos": {
+    "A1": [
+     330,
+     960
+    ],
+    "A2": [
+     210,
+     990
+    ],
+    "B1": [
+     260,
+     320
+    ],
+    "B2": [
+     440,
+     560
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    }
+   ],
+   "result": "point_lost",
+   "summary": "블록 다음에는 반드시 누군가 네트를 덮는다.",
+   "continue": "sc-receive",
+   "explain": {
+    "intermediate": "두 선수 사이로 들어온 푸시에 둘 다 머뭇거렸다."
+   }
+  },
+  "n-dx-02b": {
+   "scenario": "sc-def-cross-block",
+   "kind": "step",
+   "title": "스트레이트 블록 — A2 전진",
+   "pos": {
+    "A1": [
+     395,
+     970
+    ],
+    "A2": [
+     170,
+     900
+    ],
+    "B1": [
+     180,
+     230
+    ],
+    "B2": [
+     150,
+     540
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      175,
+      995
+     ],
+     "to": [
+      110,
+      610
+     ],
+     "shot": "block",
+     "by": "A2"
+    }
+   ],
+   "next": "n-dx-03d",
+   "explain": {
+    "intermediate": "A2 가 바로 앞 네트로 블록하고 앞으로 나온다."
+   }
+  },
+  "n-dx-03d": {
+   "scenario": "sc-def-cross-block",
+   "kind": "step",
+   "title": "상대가 띄운다",
+   "pos": {
+    "A1": [
+     390,
+     960
+    ],
+    "A2": [
+     170,
+     815
+    ],
+    "B1": [
+     200,
+     300
+    ],
+    "B2": [
+     115,
+     600
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      115,
+      600
+     ],
+     "to": [
+      455,
+      1240
+     ],
+     "shot": "lift",
+     "by": "B2"
+    }
+   ],
+   "next": "n-dx-04d",
+   "explain": {
+    "intermediate": "A2 가 네트를 덮자 B2 가 오른쪽 깊은 곳으로 띄운다."
+   }
+  },
+  "n-dx-04d": {
+   "scenario": "sc-def-cross-block",
+   "kind": "outcome",
+   "title": "공격권 획득",
+   "pos": {
+    "A1": [
+     455,
+     1205
+    ],
+    "A2": [
+     385,
+     870
+    ],
+    "B1": [
+     445,
+     330
+    ],
+    "B2": [
+     175,
+     375
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "result": "attack_gained",
+   "summary": "스트레이트 블록 → 블록한 선수 전진.",
+   "continue": "sc-att-rear",
+   "explain": {
+    "intermediate": "A1 이 뒤에서, A2 가 셔틀 쪽 미드코트에서 앞뒤 공격 포메이션을 만든다."
+   }
+  },
+  "n-xdd-01": {
+   "scenario": "sc-xd-defense",
+   "kind": "decision",
+   "title": "상대 남자가 왼쪽 뒤에서 공격한다 — 어떻게 설까",
+   "pos": {
+    "A1": [
+     300,
+     1050
+    ],
+    "A2": [
+     320,
+     900
+    ],
+    "B1": [
+     150,
+     110
+    ],
+    "B2": [
+     230,
+     480
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 207,
+     "printed_page": 178
+    },
+    {
+     "pdf_page": 199,
+     "printed_page": 170
+    },
+    {
+     "pdf_page": 206,
+     "printed_page": 177
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      320,
+      900
+     ],
+     "to": [
+      150,
+      100
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-ok",
+     "label": "남자는 셔틀 쪽, 여자는 크로스 쪽",
+     "next": "n-xdd-02a",
+     "quality": "good",
+     "why": "혼복 수비의 선호 포메이션은 좌우, 그리고 여자가 셔틀의 크로스 쪽이다. (매뉴얼 p.178)"
+    },
+    {
+     "id": "c-swap",
+     "label": "여자가 셔틀 쪽, 남자가 크로스 쪽",
+     "next": "n-xdd-02b",
+     "quality": "risky",
+     "why": "스트레이트 쪽 선수는 반응할 시간이 가장 적다. 그 자리에 여자를 두면 상대가 바라는 공격 대상이 된다. (매뉴얼 p.178, p.177)"
+    }
+   ],
+   "explain": {
+    "novice": "우리가 띄운 공을 상대 남자가 왼쪽 깊은 곳에서 기다린다. 우리 남녀 둘 중 누가 셔틀 쪽(스트레이트)에 설까?",
+    "intermediate": "혼복에서 남자는 힘이 있어 미드·리어를, 여자는 포·미드코트를 장악하려 한다. 수비에서도 공격이 남자에게 오도록 자리를 잡는다."
+   }
+  },
+  "n-xdd-02a": {
+   "scenario": "sc-xd-defense",
+   "kind": "decision",
+   "title": "우리 남자에게 스트레이트 스매시",
+   "pos": {
+    "A1": [
+     175,
+     1010
+    ],
+    "A2": [
+     420,
+     960
+    ],
+    "B1": [
+     150,
+     110
+    ],
+    "B2": [
+     215,
+     480
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 207,
+     "printed_page": 178
+    },
+    {
+     "pdf_page": 208,
+     "printed_page": 179
+    }
+   ],
+   "formation": {
+    "A": "side_by_side",
+    "B": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      150,
+      110
+     ],
+     "to": [
+      175,
+      1000
+     ],
+     "shot": "smash",
+     "by": "B1"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-push",
+     "label": "상대 여자 바로 뒤 미드코트로 푸시",
+     "next": "n-xdd-03a",
+     "quality": "good",
+     "why": "스매시에는 푸시·블록을 많이 써서 공격으로 바꾼다 — 특히 상대 전위 바로 뒤 미드코트로. (매뉴얼 p.179)"
+    },
+    {
+     "id": "c-str",
+     "label": "스트레이트 리프트",
+     "next": "n-xdd-03b",
+     "quality": "good",
+     "why": "남자는 보통 스트레이트로 띄운다. 그래야 이어지는 스트레이트 공격을 자기가 받는다. (매뉴얼 p.179)"
+    },
+    {
+     "id": "c-cross",
+     "label": "크로스 리프트",
+     "next": "n-xdd-03c",
+     "quality": "ok",
+     "why": "남자의 크로스 리프트는 압박을 풀어 줄 때만 대안이다. 셔틀이 반대쪽으로 가면 여자가 스트레이트 쪽에 서게 된다. (매뉴얼 p.179, p.178)",
+     "levels": [
+      "intermediate"
+     ]
+    }
+   ],
+   "explain": {
+    "novice": "우리 남자가 셔틀 쪽, 우리 여자가 크로스 쪽에 섰다. 스매시가 우리 남자에게 온다. 어떻게 받을까?",
+    "intermediate": "스매시에는 푸시·블록을 상대 전위 바로 뒤 미드코트로 보내 공격으로 바꾸는 것이 첫째다. 띄워야 한다면 남자는 스트레이트로 띄워 다음 공격도 자기가 받는다."
+   }
+  },
+  "n-xdd-03a": {
+   "scenario": "sc-xd-defense",
+   "kind": "step",
+   "title": "푸시가 상대 여자 뒤로 떨어진다",
+   "pos": {
+    "A1": [
+     185,
+     950
+    ],
+    "A2": [
+     410,
+     930
+    ],
+    "B1": [
+     190,
+     200
+    ],
+    "B2": [
+     240,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 208,
+     "printed_page": 179
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      175,
+      1000
+     ],
+     "to": [
+      230,
+      330
+     ],
+     "shot": "push",
+     "by": "A1"
+    }
+   ],
+   "next": "n-xdd-04a",
+   "explain": {
+    "novice": "상대 여자는 이미 지나쳤고 상대 남자는 뒤에서 앞으로 달려와야 한다."
+   }
+  },
+  "n-xdd-04a": {
+   "scenario": "sc-xd-defense",
+   "kind": "outcome",
+   "title": "상대가 들어 올렸다 — 공격 전환",
+   "pos": {
+    "A1": [
+     200,
+     1090
+    ],
+    "A2": [
+     300,
+     880
+    ],
+    "B1": [
+     230,
+     340
+    ],
+    "B2": [
+     260,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 208,
+     "printed_page": 179
+    },
+    {
+     "pdf_page": 205,
+     "printed_page": 176
+    }
+   ],
+   "formation": {
+    "A": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      230,
+      340
+     ],
+     "to": [
+      170,
+      1230
+     ],
+     "shot": "lift",
+     "by": "B1"
+    }
+   ],
+   "result": "attack_gained",
+   "summary": "스매시를 미드코트 푸시로 받아 공격권을 가져왔다.",
+   "continue": "sc-xd-attack",
+   "explain": {
+    "novice": "상대 남자가 낮은 셔틀을 들어 올릴 수밖에 없었다. 남자는 뒤로, 여자는 앞으로 — 혼복 공격 포메이션으로 바뀐다."
+   }
+  },
+  "n-xdd-03b": {
+   "scenario": "sc-xd-defense",
+   "kind": "step",
+   "title": "남자의 스트레이트 리프트",
+   "pos": {
+    "A1": [
+     170,
+     1005
+    ],
+    "A2": [
+     425,
+     960
+    ],
+    "B1": [
+     160,
+     130
+    ],
+    "B2": [
+     210,
+     480
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 208,
+     "printed_page": 179
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      175,
+      1000
+     ],
+     "to": [
+      150,
+      95
+     ],
+     "shot": "lift",
+     "by": "A1"
+    }
+   ],
+   "next": "n-xdd-04b",
+   "explain": {
+    "novice": "같은 코너로 높게 띄웠다. 다음 스트레이트 공격도 우리 남자 정면으로 온다."
+   }
+  },
+  "n-xdd-04b": {
+   "scenario": "sc-xd-defense",
+   "kind": "step",
+   "title": "상대가 크로스 드롭으로 여자를 노린다",
+   "pos": {
+    "A1": [
+     175,
+     1000
+    ],
+    "A2": [
+     420,
+     950
+    ],
+    "B1": [
+     150,
+     110
+    ],
+    "B2": [
+     240,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 208,
+     "printed_page": 179
+    },
+    {
+     "pdf_page": 207,
+     "printed_page": 178
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      150,
+      110
+     ],
+     "to": [
+      440,
+      800
+     ],
+     "shot": "drop",
+     "by": "B1"
+    }
+   ],
+   "next": "n-xdd-05",
+   "explain": {
+    "novice": "스트레이트가 막히자 상대 남자가 크로스로 우리 여자 앞에 드롭한다."
+   }
+  },
+  "n-xdd-05": {
+   "scenario": "sc-xd-defense",
+   "kind": "decision",
+   "title": "우리 여자가 드롭을 띄워야 한다 — 어느 쪽으로?",
+   "pos": {
+    "A1": [
+     190,
+     1010
+    ],
+    "A2": [
+     430,
+     820
+    ],
+    "B1": [
+     200,
+     180
+    ],
+    "B2": [
+     260,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 207,
+     "printed_page": 178
+    }
+   ],
+   "formation": {
+    "A": "side_by_side"
+   },
+   "choices": [
+    {
+     "id": "c-wcross",
+     "label": "크로스 리프트",
+     "next": "n-xdd-06a",
+     "quality": "good",
+     "why": "여자는 대체로 크로스로 띄운다 — 다음 공격이 자기에게 올 가능성이 줄어든다. (매뉴얼 p.178)"
+    },
+    {
+     "id": "c-wstr",
+     "label": "스트레이트 리프트",
+     "next": "n-xdd-06b",
+     "quality": "ok",
+     "why": "여자의 스트레이트 리프트는 압박을 만들지 않고 풀어 줄 때만 대안이다. 다음 스트레이트 공격이 여자 정면으로 온다. (매뉴얼 p.178)"
+    }
+   ],
+   "explain": {
+    "novice": "우리 여자가 앞으로 나와 낮은 드롭을 받는다. 띄울 수밖에 없다면 방향은?",
+    "intermediate": "여자의 크로스 리프트는 셔틀을 남자 쪽 깊은 곳으로 보내, 다음 스트레이트 공격이 남자에게 가게 만든다."
+   }
+  },
+  "n-xdd-06a": {
+   "scenario": "sc-xd-defense",
+   "kind": "outcome",
+   "title": "다음 공격은 남자 정면으로",
+   "pos": {
+    "A1": [
+     170,
+     1000
+    ],
+    "A2": [
+     400,
+     930
+    ],
+    "B1": [
+     140,
+     120
+    ],
+    "B2": [
+     215,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 207,
+     "printed_page": 178
+    },
+    {
+     "pdf_page": 208,
+     "printed_page": 179
+    }
+   ],
+   "formation": {
+    "A": "side_by_side",
+    "B": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      430,
+      820
+     ],
+     "to": [
+      150,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "result": "defense_held",
+   "summary": "여자 크로스·남자 스트레이트 — 공격을 남자가 받는 구도를 지켰다.",
+   "explain": {
+    "novice": "셔틀이 다시 왼쪽 깊은 곳으로 갔다. 스트레이트 공격은 우리 남자에게, 우리 여자는 계속 크로스 쪽이다."
+   }
+  },
+  "n-xdd-06b": {
+   "scenario": "sc-xd-defense",
+   "kind": "outcome",
+   "title": "다음 공격이 여자 정면으로 온다",
+   "pos": {
+    "A1": [
+     180,
+     1000
+    ],
+    "A2": [
+     420,
+     960
+    ],
+    "B1": [
+     455,
+     120
+    ],
+    "B2": [
+     400,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 207,
+     "printed_page": 178
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      430,
+      820
+     ],
+     "to": [
+      460,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "result": "neutral",
+   "summary": "버텼지만 여자가 스트레이트 공격을 받는 자리에 섰다.",
+   "explain": {
+    "novice": "셔틀이 오른쪽 깊은 곳으로 가서 이제 우리 여자가 스트레이트 쪽이다. 상대가 원하는 구도다."
+   }
+  },
+  "n-xdd-03c": {
+   "scenario": "sc-xd-defense",
+   "kind": "step",
+   "title": "남자의 크로스 리프트",
+   "pos": {
+    "A1": [
+     180,
+     1000
+    ],
+    "A2": [
+     420,
+     960
+    ],
+    "B1": [
+     440,
+     140
+    ],
+    "B2": [
+     390,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 208,
+     "printed_page": 179
+    },
+    {
+     "pdf_page": 207,
+     "printed_page": 178
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      175,
+      1000
+     ],
+     "to": [
+      465,
+      90
+     ],
+     "shot": "lift",
+     "by": "A1"
+    }
+   ],
+   "next": "n-xdd-04c",
+   "explain": {
+    "intermediate": "상대 남자가 오른쪽으로 뛰어간다. 그런데 이제 셔틀 쪽(스트레이트)에 우리 여자가 서 있다."
+   }
+  },
+  "n-xdd-04c": {
+   "scenario": "sc-xd-defense",
+   "kind": "outcome",
+   "title": "남녀가 자리를 바꿔야 한다",
+   "pos": {
+    "A1": [
+     330,
+     1000
+    ],
+    "A2": [
+     300,
+     920
+    ],
+    "B1": [
+     455,
+     120
+    ],
+    "B2": [
+     400,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 207,
+     "printed_page": 178
+    },
+    {
+     "pdf_page": 208,
+     "printed_page": 179
+    }
+   ],
+   "result": "neutral",
+   "summary": "상대를 뛰게는 했지만 혼복 수비 위치가 흐트러졌다. 압박을 풀어 줄 때만 쓰는 대안이다.",
+   "explain": {
+    "intermediate": "여자가 크로스 쪽으로 가려면 둘이 엇갈려 자리를 바꿔야 한다. 상대가 서두르지 않으면 여자가 스트레이트 공격을 받는다."
+   }
+  },
+  "n-xdd-02b": {
+   "scenario": "sc-xd-defense",
+   "kind": "step",
+   "title": "여자가 스트레이트 쪽 — 스매시가 여자에게",
+   "pos": {
+    "A1": [
+     420,
+     980
+    ],
+    "A2": [
+     170,
+     1000
+    ],
+    "B1": [
+     150,
+     110
+    ],
+    "B2": [
+     230,
+     480
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 207,
+     "printed_page": 178
+    },
+    {
+     "pdf_page": 206,
+     "printed_page": 177
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      150,
+      110
+     ],
+     "to": [
+      175,
+      995
+     ],
+     "shot": "smash",
+     "by": "B1"
+    }
+   ],
+   "next": "n-xdd-03d",
+   "explain": {
+    "novice": "상대 남자가 가장 가까운 스트레이트 쪽 우리 여자에게 힘껏 내리꽂는다."
+   }
+  },
+  "n-xdd-03d": {
+   "scenario": "sc-xd-defense",
+   "kind": "outcome",
+   "title": "짧게 뜬 리턴을 상대 여자가 끝냈다",
+   "pos": {
+    "A1": [
+     410,
+     980
+    ],
+    "A2": [
+     180,
+     990
+    ],
+    "B1": [
+     170,
+     160
+    ],
+    "B2": [
+     245,
+     440
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 207,
+     "printed_page": 178
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      175,
+      995
+     ],
+     "to": [
+      250,
+      400
+     ],
+     "shot": "lift",
+     "by": "A2"
+    },
+    {
+     "from": [
+      245,
+      440
+     ],
+     "to": [
+      200,
+      880
+     ],
+     "shot": "kill",
+     "by": "B2"
+    }
+   ],
+   "result": "point_lost",
+   "summary": "여자가 크로스 쪽에 서야 공격이 남자에게 간다.",
+   "explain": {
+    "novice": "우리 여자의 리턴이 짧게 떴고 네트 앞의 상대 여자가 내리꽂았다."
+   }
+  },
+  "n-ar-01": {
+   "scenario": "sc-att-rear",
+   "kind": "decision",
+   "title": "오른쪽 뒤로 높은 셔틀 — 무엇을 칠까",
+   "pos": {
+    "A1": [
+     455,
+     1200
+    ],
+    "A2": [
+     395,
+     875
+    ],
+    "B1": [
+     445,
+     330
+    ],
+    "B2": [
+     175,
+     365
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    },
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "shuttle": [
+    {
+     "from": [
+      175,
+      365
+     ],
+     "to": [
+      460,
+      1230
+     ],
+     "shot": "lift",
+     "by": "B2"
+    }
+   ],
+   "zones": [
+    {
+     "rect": [
+      305,
+      690,
+      305,
+      300
+     ],
+     "label": "채널(셔틀 쪽 미드코트)",
+     "team": "A"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-str",
+     "label": "스트레이트 선수에게 스매시",
+     "next": "n-ar-02a",
+     "quality": "good",
+     "why": "스매시는 대부분 스트레이트 선수나 두 선수 가운데로 — 약한 리턴을 끌어내거나 결정타가 된다. (매뉴얼 p.154, p.165)"
+    },
+    {
+     "id": "c-mid",
+     "label": "두 선수 가운데로 스매시",
+     "next": "n-ar-02b",
+     "quality": "good",
+     "why": "두 선수 가운데로 치면 리턴 각도가 줄어든다. (매뉴얼 p.154, p.165)",
+     "levels": [
+      "novice",
+      "intermediate"
+     ]
+    },
+    {
+     "id": "c-drop",
+     "label": "가파른 드롭",
+     "next": "n-ar-02c",
+     "quality": "good",
+     "why": "가파른 드롭은 상대를 압박하는 후위의 기본 수단이다. (매뉴얼 p.154, p.165)"
+    },
+    {
+     "id": "c-cross",
+     "label": "크로스 스매시",
+     "next": "n-ar-02d",
+     "quality": "ok",
+     "why": "크로스 드롭·스매시는 변화구다. 멀리 가는 만큼 상대에게 시간이 생기고, 우리 전위의 채널도 맞지 않는다. (매뉴얼 p.154, p.155)",
+     "levels": [
+      "intermediate"
+     ]
+    }
+   ],
+   "explain": {
+    "beginner": "상대가 우리 오른쪽 깊은 곳으로 띄웠다. A1 은 뒤에서, A2 는 셔틀 쪽 미드코트에서 공격한다. 상대는 좌우로 막는다.",
+    "intermediate": "후위의 일은 인내심 있게 좋은 기회를 기다리며 전위에게 결정 기회를 만들어 주는 것이다. 스트레이트·가운데는 리턴 각도를 줄인다."
+   }
+  },
+  "n-ar-02a": {
+   "scenario": "sc-att-rear",
+   "kind": "step",
+   "title": "스트레이트 선수 몸 쪽으로 스매시",
+   "pos": {
+    "A1": [
+     445,
+     1150
+    ],
+    "A2": [
+     390,
+     860
+    ],
+    "B1": [
+     440,
+     345
+    ],
+    "B2": [
+     180,
+     380
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      455,
+      1200
+     ],
+     "to": [
+      440,
+      360
+     ],
+     "shot": "smash",
+     "by": "A1"
+    }
+   ],
+   "next": "n-ar-03a",
+   "explain": {
+    "beginner": "B1 이 몸 쪽 스매시를 겨우 막는다."
+   }
+  },
+  "n-ar-03a": {
+   "scenario": "sc-att-rear",
+   "kind": "decision",
+   "title": "약한 블록이 A2 앞으로 온다",
+   "pos": {
+    "A1": [
+     430,
+     1100
+    ],
+    "A2": [
+     395,
+     840
+    ],
+    "B1": [
+     430,
+     360
+    ],
+    "B2": [
+     200,
+     400
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 195,
+     "printed_page": 166
+    },
+    {
+     "pdf_page": 161,
+     "printed_page": 132
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      440,
+      345
+     ],
+     "to": [
+      420,
+      720
+     ],
+     "shot": "block",
+     "by": "B1"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-kill",
+     "label": "앞으로 나가 일찍 내리꽂는다",
+     "next": "n-ar-04a",
+     "quality": "good",
+     "why": "전위의 역할은 셔틀을 일찍 잡아 결정타를 치는 것이다. (매뉴얼 p.155, p.166)"
+    },
+    {
+     "id": "c-lift",
+     "label": "기다렸다가 높게 띄운다",
+     "next": "n-ar-04b",
+     "quality": "risky",
+     "why": "공격 중에 띄우면 공격권을 스스로 넘긴다. 셔틀이 낮아질수록 수비 상황이 된다. (매뉴얼 p.155, p.132)"
+    }
+   ],
+   "explain": {
+    "beginner": "B1 의 블록이 스트레이트로 짧게 넘어온다. 전위 A2 바로 앞이다.",
+    "intermediate": "전위는 셔틀을 일찍 잡고, 드라이브·푸시를 가로채고, 결정타를 치고, 공격을 유지한다. 채널에 서 있었기에 이 공이 A2 정면으로 왔다(2대1)."
+   }
+  },
+  "n-ar-04a": {
+   "scenario": "sc-att-rear",
+   "kind": "outcome",
+   "title": "전위의 결정타",
+   "pos": {
+    "A1": [
+     430,
+     1080
+    ],
+    "A2": [
+     410,
+     745
+    ],
+    "B1": [
+     430,
+     370
+    ],
+    "B2": [
+     200,
+     400
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 195,
+     "printed_page": 166
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      410,
+      745
+     ],
+     "to": [
+      300,
+      420
+     ],
+     "shot": "kill",
+     "by": "A2"
+    }
+   ],
+   "result": "point_won",
+   "summary": "후위가 만들고 전위가 끝냈다 — 앞뒤 공격의 기본 그림.",
+   "continue": "sc-serve-low",
+   "explain": {
+    "beginner": "A2 가 네트 위에서 일찍 잡아 두 선수 사이로 내리꽂았다."
+   }
+  },
+  "n-ar-04b": {
+   "scenario": "sc-att-rear",
+   "kind": "outcome",
+   "title": "띄워서 공격권을 넘겼다",
+   "pos": {
+    "A1": [
+     400,
+     1050
+    ],
+    "A2": [
+     410,
+     760
+    ],
+    "B1": [
+     400,
+     450
+    ],
+    "B2": [
+     170,
+     160
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 161,
+     "printed_page": 132
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      410,
+      760
+     ],
+     "to": [
+      160,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "result": "neutral",
+   "summary": "좋은 공격 기회를 스스로 수비로 바꿨다.",
+   "continue": "sc-def-counter",
+   "explain": {
+    "beginner": "A2 가 늦게 들어 올린 셔틀을 상대가 뒤에서 기다린다. 이제 우리가 좌우로 막아야 한다."
+   }
+  },
+  "n-ar-02b": {
+   "scenario": "sc-att-rear",
+   "kind": "step",
+   "title": "가운데로 스매시 — 둘이 머뭇거린다",
+   "pos": {
+    "A1": [
+     445,
+     1150
+    ],
+    "A2": [
+     380,
+     860
+    ],
+    "B1": [
+     430,
+     340
+    ],
+    "B2": [
+     190,
+     370
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      455,
+      1200
+     ],
+     "to": [
+      305,
+      360
+     ],
+     "shot": "smash",
+     "by": "A1"
+    }
+   ],
+   "next": "n-ar-03b",
+   "explain": {
+    "novice": "누가 받을지 애매한 가운데로 셔틀이 꽂힌다."
+   }
+  },
+  "n-ar-03b": {
+   "scenario": "sc-att-rear",
+   "kind": "outcome",
+   "title": "짧고 약한 리프트가 돌아왔다",
+   "pos": {
+    "A1": [
+     360,
+     1040
+    ],
+    "A2": [
+     330,
+     850
+    ],
+    "B1": [
+     420,
+     340
+    ],
+    "B2": [
+     250,
+     370
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    }
+   ],
+   "formation": {
+    "A": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      250,
+      370
+     ],
+     "to": [
+      340,
+      1020
+     ],
+     "shot": "lift",
+     "by": "B2"
+    }
+   ],
+   "result": "attack_gained",
+   "summary": "가운데 공격으로 약한 리턴을 끌어냈다. 공격 유지.",
+   "continue": "sc-att-channel",
+   "explain": {
+    "novice": "B2 가 늦게 받아 미드코트로 짧게 띄웠다. A1 이 한 걸음 들어와 다시 공격한다."
+   }
+  },
+  "n-ar-02c": {
+   "scenario": "sc-att-rear",
+   "kind": "step",
+   "title": "가파른 드롭",
+   "pos": {
+    "A1": [
+     445,
+     1170
+    ],
+    "A2": [
+     390,
+     860
+    ],
+    "B1": [
+     400,
+     400
+    ],
+    "B2": [
+     230,
+     430
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      455,
+      1200
+     ],
+     "to": [
+      300,
+      560
+     ],
+     "shot": "drop",
+     "by": "A1"
+    }
+   ],
+   "next": "n-ar-03c",
+   "explain": {
+    "beginner": "셔틀이 두 선수 사이 네트 앞으로 떨어진다. 상대 둘이 앞으로 움직인다."
+   }
+  },
+  "n-ar-03c": {
+   "scenario": "sc-att-rear",
+   "kind": "decision",
+   "title": "상대가 드롭을 받으러 나온다 — A2 는?",
+   "pos": {
+    "A1": [
+     440,
+     1150
+    ],
+    "A2": [
+     390,
+     860
+    ],
+    "B1": [
+     420,
+     380
+    ],
+    "B2": [
+     290,
+     580
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    },
+    {
+     "pdf_page": 196,
+     "printed_page": 167
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-in",
+     "label": "네트로 전진해 네트 리턴을 위협",
+     "next": "n-ar-04c",
+     "quality": "good",
+     "why": "파트너가 드롭을 치면 전위는 네트로 들어가 네트 리턴을 위협하고 막는다. (매뉴얼 p.156, p.167)"
+    },
+    {
+     "id": "c-stay",
+     "label": "제자리에서 기다린다",
+     "next": "n-ar-04d",
+     "quality": "ok",
+     "why": "기다리면 상대가 편하게 네트샷을 친다. 드롭으로 만든 압박이 사라진다. (매뉴얼 p.156, p.167)"
+    }
+   ],
+   "explain": {
+    "beginner": "B2 가 네트 앞으로 달려 나와 드롭에 닿으려 한다. 전위 A2 는 어떻게 할까?",
+    "intermediate": "전위는 상대의 움직임을 보고 드롭이 나간 것을 안다. 그때 네트로 들어가 네트 리턴을 위협하면 상대는 들어 올릴 수밖에 없다."
+   }
+  },
+  "n-ar-04c": {
+   "scenario": "sc-att-rear",
+   "kind": "step",
+   "title": "A2 가 네트를 덮자 상대가 띄운다",
+   "pos": {
+    "A1": [
+     400,
+     1100
+    ],
+    "A2": [
+     330,
+     760
+    ],
+    "B1": [
+     420,
+     380
+    ],
+    "B2": [
+     290,
+     580
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    },
+    {
+     "pdf_page": 196,
+     "printed_page": 167
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      290,
+      580
+     ],
+     "to": [
+      160,
+      1235
+     ],
+     "shot": "lift",
+     "by": "B2"
+    }
+   ],
+   "next": "n-ar-05c",
+   "explain": {
+    "beginner": "네트샷 길이 막힌 B2 가 왼쪽 깊은 곳으로 띄운다."
+   }
+  },
+  "n-ar-05c": {
+   "scenario": "sc-att-rear",
+   "kind": "outcome",
+   "title": "왼쪽에서 다시 앞뒤 공격",
+   "pos": {
+    "A1": [
+     165,
+     1200
+    ],
+    "A2": [
+     230,
+     870
+    ],
+    "B1": [
+     430,
+     370
+    ],
+    "B2": [
+     170,
+     340
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "result": "attack_gained",
+   "summary": "드롭 + 전위 전진 = 상대를 계속 들어 올리게 만든다.",
+   "explain": {
+    "beginner": "A1 이 왼쪽 뒤로 옮겨 가고 A2 도 셔틀 쪽(왼쪽) 미드코트로 옮긴다. 공격이 이어진다."
+   }
+  },
+  "n-ar-04d": {
+   "scenario": "sc-att-rear",
+   "kind": "step",
+   "title": "상대의 네트샷",
+   "pos": {
+    "A1": [
+     430,
+     1120
+    ],
+    "A2": [
+     390,
+     860
+    ],
+    "B1": [
+     420,
+     380
+    ],
+    "B2": [
+     290,
+     580
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      290,
+      580
+     ],
+     "to": [
+      300,
+      700
+     ],
+     "shot": "net",
+     "by": "B2"
+    }
+   ],
+   "next": "n-ar-05d",
+   "explain": {
+    "beginner": "B2 가 여유 있게 네트 바로 위로 짧게 떨어뜨린다."
+   }
+  },
+  "n-ar-05d": {
+   "scenario": "sc-att-rear",
+   "kind": "outcome",
+   "title": "낮은 셔틀을 들어 올렸다",
+   "pos": {
+    "A1": [
+     380,
+     1000
+    ],
+    "A2": [
+     300,
+     740
+    ],
+    "B1": [
+     180,
+     180
+    ],
+    "B2": [
+     280,
+     500
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    },
+    {
+     "pdf_page": 161,
+     "printed_page": 132
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      300,
+      740
+     ],
+     "to": [
+      150,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "result": "neutral",
+   "summary": "드롭 뒤 전위가 들어가지 않아 공격권을 잃었다.",
+   "continue": "sc-def-counter",
+   "explain": {
+    "beginner": "A2 가 늦게 닿아 들어 올릴 수밖에 없었다. 이제 우리가 수비한다."
+   }
+  },
+  "n-ar-02d": {
+   "scenario": "sc-att-rear",
+   "kind": "step",
+   "title": "크로스 스매시",
+   "pos": {
+    "A1": [
+     440,
+     1160
+    ],
+    "A2": [
+     390,
+     860
+    ],
+    "B1": [
+     440,
+     345
+    ],
+    "B2": [
+     185,
+     385
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      455,
+      1200
+     ],
+     "to": [
+      190,
+      390
+     ],
+     "shot": "smash",
+     "by": "A1"
+    }
+   ],
+   "next": "n-ar-03d",
+   "explain": {
+    "intermediate": "셔틀이 대각선으로 멀리 B2 에게 간다. 거리가 긴 만큼 B2 에게 시간이 있다."
+   }
+  },
+  "n-ar-03d": {
+   "scenario": "sc-att-rear",
+   "kind": "outcome",
+   "title": "스트레이트 블록이 채널 반대쪽으로",
+   "pos": {
+    "A1": [
+     400,
+     1050
+    ],
+    "A2": [
+     220,
+     800
+    ],
+    "B1": [
+     430,
+     160
+    ],
+    "B2": [
+     210,
+     470
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 195,
+     "printed_page": 166
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      185,
+      385
+     ],
+     "to": [
+      160,
+      760
+     ],
+     "shot": "block",
+     "by": "B2"
+    },
+    {
+     "from": [
+      220,
+      800
+     ],
+     "to": [
+      440,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "result": "neutral",
+   "summary": "크로스는 변화구 — 자주 쓰면 전위의 채널이 맞지 않는다.",
+   "continue": "sc-def-counter",
+   "explain": {
+    "intermediate": "B2 가 자기 앞 직선으로 블록하자 셔틀이 우리 왼쪽 네트로 떨어졌다. 오른쪽 채널에 있던 A2 가 건너가 띄울 수밖에 없었다."
+   }
+  },
+  "n-ac-01": {
+   "scenario": "sc-att-channel",
+   "kind": "decision",
+   "title": "상대가 오른쪽 깊은 곳으로 띄웠다 — 어디에 설까",
+   "pos": {
+    "A1": [
+     430,
+     1000
+    ],
+    "A2": [
+     180,
+     990
+    ],
+    "B1": [
+     200,
+     350
+    ],
+    "B2": [
+     440,
+     580
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 195,
+     "printed_page": 166
+    }
+   ],
+   "formation": {
+    "A": "side_by_side"
+   },
+   "shuttle": [
+    {
+     "from": [
+      440,
+      580
+     ],
+     "to": [
+      470,
+      1235
+     ],
+     "shot": "lift",
+     "by": "B2"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-ch",
+     "label": "A2 는 셔틀과 같은 쪽 미드코트(채널)",
+     "next": "n-ac-02a",
+     "quality": "good",
+     "why": "리어로 띄워지면 전위는 셔틀과 같은 쪽 미드코트에 선다 — 이것이 채널 어택 위치다. (매뉴얼 p.155, p.166)"
+    },
+    {
+     "id": "c-opp",
+     "label": "A2 는 반대쪽 하프 미드코트",
+     "next": "n-ac-02b",
+     "quality": "ok",
+     "why": "반대쪽에 서면 스트레이트 리턴이 돌아오는 길목이 빈다. 2대1 을 만들 수 없다. (매뉴얼 p.155, p.166)"
+    }
+   ],
+   "explain": {
+    "novice": "좌우로 막고 있던 우리에게 상대 B2 가 네트에서 스트레이트로 높이 띄웠다. 공격으로 바꿀 차례 — A2 는 어디에 설까?",
+    "intermediate": "채널 어택 위치는 스트레이트 선수나 가운데를 공격할 때 가장 효과적이다. 그 공의 리턴이 돌아오는 길목에 전위가 서 있게 된다."
+   }
+  },
+  "n-ac-02a": {
+   "scenario": "sc-att-channel",
+   "kind": "decision",
+   "title": "채널 완성 — 어디로 공격할까",
+   "pos": {
+    "A1": [
+     465,
+     1210
+    ],
+    "A2": [
+     390,
+     880
+    ],
+    "B1": [
+     175,
+     370
+    ],
+    "B2": [
+     445,
+     335
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 195,
+     "printed_page": 166
+    },
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "zones": [
+    {
+     "rect": [
+      305,
+      690,
+      305,
+      300
+     ],
+     "label": "채널",
+     "team": "A"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-str",
+     "label": "스트레이트 선수에게 스매시",
+     "next": "n-ac-03a",
+     "quality": "good",
+     "why": "채널 어택은 스트레이트 선수를 공격할 때 가장 효과적이다 — 2대1 이 된다. (매뉴얼 p.155, p.166)"
+    },
+    {
+     "id": "c-mid",
+     "label": "두 선수 가운데로 스매시",
+     "next": "n-ac-03b",
+     "quality": "good",
+     "why": "가운데 공격도 채널 어택과 잘 맞는다 — 리턴 각도가 줄어 전위 쪽으로 돌아온다. (매뉴얼 p.155, p.154)"
+    },
+    {
+     "id": "c-cross",
+     "label": "크로스 스매시",
+     "next": "n-ac-03c",
+     "quality": "ok",
+     "why": "크로스는 변화구다. 채널 어택은 스트레이트·가운데 공격일 때 효과적이고, 크로스면 리턴이 전위 반대쪽으로 간다. (매뉴얼 p.155, p.154)",
+     "levels": [
+      "intermediate"
+     ]
+    }
+   ],
+   "explain": {
+    "novice": "A1 은 오른쪽 뒤, A2 는 같은 쪽 미드코트. 상대는 좌우로 갈라 섰다. B2 가 스트레이트 선수다.",
+    "intermediate": "스트레이트·가운데 공격의 리턴은 대부분 채널로 돌아온다. 크로스로 치면 리턴이 채널 반대쪽으로 간다."
+   }
+  },
+  "n-ac-03a": {
+   "scenario": "sc-att-channel",
+   "kind": "step",
+   "title": "스트레이트 선수에게 스매시",
+   "pos": {
+    "A1": [
+     455,
+     1170
+    ],
+    "A2": [
+     395,
+     860
+    ],
+    "B1": [
+     185,
+     380
+    ],
+    "B2": [
+     440,
+     350
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      465,
+      1210
+     ],
+     "to": [
+      440,
+      350
+     ],
+     "shot": "smash",
+     "by": "A1"
+    }
+   ],
+   "next": "n-ac-04a",
+   "explain": {
+    "novice": "B2 가 몸 쪽 스매시를 받는다. 리턴 길목에 A2 가 서 있다."
+   }
+  },
+  "n-ac-04a": {
+   "scenario": "sc-att-channel",
+   "kind": "outcome",
+   "title": "2대1 — 채널의 전위가 끝냈다",
+   "pos": {
+    "A1": [
+     440,
+     1100
+    ],
+    "A2": [
+     415,
+     745
+    ],
+    "B1": [
+     200,
+     390
+    ],
+    "B2": [
+     430,
+     370
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 195,
+     "printed_page": 166
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      440,
+      350
+     ],
+     "to": [
+      420,
+      720
+     ],
+     "shot": "block",
+     "by": "B2"
+    },
+    {
+     "from": [
+      415,
+      745
+     ],
+     "to": [
+      300,
+      400
+     ],
+     "shot": "kill",
+     "by": "A2"
+    }
+   ],
+   "result": "point_won",
+   "summary": "스트레이트 공격 + 채널 전위 = 2대1.",
+   "continue": "sc-serve-low",
+   "explain": {
+    "novice": "B2 의 블록이 스트레이트로 돌아왔고 A2 가 네트 위에서 바로 내리꽂았다."
+   }
+  },
+  "n-ac-03b": {
+   "scenario": "sc-att-channel",
+   "kind": "step",
+   "title": "가운데로 스매시",
+   "pos": {
+    "A1": [
+     455,
+     1170
+    ],
+    "A2": [
+     380,
+     860
+    ],
+    "B1": [
+     200,
+     370
+    ],
+    "B2": [
+     430,
+     340
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      465,
+      1210
+     ],
+     "to": [
+      305,
+      360
+     ],
+     "shot": "smash",
+     "by": "A1"
+    }
+   ],
+   "next": "n-ac-04b",
+   "explain": {
+    "novice": "두 선수 사이로 꽂힌 스매시에 B1 이 몸을 비틀어 받는다."
+   }
+  },
+  "n-ac-04b": {
+   "scenario": "sc-att-channel",
+   "kind": "outcome",
+   "title": "가운데 리턴을 전위가 가로챘다",
+   "pos": {
+    "A1": [
+     440,
+     1100
+    ],
+    "A2": [
+     330,
+     850
+    ],
+    "B1": [
+     220,
+     380
+    ],
+    "B2": [
+     420,
+     350
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 195,
+     "printed_page": 166
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      250,
+      370
+     ],
+     "to": [
+      300,
+      860
+     ],
+     "shot": "drive",
+     "by": "B1"
+    },
+    {
+     "from": [
+      330,
+      850
+     ],
+     "to": [
+      200,
+      420
+     ],
+     "shot": "kill",
+     "by": "A2"
+    }
+   ],
+   "result": "point_won",
+   "summary": "가운데 공격도 리턴이 전위 쪽으로 온다.",
+   "continue": "sc-serve-low",
+   "explain": {
+    "novice": "B1 의 드라이브가 가운데로 돌아왔고 A2 가 가로채 빈 곳으로 밀어 넣었다."
+   }
+  },
+  "n-ac-03c": {
+   "scenario": "sc-att-channel",
+   "kind": "step",
+   "title": "크로스 스매시",
+   "pos": {
+    "A1": [
+     455,
+     1170
+    ],
+    "A2": [
+     390,
+     860
+    ],
+    "B1": [
+     185,
+     380
+    ],
+    "B2": [
+     440,
+     345
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      465,
+      1210
+     ],
+     "to": [
+      190,
+      390
+     ],
+     "shot": "smash",
+     "by": "A1"
+    }
+   ],
+   "next": "n-ac-04c",
+   "explain": {
+    "intermediate": "셔틀이 대각선으로 B1 에게 간다. 멀리 가는 만큼 B1 에게 시간이 있다."
+   }
+  },
+  "n-ac-04c": {
+   "scenario": "sc-att-channel",
+   "kind": "outcome",
+   "title": "리턴이 채널 반대쪽으로",
+   "pos": {
+    "A1": [
+     420,
+     1080
+    ],
+    "A2": [
+     200,
+     800
+    ],
+    "B1": [
+     210,
+     470
+    ],
+    "B2": [
+     430,
+     160
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      185,
+      380
+     ],
+     "to": [
+      150,
+      770
+     ],
+     "shot": "block",
+     "by": "B1"
+    },
+    {
+     "from": [
+      200,
+      800
+     ],
+     "to": [
+      440,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "result": "neutral",
+   "summary": "크로스는 변화로만 — 채널과 어긋나면 공격이 끊긴다.",
+   "continue": "sc-def-counter",
+   "explain": {
+    "intermediate": "B1 이 자기 앞 직선으로 블록해 셔틀이 우리 왼쪽 네트로 왔다. A2 가 건너가 띄울 수밖에 없었다."
+   }
+  },
+  "n-ac-02b": {
+   "scenario": "sc-att-channel",
+   "kind": "step",
+   "title": "전위가 반대쪽 하프에 섰다",
+   "pos": {
+    "A1": [
+     465,
+     1210
+    ],
+    "A2": [
+     200,
+     880
+    ],
+    "B1": [
+     175,
+     370
+    ],
+    "B2": [
+     445,
+     335
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 195,
+     "printed_page": 166
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "shuttle": [
+    {
+     "from": [
+      465,
+      1210
+     ],
+     "to": [
+      440,
+      350
+     ],
+     "shot": "smash",
+     "by": "A1"
+    }
+   ],
+   "next": "n-ac-03e",
+   "explain": {
+    "novice": "A1 이 스트레이트로 스매시했지만 A2 는 셔틀 반대쪽에 있다. 스트레이트 리턴 길목이 비어 있다."
+   }
+  },
+  "n-ac-03e": {
+   "scenario": "sc-att-channel",
+   "kind": "outcome",
+   "title": "빈 길목으로 블록 — 공격이 끊겼다",
+   "pos": {
+    "A1": [
+     440,
+     1120
+    ],
+    "A2": [
+     400,
+     770
+    ],
+    "B1": [
+     200,
+     160
+    ],
+    "B2": [
+     430,
+     360
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 195,
+     "printed_page": 166
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      440,
+      350
+     ],
+     "to": [
+      430,
+      720
+     ],
+     "shot": "block",
+     "by": "B2"
+    },
+    {
+     "from": [
+      400,
+      770
+     ],
+     "to": [
+      160,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "result": "neutral",
+   "summary": "전위가 셔틀 쪽에 없으면 2대1 이 아니라 1대2 가 된다.",
+   "continue": "sc-def-lift",
+   "explain": {
+    "novice": "B2 의 스트레이트 블록이 빈 오른쪽 네트로 떨어졌다. A2 가 건너가 늦게 띄웠다."
+   }
+  },
+  "n-af-01": {
+   "scenario": "sc-att-follow",
+   "kind": "decision",
+   "title": "짧고 넓은 리프트가 왔다",
+   "pos": {
+    "A1": [
+     440,
+     1180
+    ],
+    "A2": [
+     380,
+     870
+    ],
+    "B1": [
+     175,
+     370
+    ],
+    "B2": [
+     445,
+     335
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "shuttle": [
+    {
+     "from": [
+      175,
+      370
+     ],
+     "to": [
+      480,
+      1050
+     ],
+     "shot": "lift",
+     "by": "B1"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-follow",
+     "label": "스매시 후 앞으로 따라 들어간다",
+     "next": "n-af-02a",
+     "quality": "good",
+     "why": "짧은 리프트는 자기 공격을 적극적으로 따라 들어갈 좋은 기회다 — 위치 교대의 첫 번째 조건. (매뉴얼 p.154, p.165)"
+    },
+    {
+     "id": "c-stay",
+     "label": "스매시 후 뒤에 남는다",
+     "next": "n-af-02b",
+     "quality": "ok",
+     "why": "위치 교대는 조건이 맞을 때 하는 것이다. 뒤에 남아도 앞뒤 공격은 유지되지만 짧은 공의 기회를 덜 살린다. (매뉴얼 p.154, p.165)"
+    }
+   ],
+   "explain": {
+    "intermediate": "상대가 오른쪽 미드코트로 짧고 넓게 띄웠다. A1 이 스매시하고 앞으로 따라 들어갈 좋은 기회다. 위치 교대에는 두 조건이 있다: ① 자기 공격을 적극적으로 따라갈 좋은 기회 ② 전위가 상황을 읽고 센터 쪽으로 비켜 줌."
+   }
+  },
+  "n-af-02a": {
+   "scenario": "sc-att-follow",
+   "kind": "decision",
+   "title": "A1 이 스매시하며 앞으로 — A2 는?",
+   "pos": {
+    "A1": [
+     470,
+     1060
+    ],
+    "A2": [
+     380,
+     860
+    ],
+    "B1": [
+     180,
+     380
+    ],
+    "B2": [
+     440,
+     350
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    },
+    {
+     "pdf_page": 196,
+     "printed_page": 167
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      470,
+      1060
+     ],
+     "to": [
+      440,
+      360
+     ],
+     "shot": "smash",
+     "by": "A1"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-move",
+     "label": "A2 가 센터 라인 쪽(반대 하프)으로 비켜 준다",
+     "next": "n-af-03a",
+     "quality": "good",
+     "why": "전위는 센터 라인 쪽, 또는 반대 하프로 옮겨 따라 들어오는 후위가 비운 구역을 맡는다 — 위치 교대의 두 번째 조건. (매뉴얼 p.156, p.167)"
+    },
+    {
+     "id": "c-hold",
+     "label": "A2 가 그 자리에 머문다",
+     "next": "n-af-03b",
+     "quality": "risky",
+     "why": "전위가 비켜 주지 않으면 위치 교대의 두 번째 조건이 빠진다. 두 사람이 같은 쪽에 몰리고 반대쪽이 빈다. (매뉴얼 p.154, p.156)"
+    }
+   ],
+   "explain": {
+    "intermediate": "A1 이 미드코트에서 스매시하고 네트 쪽으로 따라 들어온다. 전위 A2 가 그 자리를 그대로 지키면 두 사람이 같은 공간에 겹친다."
+   }
+  },
+  "n-af-03a": {
+   "scenario": "sc-att-follow",
+   "kind": "step",
+   "title": "교대 중 — 상대가 왼쪽 깊은 곳으로",
+   "pos": {
+    "A1": [
+     430,
+     840
+    ],
+    "A2": [
+     240,
+     930
+    ],
+    "B1": [
+     180,
+     390
+    ],
+    "B2": [
+     430,
+     360
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    },
+    {
+     "pdf_page": 196,
+     "printed_page": 167
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      430,
+      360
+     ],
+     "to": [
+      150,
+      1240
+     ],
+     "shot": "lift",
+     "by": "B2"
+    }
+   ],
+   "next": "n-af-04",
+   "explain": {
+    "intermediate": "A1 은 오른쪽 앞, A2 는 센터 쪽으로 옮겼다. B2 가 비어 보이는 왼쪽 깊은 곳으로 띄운다."
+   }
+  },
+  "n-af-04": {
+   "scenario": "sc-att-follow",
+   "kind": "decision",
+   "title": "깊은 리프트 — 누가 뒤로 가나",
+   "pos": {
+    "A1": [
+     400,
+     850
+    ],
+    "A2": [
+     220,
+     980
+    ],
+    "B1": [
+     180,
+     390
+    ],
+    "B2": [
+     430,
+     370
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    },
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-a2back",
+     "label": "원래 전위였던 A2 가 후위로",
+     "next": "n-af-05a",
+     "quality": "good",
+     "why": "교대 후 다음 깊은 리프트는 원래 전위가 뒤로 가서 처리한다. 역할만 바뀌고 앞뒤는 유지된다. (매뉴얼 p.154, p.156)"
+    },
+    {
+     "id": "c-a1back",
+     "label": "A1 이 다시 뒤로 달려간다",
+     "next": "n-af-05b",
+     "quality": "risky",
+     "why": "앞으로 들어온 A1 이 다시 대각선 뒤로 뛰면 늦고, A2 와 같은 쪽에 겹친다. 교대한 의미가 사라진다. (매뉴얼 p.154, p.156)"
+    }
+   ],
+   "explain": {
+    "intermediate": "앞에 있는 A1 과 센터 쪽 A2. 셔틀은 왼쪽 깊은 곳이다."
+   }
+  },
+  "n-af-05a": {
+   "scenario": "sc-att-follow",
+   "kind": "outcome",
+   "title": "역할 교대 완료",
+   "pos": {
+    "A1": [
+     225,
+     870
+    ],
+    "A2": [
+     165,
+     1200
+    ],
+    "B1": [
+     175,
+     335
+    ],
+    "B2": [
+     430,
+     370
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "result": "attack_gained",
+   "summary": "따라 들어가기 + 비켜 주기 + 원래 전위가 뒤로 = 끊김 없는 로테이션.",
+   "continue": "sc-att-rear",
+   "explain": {
+    "intermediate": "A2 가 왼쪽 뒤에서 공격하고 A1 은 셔틀 쪽 미드코트(채널)에 선다. 앞뒤 포메이션은 그대로, 두 사람의 역할만 바뀌었다."
+   }
+  },
+  "n-af-05b": {
+   "scenario": "sc-att-follow",
+   "kind": "outcome",
+   "title": "뒤로 늦게 — 클리어로 버틴다",
+   "pos": {
+    "A1": [
+     180,
+     1185
+    ],
+    "A2": [
+     260,
+     950
+    ],
+    "B1": [
+     200,
+     450
+    ],
+    "B2": [
+     440,
+     150
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      180,
+      1185
+     ],
+     "to": [
+      440,
+      90
+     ],
+     "shot": "clear",
+     "by": "A1"
+    }
+   ],
+   "result": "neutral",
+   "summary": "교대한 뒤에는 원래 전위가 뒤를 맡는다.",
+   "continue": "sc-def-counter",
+   "explain": {
+    "intermediate": "A1 이 대각선으로 한참 뛰어 겨우 높게 넘겼다. 공격이 끊기고 우리가 수비한다."
+   }
+  },
+  "n-af-03b": {
+   "scenario": "sc-att-follow",
+   "kind": "step",
+   "title": "두 사람이 오른쪽에 몰렸다",
+   "pos": {
+    "A1": [
+     430,
+     850
+    ],
+    "A2": [
+     380,
+     870
+    ],
+    "B1": [
+     180,
+     380
+    ],
+    "B2": [
+     440,
+     350
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      440,
+      350
+     ],
+     "to": [
+      130,
+      960
+     ],
+     "shot": "drive",
+     "by": "B2"
+    }
+   ],
+   "next": "n-af-04b",
+   "explain": {
+    "intermediate": "A1 이 따라 들어왔는데 A2 가 그대로 있어 둘이 거의 붙어 섰다. B2 가 빈 왼쪽으로 드라이브한다."
+   }
+  },
+  "n-af-04b": {
+   "scenario": "sc-att-follow",
+   "kind": "outcome",
+   "title": "빈 왼쪽 — 실점",
+   "pos": {
+    "A1": [
+     400,
+     880
+    ],
+    "A2": [
+     250,
+     900
+    ],
+    "B1": [
+     190,
+     390
+    ],
+    "B2": [
+     430,
+     360
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    }
+   ],
+   "result": "point_lost",
+   "summary": "따라 들어갈 땐 전위가 비켜 줘야 한다 — 두 조건 모두.",
+   "continue": "sc-receive",
+   "explain": {
+    "intermediate": "A2 가 몸을 날렸지만 왼쪽 미드코트에 닿지 못했다."
+   }
+  },
+  "n-af-02b": {
+   "scenario": "sc-att-follow",
+   "kind": "step",
+   "title": "스매시 후 뒤에 남는다",
+   "pos": {
+    "A1": [
+     455,
+     1130
+    ],
+    "A2": [
+     390,
+     860
+    ],
+    "B1": [
+     180,
+     380
+    ],
+    "B2": [
+     440,
+     350
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    }
+   ],
+   "formation": {
+    "A": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      470,
+      1060
+     ],
+     "to": [
+      440,
+      360
+     ],
+     "shot": "smash",
+     "by": "A1"
+    }
+   ],
+   "next": "n-af-03c",
+   "explain": {
+    "intermediate": "A1 이 스매시하고 뒤 자리를 지킨다. A2 는 채널에 있다."
+   }
+  },
+  "n-af-03c": {
+   "scenario": "sc-att-follow",
+   "kind": "outcome",
+   "title": "블록을 전위가 밀어 넣는다",
+   "pos": {
+    "A1": [
+     440,
+     1120
+    ],
+    "A2": [
+     410,
+     760
+    ],
+    "B1": [
+     200,
+     400
+    ],
+    "B2": [
+     430,
+     370
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 195,
+     "printed_page": 166
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      440,
+      350
+     ],
+     "to": [
+      420,
+      720
+     ],
+     "shot": "block",
+     "by": "B2"
+    },
+    {
+     "from": [
+      410,
+      760
+     ],
+     "to": [
+      200,
+      420
+     ],
+     "shot": "push",
+     "by": "A2"
+    }
+   ],
+   "result": "attack_gained",
+   "summary": "교대하지 않아도 앞뒤 공격은 유지된다 — 짧은 공의 기회를 덜 살렸을 뿐.",
+   "continue": "sc-att-rear",
+   "explain": {
+    "intermediate": "B2 의 블록을 A2 가 일찍 잡아 밀어 넣었다. 공격은 유지된다."
+   }
+  },
+  "n-xa-01": {
+   "scenario": "sc-xd-attack",
+   "kind": "decision",
+   "title": "왼쪽 깊은 곳으로 높은 셔틀 — 누가 뒤로?",
+   "pos": {
+    "A1": [
+     430,
+     1000
+    ],
+    "A2": [
+     180,
+     980
+    ],
+    "B1": [
+     420,
+     300
+    ],
+    "B2": [
+     190,
+     570
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 205,
+     "printed_page": 176
+    },
+    {
+     "pdf_page": 199,
+     "printed_page": 170
+    },
+    {
+     "pdf_page": 206,
+     "printed_page": 177
+    }
+   ],
+   "formation": {
+    "A": "side_by_side"
+   },
+   "shuttle": [
+    {
+     "from": [
+      190,
+      570
+     ],
+     "to": [
+      160,
+      1230
+     ],
+     "shot": "lift",
+     "by": "B2"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-man",
+     "label": "우리 남자가 후위로, 우리 여자가 전위로",
+     "next": "n-xa-02a",
+     "quality": "good",
+     "why": "혼복 공격의 선호 포메이션은 앞뒤 — 남자가 미드·리어, 여자가 앞으로 나와 미드·포코트를 장악한다. (매뉴얼 p.176)"
+    },
+    {
+     "id": "c-woman",
+     "label": "가까운 우리 여자가 후위로, 남자가 앞으로",
+     "next": "n-xa-02b",
+     "quality": "ok",
+     "why": "여자가 리어에 가면 상대는 그 약한 힘을 노린다 — 상대가 일부러 여자를 리어로 보내려는 이유다. (매뉴얼 p.177, p.170)"
+    }
+   ],
+   "explain": {
+    "novice": "상대 여자가 네트에서 우리 왼쪽 깊숙이 띄웠다. 셔틀에 더 가까운 건 우리 여자다. 누가 뒤로 갈까?",
+    "intermediate": "혼복의 근본 차이는 힘이다. 남자의 힘이 쓸모 있는 미드·리어를 남자가, 여자는 앞에서 포·미드코트를 장악하는 구도를 만든다."
+   }
+  },
+  "n-xa-02a": {
+   "scenario": "sc-xd-attack",
+   "kind": "decision",
+   "title": "남자 후위·여자 전위 — 어떻게 공격할까",
+   "pos": {
+    "A1": [
+     170,
+     1205
+    ],
+    "A2": [
+     240,
+     860
+    ],
+    "B1": [
+     175,
+     335
+    ],
+    "B2": [
+     440,
+     370
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 205,
+     "printed_page": 176
+    },
+    {
+     "pdf_page": 206,
+     "printed_page": 177
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "choices": [
+    {
+     "id": "c-mid",
+     "label": "두 선수 사이로 스매시",
+     "next": "n-xa-03a",
+     "quality": "good",
+     "why": "두 선수 사이로 치면 리턴 각도가 줄어든다. (매뉴얼 p.177)"
+    },
+    {
+     "id": "c-drop",
+     "label": "가파른 드롭으로 기회를 만든다",
+     "next": "n-xa-03b",
+     "quality": "good",
+     "why": "인내심 있게 정확한 가파른 각도로 치며 힘을 실을 기회를 기다린다. (매뉴얼 p.176)"
+    },
+    {
+     "id": "c-woman",
+     "label": "계속 상대 여자만 노린다 — 크로스 드롭",
+     "next": "n-xa-03c",
+     "quality": "risky",
+     "why": "여자 공략을 지나치게 하면 공격을 넘겨준다. 특히 여자를 그녀가 장악하는 앞쪽으로 끌어들이는 공이면 더 그렇다. (매뉴얼 p.177)",
+     "levels": [
+      "intermediate"
+     ]
+    },
+    {
+     "id": "c-clear",
+     "label": "공격적 클리어로 여자를 리어로 보낸다",
+     "next": "n-xa-03d",
+     "quality": "ok",
+     "why": "공격적 클리어로 여자를 리어로 보내면 약한 힘을 공략할 수 있다. 단 남용하면 안 된다. (매뉴얼 p.177)",
+     "levels": [
+      "intermediate"
+     ]
+    }
+   ],
+   "explain": {
+    "novice": "우리 남자가 왼쪽 뒤, 우리 여자가 앞. 상대는 좌우로, 상대 여자는 크로스 쪽에 있다.",
+    "intermediate": "공격은 반응 시간이 적은 스트레이트 선수나 리턴 각도를 줄이는 두 선수 사이로 더 많이 친다. 서두르지 말고 정확한 각도로 기다렸다가 힘을 싣는다."
+   }
+  },
+  "n-xa-03a": {
+   "scenario": "sc-xd-attack",
+   "kind": "step",
+   "title": "두 선수 사이로 스매시",
+   "pos": {
+    "A1": [
+     180,
+     1160
+    ],
+    "A2": [
+     250,
+     850
+    ],
+    "B1": [
+     190,
+     350
+    ],
+    "B2": [
+     430,
+     370
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 206,
+     "printed_page": 177
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      170,
+      1205
+     ],
+     "to": [
+      305,
+      360
+     ],
+     "shot": "smash",
+     "by": "A1"
+    }
+   ],
+   "next": "n-xa-04a",
+   "explain": {
+    "novice": "누가 받을지 애매한 가운데로 꽂힌다."
+   }
+  },
+  "n-xa-04a": {
+   "scenario": "sc-xd-attack",
+   "kind": "outcome",
+   "title": "여자 전위가 가로채 끝냈다",
+   "pos": {
+    "A1": [
+     200,
+     1100
+    ],
+    "A2": [
+     280,
+     820
+    ],
+    "B1": [
+     230,
+     370
+    ],
+    "B2": [
+     420,
+     380
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 205,
+     "printed_page": 176
+    },
+    {
+     "pdf_page": 206,
+     "printed_page": 177
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      240,
+      360
+     ],
+     "to": [
+      290,
+      820
+     ],
+     "shot": "push",
+     "by": "B1"
+    },
+    {
+     "from": [
+      280,
+      820
+     ],
+     "to": [
+      430,
+      420
+     ],
+     "shot": "kill",
+     "by": "A2"
+    }
+   ],
+   "result": "point_won",
+   "summary": "남자가 만들고 여자가 앞에서 끝냈다.",
+   "explain": {
+    "novice": "상대 남자의 약한 리턴이 미드코트로 왔고 앞의 우리 여자가 가로채 빈 곳으로 내리꽂았다."
+   }
+  },
+  "n-xa-03b": {
+   "scenario": "sc-xd-attack",
+   "kind": "step",
+   "title": "가파른 드롭 — 여자가 네트로",
+   "pos": {
+    "A1": [
+     190,
+     1160
+    ],
+    "A2": [
+     280,
+     790
+    ],
+    "B1": [
+     270,
+     540
+    ],
+    "B2": [
+     430,
+     380
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 205,
+     "printed_page": 176
+    },
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      170,
+      1205
+     ],
+     "to": [
+      290,
+      560
+     ],
+     "shot": "drop",
+     "by": "A1"
+    }
+   ],
+   "next": "n-xa-04b",
+   "explain": {
+    "novice": "드롭이 네트 앞에 떨어지고 상대 남자가 앞으로 끌려 나온다. 우리 여자는 네트로 들어가 네트 리턴을 막는다."
+   }
+  },
+  "n-xa-04b": {
+   "scenario": "sc-xd-attack",
+   "kind": "outcome",
+   "title": "상대가 다시 띄웠다",
+   "pos": {
+    "A1": [
+     200,
+     1180
+    ],
+    "A2": [
+     270,
+     800
+    ],
+    "B1": [
+     285,
+     565
+    ],
+    "B2": [
+     430,
+     380
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 205,
+     "printed_page": 176
+    }
+   ],
+   "formation": {
+    "A": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      285,
+      565
+     ],
+     "to": [
+      180,
+      1230
+     ],
+     "shot": "lift",
+     "by": "B1"
+    }
+   ],
+   "result": "attack_gained",
+   "summary": "인내심 있는 드롭으로 공격을 유지했다.",
+   "explain": {
+    "novice": "네트샷 길이 막힌 상대 남자가 다시 깊게 띄웠다. 공격이 이어진다."
+   }
+  },
+  "n-xa-03c": {
+   "scenario": "sc-xd-attack",
+   "kind": "step",
+   "title": "크로스 드롭으로 여자를 앞으로",
+   "pos": {
+    "A1": [
+     180,
+     1160
+    ],
+    "A2": [
+     250,
+     850
+    ],
+    "B1": [
+     190,
+     340
+    ],
+    "B2": [
+     440,
+     520
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 206,
+     "printed_page": 177
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      170,
+      1205
+     ],
+     "to": [
+      440,
+      580
+     ],
+     "shot": "drop",
+     "by": "A1"
+    }
+   ],
+   "next": "n-xa-04c",
+   "explain": {
+    "intermediate": "드롭이 상대 여자 앞 네트로 간다. 앞쪽은 여자가 장악하는 자리다."
+   }
+  },
+  "n-xa-04c": {
+   "scenario": "sc-xd-attack",
+   "kind": "outcome",
+   "title": "상대 여자가 앞을 장악했다",
+   "pos": {
+    "A1": [
+     300,
+     1040
+    ],
+    "A2": [
+     260,
+     860
+    ],
+    "B1": [
+     200,
+     360
+    ],
+    "B2": [
+     440,
+     560
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 206,
+     "printed_page": 177
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      440,
+      560
+     ],
+     "to": [
+      320,
+      1010
+     ],
+     "shot": "push",
+     "by": "B2"
+    },
+    {
+     "from": [
+      310,
+      1020
+     ],
+     "to": [
+      170,
+      90
+     ],
+     "shot": "lift",
+     "by": "A1"
+    }
+   ],
+   "result": "neutral",
+   "summary": "여자 공략은 변화로만 — 지나치면 공격을 넘겨준다.",
+   "continue": "sc-xd-defense",
+   "explain": {
+    "intermediate": "상대 여자가 네트에서 일찍 잡아 우리 여자 뒤 미드코트로 밀어 넣었다. 우리 남자가 달려와 겨우 띄웠다."
+   }
+  },
+  "n-xa-03d": {
+   "scenario": "sc-xd-attack",
+   "kind": "step",
+   "title": "공격적 클리어 — 여자가 리어로",
+   "pos": {
+    "A1": [
+     200,
+     1100
+    ],
+    "A2": [
+     260,
+     860
+    ],
+    "B1": [
+     240,
+     450
+    ],
+    "B2": [
+     450,
+     120
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 206,
+     "printed_page": 177
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      170,
+      1205
+     ],
+     "to": [
+      450,
+      80
+     ],
+     "shot": "clear",
+     "by": "A1"
+    }
+   ],
+   "next": "n-xa-04d",
+   "explain": {
+    "intermediate": "상대 여자가 오른쪽 깊은 곳까지 밀려나고 상대 남자가 앞으로 올라온다. 상대가 원치 않는 구도다."
+   }
+  },
+  "n-xa-04d": {
+   "scenario": "sc-xd-attack",
+   "kind": "outcome",
+   "title": "리어의 여자가 약하게 넘겼다",
+   "pos": {
+    "A1": [
+     200,
+     1170
+    ],
+    "A2": [
+     280,
+     850
+    ],
+    "B1": [
+     260,
+     460
+    ],
+    "B2": [
+     440,
+     150
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 206,
+     "printed_page": 177
+    }
+   ],
+   "formation": {
+    "A": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      440,
+      150
+     ],
+     "to": [
+      200,
+      1180
+     ],
+     "shot": "clear",
+     "by": "B2"
+    }
+   ],
+   "result": "attack_gained",
+   "summary": "여자를 리어로 보내 약한 리턴을 얻었다. 단 남용 금지.",
+   "explain": {
+    "intermediate": "상대 여자의 리턴이 짧고 약하게 왔다. 우리 남자가 다시 공격한다."
+   }
+  },
+  "n-xa-02b": {
+   "scenario": "sc-xd-attack",
+   "kind": "step",
+   "title": "여자가 리어에서 스매시",
+   "pos": {
+    "A1": [
+     250,
+     870
+    ],
+    "A2": [
+     170,
+     1200
+    ],
+    "B1": [
+     175,
+     335
+    ],
+    "B2": [
+     440,
+     370
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 206,
+     "printed_page": 177
+    },
+    {
+     "pdf_page": 199,
+     "printed_page": 170
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "shuttle": [
+    {
+     "from": [
+      170,
+      1200
+     ],
+     "to": [
+      180,
+      360
+     ],
+     "shot": "smash",
+     "by": "A2"
+    }
+   ],
+   "next": "n-xa-03e",
+   "explain": {
+    "novice": "우리 여자가 뒤에서 스트레이트로 때리지만 힘이 덜 실려 상대 남자가 편하게 받는다."
+   }
+  },
+  "n-xa-03e": {
+   "scenario": "sc-xd-attack",
+   "kind": "outcome",
+   "title": "상대 남자의 반격 드라이브",
+   "pos": {
+    "A1": [
+     230,
+     900
+    ],
+    "A2": [
+     180,
+     1050
+    ],
+    "B1": [
+     180,
+     340
+    ],
+    "B2": [
+     430,
+     380
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 206,
+     "printed_page": 177
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      180,
+      340
+     ],
+     "to": [
+      160,
+      1000
+     ],
+     "shot": "drive",
+     "by": "B1"
+    },
+    {
+     "from": [
+      180,
+      1040
+     ],
+     "to": [
+      460,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "result": "neutral",
+   "summary": "혼복 공격은 남자가 뒤, 여자가 앞일 때 가장 강하다.",
+   "continue": "sc-xd-defense",
+   "explain": {
+    "novice": "상대 남자가 받아친 드라이브가 우리 남자를 지나 미드코트로 왔다. 우리 여자가 겨우 띄워 수비로 넘어간다."
+   }
+  },
+  "n-sl-01": {
+   "scenario": "sc-serve-low",
+   "kind": "decision",
+   "title": "로우 서브 — 어디로 보낼까",
+   "pos": {
+    "A1": [
+     340,
+     890
+    ],
+    "A2": [
+     305,
+     1075
+    ],
+    "B1": [
+     220,
+     440
+    ],
+    "B2": [
+     330,
+     230
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    },
+    {
+     "pdf_page": 188,
+     "printed_page": 159
+    },
+    {
+     "pdf_page": 181,
+     "printed_page": 152
+    },
+    {
+     "pdf_page": 192,
+     "printed_page": 163
+    }
+   ],
+   "formation": {
+    "A": "front_back"
+   },
+   "choices": [
+    {
+     "id": "c-center",
+     "label": "센터(T 쪽)로 로우 서브",
+     "next": "n-sl-02a",
+     "quality": "good",
+     "why": "로우 서브는 대체로 센터로 보내 가능한 리턴 각도를 줄인다. (매뉴얼 p.148, p.159)"
+    },
+    {
+     "id": "c-body",
+     "label": "리시버 몸 쪽으로",
+     "next": "n-sl-02b",
+     "quality": "good",
+     "why": "변화로 리시버 몸 쪽에 서브하면 리시버가 선호하는 리턴을 방해할 수 있다. (매뉴얼 p.148, p.159)",
+     "levels": [
+      "novice",
+      "intermediate"
+     ]
+    },
+    {
+     "id": "c-wide",
+     "label": "와이드(복식 사이드 앨리 쪽)로",
+     "next": "n-sl-02c",
+     "quality": "risky",
+     "why": "와이드 서브는 가끔 쓸 수 있지만 위험이 큰 전략이다 — 스트레이트 리턴이 빈 곳으로 온다. (매뉴얼 p.148, p.159)"
+    },
+    {
+     "id": "c-flick",
+     "label": "와이드 플릭 서브(변화)",
+     "next": "n-sl-02d",
+     "quality": "ok",
+     "why": "플릭 서브는 리시버를 뒤로 밀어 균형을 깨는 유용한 변화다. 대신 우리는 곧바로 수비 위치를 잡아야 한다. (매뉴얼 p.152, p.163)",
+     "levels": [
+      "novice",
+      "intermediate"
+     ]
+    }
+   ],
+   "explain": {
+    "beginner": "A1 이 T 근처에서 서브하고 A2 는 중앙 미드코트에 선다. 대각선 건너편에 리시버 B1 이 있다.",
+    "intermediate": "서브 위치 선택은 리시버의 자세·라켓 위치에 따라 바꾼다. 센터는 기본, 몸 쪽은 변화, 와이드는 가끔."
+   }
+  },
+  "n-sl-02a": {
+   "scenario": "sc-serve-low",
+   "kind": "decision",
+   "title": "센터로 서브했다 — 서브 후 A1 은?",
+   "pos": {
+    "A1": [
+     335,
+     870
+    ],
+    "A2": [
+     305,
+     1080
+    ],
+    "B1": [
+     270,
+     470
+    ],
+    "B2": [
+     330,
+     240
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 178,
+     "printed_page": 149
+    },
+    {
+     "pdf_page": 189,
+     "printed_page": 160
+    }
+   ],
+   "formation": {
+    "A": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      340,
+      880
+     ],
+     "to": [
+      300,
+      480
+     ],
+     "shot": "serve_low",
+     "by": "A1"
+    }
+   ],
+   "zones": [
+    {
+     "rect": [
+      0,
+      690,
+      610,
+      230
+     ],
+     "label": "서버: 네트 리턴",
+     "team": "A"
+    },
+    {
+     "rect": [
+      0,
+      920,
+      610,
+      420
+     ],
+     "label": "파트너: 미드·리어",
+     "team": "A"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-front",
+     "label": "앞을 지키며 네트 리턴에 대비",
+     "next": "n-sl-03a",
+     "quality": "good",
+     "why": "로우 서브 후 서버는 네트 리턴을 맡는다. (매뉴얼 p.149, p.160)"
+    },
+    {
+     "id": "c-back",
+     "label": "서브 후 뒤로 물러난다",
+     "next": "n-sl-03b",
+     "quality": "risky",
+     "why": "서버가 물러나면 네트 앞을 맡을 사람이 없다. 파트너는 미드·리어를 맡고 있다. (매뉴얼 p.149, p.160)"
+    }
+   ],
+   "explain": {
+    "beginner": "셔틀이 T 근처로 낮게 넘어간다. 리시버 B1 이 앞으로 나온다.",
+    "intermediate": "서브 후 서버는 네트 리턴을 맡고, 미드·리어로 밀려오는 푸시는 보통 한쪽을 골라 예측한다. 파트너는 미드·리어 리턴을 맡는다."
+   }
+  },
+  "n-sl-03a": {
+   "scenario": "sc-serve-low",
+   "kind": "step",
+   "title": "리시버의 네트 리턴",
+   "pos": {
+    "A1": [
+     320,
+     820
+    ],
+    "A2": [
+     305,
+     1070
+    ],
+    "B1": [
+     285,
+     500
+    ],
+    "B2": [
+     340,
+     280
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 178,
+     "printed_page": 149
+    },
+    {
+     "pdf_page": 189,
+     "printed_page": 160
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      285,
+      500
+     ],
+     "to": [
+      300,
+      720
+     ],
+     "shot": "net",
+     "by": "B1"
+    }
+   ],
+   "next": "n-sl-04a",
+   "explain": {
+    "beginner": "B1 이 네트 앞으로 짧게 받아친다. 앞에 있던 A1 이 바로 닿는다."
+   }
+  },
+  "n-sl-04a": {
+   "scenario": "sc-serve-low",
+   "kind": "outcome",
+   "title": "네트에서 일찍 밀어 넣었다",
+   "pos": {
+    "A1": [
+     310,
+     760
+    ],
+    "A2": [
+     320,
+     1050
+    ],
+    "B1": [
+     270,
+     470
+    ],
+    "B2": [
+     400,
+     330
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 178,
+     "printed_page": 149
+    },
+    {
+     "pdf_page": 189,
+     "printed_page": 160
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      310,
+      760
+     ],
+     "to": [
+      420,
+      380
+     ],
+     "shot": "push",
+     "by": "A1"
+    }
+   ],
+   "result": "attack_gained",
+   "summary": "서브 후 앞을 지켜 3구째에서 주도권을 잡았다.",
+   "continue": "sc-att-rear",
+   "explain": {
+    "beginner": "A1 이 네트 위 높은 타점에서 미드코트로 밀어 넣었다. 상대는 들어 올릴 수밖에 없다."
+   }
+  },
+  "n-sl-03b": {
+   "scenario": "sc-serve-low",
+   "kind": "step",
+   "title": "물러난 사이 네트 리턴",
+   "pos": {
+    "A1": [
+     330,
+     960
+    ],
+    "A2": [
+     305,
+     1080
+    ],
+    "B1": [
+     285,
+     500
+    ],
+    "B2": [
+     340,
+     280
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 178,
+     "printed_page": 149
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      285,
+      500
+     ],
+     "to": [
+      300,
+      700
+     ],
+     "shot": "net",
+     "by": "B1"
+    }
+   ],
+   "next": "n-sl-04b",
+   "explain": {
+    "beginner": "A1 이 뒤로 물러났고 B1 의 네트 리턴이 네트 바로 앞에 떨어진다."
+   }
+  },
+  "n-sl-04b": {
+   "scenario": "sc-serve-low",
+   "kind": "outcome",
+   "title": "달려 나와 들어 올렸다",
+   "pos": {
+    "A1": [
+     305,
+     740
+    ],
+    "A2": [
+     310,
+     1060
+    ],
+    "B1": [
+     250,
+     480
+    ],
+    "B2": [
+     180,
+     150
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 178,
+     "printed_page": 149
+    },
+    {
+     "pdf_page": 161,
+     "printed_page": 132
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      305,
+      740
+     ],
+     "to": [
+      150,
+      90
+     ],
+     "shot": "lift",
+     "by": "A1"
+    }
+   ],
+   "result": "neutral",
+   "summary": "서브 후 서버가 앞을 비우면 3구째부터 수비다.",
+   "continue": "sc-def-counter",
+   "explain": {
+    "beginner": "A1 이 다시 달려 나와 낮은 셔틀을 들어 올렸다. 상대가 공격한다."
+   }
+  },
+  "n-sl-02b": {
+   "scenario": "sc-serve-low",
+   "kind": "step",
+   "title": "몸 쪽 서브 — 리시버가 움츠러든다",
+   "pos": {
+    "A1": [
+     330,
+     870
+    ],
+    "A2": [
+     305,
+     1075
+    ],
+    "B1": [
+     225,
+     450
+    ],
+    "B2": [
+     330,
+     240
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    },
+    {
+     "pdf_page": 188,
+     "printed_page": 159
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      340,
+      880
+     ],
+     "to": [
+      230,
+      470
+     ],
+     "shot": "serve_low",
+     "by": "A1"
+    }
+   ],
+   "next": "n-sl-03c",
+   "explain": {
+    "novice": "몸 쪽으로 온 셔틀에 B1 이 원하는 리턴을 못 하고 미드코트로 약하게 밀어낸다."
+   }
+  },
+  "n-sl-03c": {
+   "scenario": "sc-serve-low",
+   "kind": "outcome",
+   "title": "약한 리턴을 파트너가 끊었다",
+   "pos": {
+    "A1": [
+     330,
+     860
+    ],
+    "A2": [
+     320,
+     960
+    ],
+    "B1": [
+     240,
+     470
+    ],
+    "B2": [
+     330,
+     260
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 189,
+     "printed_page": 160
+    },
+    {
+     "pdf_page": 178,
+     "printed_page": 149
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      225,
+      450
+     ],
+     "to": [
+      320,
+      930
+     ],
+     "shot": "push",
+     "by": "B1"
+    },
+    {
+     "from": [
+      320,
+      960
+     ],
+     "to": [
+      180,
+      360
+     ],
+     "shot": "drive",
+     "by": "A2"
+    }
+   ],
+   "result": "attack_gained",
+   "summary": "몸 쪽 서브로 리턴을 흔들고 파트너가 미드코트를 지켰다.",
+   "continue": "sc-att-rear",
+   "explain": {
+    "novice": "미드코트로 온 리턴을 A2 가 앞으로 나와 가로채 아래로 쳤다."
+   }
+  },
+  "n-sl-02c": {
+   "scenario": "sc-serve-low",
+   "kind": "step",
+   "title": "와이드 서브 — 옆줄이 열렸다",
+   "pos": {
+    "A1": [
+     330,
+     880
+    ],
+    "A2": [
+     305,
+     1075
+    ],
+    "B1": [
+     70,
+     470
+    ],
+    "B2": [
+     300,
+     240
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    },
+    {
+     "pdf_page": 188,
+     "printed_page": 159
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      340,
+      880
+     ],
+     "to": [
+      35,
+      480
+     ],
+     "shot": "serve_low",
+     "by": "A1"
+    }
+   ],
+   "next": "n-sl-03d",
+   "explain": {
+    "beginner": "셔틀이 사이드 앨리 쪽으로 간다. B1 이 따라가 직선으로 받아칠 각도가 생겼다."
+   }
+  },
+  "n-sl-03d": {
+   "scenario": "sc-serve-low",
+   "kind": "outcome",
+   "title": "빈 옆줄로 스트레이트 리턴 — 실점",
+   "pos": {
+    "A1": [
+     250,
+     900
+    ],
+    "A2": [
+     200,
+     1050
+    ],
+    "B1": [
+     80,
+     480
+    ],
+    "B2": [
+     300,
+     250
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    },
+    {
+     "pdf_page": 188,
+     "printed_page": 159
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      80,
+      480
+     ],
+     "to": [
+      50,
+      1010
+     ],
+     "shot": "push",
+     "by": "B1"
+    }
+   ],
+   "result": "point_lost",
+   "summary": "와이드 서브는 스트레이트 리턴을 빈 곳으로 열어 준다.",
+   "explain": {
+    "beginner": "B1 이 옆줄을 따라 미드코트 빈 곳으로 밀었다. 서버도 파트너도 닿지 못했다."
+   }
+  },
+  "n-sl-02d": {
+   "scenario": "sc-serve-low",
+   "kind": "step",
+   "title": "와이드 플릭 — 리시버가 뒤로 밀린다",
+   "pos": {
+    "A1": [
+     380,
+     900
+    ],
+    "A2": [
+     240,
+     1040
+    ],
+    "B1": [
+     90,
+     150
+    ],
+    "B2": [
+     260,
+     380
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 181,
+     "printed_page": 152
+    },
+    {
+     "pdf_page": 192,
+     "printed_page": 163
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      340,
+      880
+     ],
+     "to": [
+      50,
+      85
+     ],
+     "shot": "serve_flick",
+     "by": "A1"
+    }
+   ],
+   "next": "n-sl-03e",
+   "explain": {
+    "novice": "셔틀이 리시버의 포핸드 쪽 깊은 곳으로 넘어간다. 우리는 곧 좌우로 갈라 선다."
+   }
+  },
+  "n-sl-03e": {
+   "scenario": "sc-serve-low",
+   "kind": "outcome",
+   "title": "예측한 스트레이트 리턴을 파트너가 받는다",
+   "pos": {
+    "A1": [
+     420,
+     920
+    ],
+    "A2": [
+     170,
+     1000
+    ],
+    "B1": [
+     70,
+     120
+    ],
+    "B2": [
+     180,
+     480
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 181,
+     "printed_page": 152
+    },
+    {
+     "pdf_page": 192,
+     "printed_page": 163
+    }
+   ],
+   "formation": {
+    "A": "side_by_side"
+   },
+   "shuttle": [
+    {
+     "from": [
+      70,
+      120
+     ],
+     "to": [
+      170,
+      990
+     ],
+     "shot": "smash",
+     "by": "B1"
+    }
+   ],
+   "result": "defense_held",
+   "summary": "플릭은 리시버를 뒤로 미는 변화 — 서브한 쪽은 곧장 수비로 선다.",
+   "continue": "sc-def-lift",
+   "explain": {
+    "novice": "와이드 플릭에 대한 리턴은 대개 스트레이트로 온다. A2 가 그쪽으로 미리 옮겨 받는다.",
+    "intermediate": "서브가 리시버를 확실히 속였다면 긴 크로스 클리어가 어려워 서버는 네트에 더 가깝게 남을 수 있다(여복 쪽 설명)."
+   }
+  },
+  "n-rc-01": {
+   "scenario": "sc-receive",
+   "kind": "decision",
+   "title": "센터로 온 로우 서브 — 어떻게 받을까",
+   "pos": {
+    "A1": [
+     390,
+     900
+    ],
+    "A2": [
+     300,
+     1100
+    ],
+    "B1": [
+     270,
+     450
+    ],
+    "B2": [
+     305,
+     265
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 179,
+     "printed_page": 150
+    },
+    {
+     "pdf_page": 190,
+     "printed_page": 161
+    },
+    {
+     "pdf_page": 180,
+     "printed_page": 151
+    },
+    {
+     "pdf_page": 191,
+     "printed_page": 162
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      270,
+      450
+     ],
+     "to": [
+      330,
+      880
+     ],
+     "shot": "serve_low",
+     "by": "B1"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-net",
+     "label": "네트로 리턴",
+     "next": "n-rc-02a",
+     "quality": "good",
+     "why": "네트로 리턴하면 리시버는 네트를 장악하고 서버의 다음 네트샷을 끝낼 준비를 한다. (매뉴얼 p.150, p.161)"
+    },
+    {
+     "id": "c-push",
+     "label": "스트레이트로 미드코트에 푸시",
+     "next": "n-rc-02b",
+     "quality": "good",
+     "why": "미드코트로 스트레이트 리턴하면 이어서 스트레이트 리플라이를 가로챈다. (매뉴얼 p.150, p.161)"
+    },
+    {
+     "id": "c-body",
+     "label": "서버 파트너 몸 쪽으로 푸시",
+     "next": "n-rc-02c",
+     "quality": "ok",
+     "why": "서버 파트너 몸 쪽 공격도 선택지다. 대신 리플라이가 양쪽 어디로든 올 수 있어 둘 다 대비해야 한다. (매뉴얼 p.151, p.162)",
+     "levels": [
+      "intermediate"
+     ]
+    },
+    {
+     "id": "c-float",
+     "label": "어정쩡하게 띄워 넘긴다",
+     "next": "n-rc-02d",
+     "quality": "risky",
+     "why": "부정확한 리턴이면 네트에서 물러나 좌우로 서야 한다 — 상대가 공격을 잡는다. (매뉴얼 p.151, p.162)"
+    }
+   ],
+   "explain": {
+    "novice": "상대 B1 이 T 근처에서 로우 서브를 넣었다. A1 이 리시버, A2 는 뒤 중앙에 있다.",
+    "intermediate": "리턴 뒤 해야 할 일이 리턴마다 다르다 — 리턴을 고를 때 다음 위치까지 함께 고르는 셈이다."
+   }
+  },
+  "n-rc-02a": {
+   "scenario": "sc-receive",
+   "kind": "decision",
+   "title": "네트 리턴이 넘어갔다 — 다음 위치는?",
+   "pos": {
+    "A1": [
+     350,
+     860
+    ],
+    "A2": [
+     300,
+     1090
+    ],
+    "B1": [
+     285,
+     520
+    ],
+    "B2": [
+     305,
+     270
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 179,
+     "printed_page": 150
+    },
+    {
+     "pdf_page": 190,
+     "printed_page": 161
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      340,
+      860
+     ],
+     "to": [
+      290,
+      590
+     ],
+     "shot": "net",
+     "by": "A1"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-dom",
+     "label": "따라 들어가 네트를 장악",
+     "next": "n-rc-03a",
+     "quality": "good",
+     "why": "네트 리턴 뒤 리시버는 네트를 장악하고 서버의 다음 네트샷을 끝내려 해야 한다. (매뉴얼 p.150, p.161)"
+    },
+    {
+     "id": "c-back",
+     "label": "뒤로 물러난다",
+     "next": "n-rc-03b",
+     "quality": "ok",
+     "why": "물러나면 상대가 네트 앞을 차지한다. 네트 리턴으로 얻은 이점을 버린다. (매뉴얼 p.150, p.161)"
+    }
+   ],
+   "explain": {
+    "novice": "A1 의 네트 리턴이 네트 바로 너머에 떨어진다. 서버 B1 이 앞으로 나온다."
+   }
+  },
+  "n-rc-03a": {
+   "scenario": "sc-receive",
+   "kind": "outcome",
+   "title": "서버의 네트샷을 끝냈다",
+   "pos": {
+    "A1": [
+     310,
+     760
+    ],
+    "A2": [
+     300,
+     1050
+    ],
+    "B1": [
+     290,
+     580
+    ],
+    "B2": [
+     300,
+     280
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 179,
+     "printed_page": 150
+    },
+    {
+     "pdf_page": 190,
+     "printed_page": 161
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      290,
+      580
+     ],
+     "to": [
+      300,
+      700
+     ],
+     "shot": "net",
+     "by": "B1"
+    },
+    {
+     "from": [
+      310,
+      760
+     ],
+     "to": [
+      180,
+      350
+     ],
+     "shot": "kill",
+     "by": "A1"
+    }
+   ],
+   "result": "point_won",
+   "summary": "네트로 리턴하고 네트를 장악했다.",
+   "continue": "sc-serve-low",
+   "explain": {
+    "novice": "B1 이 다시 네트로 받아쳤고 앞에 와 있던 A1 이 위에서 내리꽂았다."
+   }
+  },
+  "n-rc-03b": {
+   "scenario": "sc-receive",
+   "kind": "outcome",
+   "title": "상대가 네트를 차지했다",
+   "pos": {
+    "A1": [
+     380,
+     980
+    ],
+    "A2": [
+     290,
+     760
+    ],
+    "B1": [
+     290,
+     580
+    ],
+    "B2": [
+     300,
+     280
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 179,
+     "printed_page": 150
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      290,
+      580
+     ],
+     "to": [
+      290,
+      710
+     ],
+     "shot": "net",
+     "by": "B1"
+    },
+    {
+     "from": [
+      290,
+      760
+     ],
+     "to": [
+      450,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "result": "neutral",
+   "summary": "네트 리턴 뒤 물러나 이점을 잃었다.",
+   "continue": "sc-def-counter",
+   "explain": {
+    "novice": "B1 이 네트 바로 위로 짧게 떨어뜨렸고 A2 가 달려 나와 들어 올렸다."
+   }
+  },
+  "n-rc-02b": {
+   "scenario": "sc-receive",
+   "kind": "step",
+   "title": "스트레이트 푸시 — 리플라이를 노린다",
+   "pos": {
+    "A1": [
+     370,
+     860
+    ],
+    "A2": [
+     300,
+     1090
+    ],
+    "B1": [
+     270,
+     470
+    ],
+    "B2": [
+     340,
+     300
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 179,
+     "printed_page": 150
+    },
+    {
+     "pdf_page": 190,
+     "printed_page": 161
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      360,
+      860
+     ],
+     "to": [
+      380,
+      340
+     ],
+     "shot": "push",
+     "by": "A1"
+    }
+   ],
+   "next": "n-rc-03c",
+   "explain": {
+    "novice": "A1 이 자기 라인을 따라 미드코트로 민다. B2 가 받으러 옆으로 움직인다."
+   }
+  },
+  "n-rc-03c": {
+   "scenario": "sc-receive",
+   "kind": "outcome",
+   "title": "스트레이트 리플라이를 가로챘다",
+   "pos": {
+    "A1": [
+     385,
+     830
+    ],
+    "A2": [
+     300,
+     1060
+    ],
+    "B1": [
+     270,
+     480
+    ],
+    "B2": [
+     370,
+     320
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 179,
+     "printed_page": 150
+    },
+    {
+     "pdf_page": 190,
+     "printed_page": 161
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      370,
+      320
+     ],
+     "to": [
+      380,
+      820
+     ],
+     "shot": "push",
+     "by": "B2"
+    },
+    {
+     "from": [
+      385,
+      830
+     ],
+     "to": [
+      180,
+      420
+     ],
+     "shot": "drive",
+     "by": "A1"
+    }
+   ],
+   "result": "attack_gained",
+   "summary": "스트레이트 리턴 → 스트레이트 리플라이 가로채기.",
+   "continue": "sc-att-rear",
+   "explain": {
+    "novice": "B2 의 리플라이가 같은 라인으로 돌아왔고 기다리던 A1 이 가로채 아래로 쳤다."
+   }
+  },
+  "n-rc-02c": {
+   "scenario": "sc-receive",
+   "kind": "step",
+   "title": "서버 파트너 몸 쪽으로 푸시",
+   "pos": {
+    "A1": [
+     330,
+     850
+    ],
+    "A2": [
+     300,
+     1090
+    ],
+    "B1": [
+     270,
+     470
+    ],
+    "B2": [
+     305,
+     270
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 180,
+     "printed_page": 151
+    },
+    {
+     "pdf_page": 191,
+     "printed_page": 162
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      360,
+      860
+     ],
+     "to": [
+      310,
+      280
+     ],
+     "shot": "push",
+     "by": "A1"
+    }
+   ],
+   "next": "n-rc-03d",
+   "explain": {
+    "intermediate": "A1 이 뒤에 있는 B2 몸 쪽으로 민다. 리플라이가 어디로 올지 모르니 A1 은 센터에서 양쪽을 본다."
+   }
+  },
+  "n-rc-03d": {
+   "scenario": "sc-receive",
+   "kind": "outcome",
+   "title": "움츠러든 리턴이 떴다",
+   "pos": {
+    "A1": [
+     320,
+     850
+    ],
+    "A2": [
+     420,
+     1140
+    ],
+    "B1": [
+     270,
+     480
+    ],
+    "B2": [
+     300,
+     280
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 180,
+     "printed_page": 151
+    },
+    {
+     "pdf_page": 191,
+     "printed_page": 162
+    }
+   ],
+   "formation": {
+    "A": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      300,
+      280
+     ],
+     "to": [
+      420,
+      1160
+     ],
+     "shot": "lift",
+     "by": "B2"
+    }
+   ],
+   "result": "attack_gained",
+   "summary": "몸 쪽 푸시로 상대를 들어 올리게 만들었다.",
+   "continue": "sc-att-rear",
+   "explain": {
+    "intermediate": "B2 가 몸 쪽 셔틀을 겨우 들어 올렸다. A2 가 뒤로 가서 공격한다."
+   }
+  },
+  "n-rc-02d": {
+   "scenario": "sc-receive",
+   "kind": "decision",
+   "title": "리턴이 떠 버렸다 — 이제?",
+   "pos": {
+    "A1": [
+     360,
+     860
+    ],
+    "A2": [
+     300,
+     1090
+    ],
+    "B1": [
+     270,
+     450
+    ],
+    "B2": [
+     305,
+     265
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 180,
+     "printed_page": 151
+    },
+    {
+     "pdf_page": 191,
+     "printed_page": 162
+    },
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      360,
+      860
+     ],
+     "to": [
+      300,
+      260
+     ],
+     "shot": "lift",
+     "by": "A1"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-retreat",
+     "label": "네트에서 물러나 좌우로 선다",
+     "next": "n-rc-03e",
+     "quality": "good",
+     "why": "부정확한 리턴을 했다면 네트에서 물러나 좌우 포메이션으로 가야 할 수 있다. (매뉴얼 p.151, p.162)"
+    },
+    {
+     "id": "c-stay",
+     "label": "네트 앞에 그대로 있는다",
+     "next": "n-rc-03f",
+     "quality": "risky",
+     "why": "띄운 뒤 앞뒤로 남으면 옆이 빈다. 수비 포메이션은 좌우다. (매뉴얼 p.151, p.148)"
+    }
+   ],
+   "explain": {
+    "novice": "A1 의 리턴이 높게 떠서 B2 가 뒤에서 내려칠 자세를 잡는다.",
+    "intermediate": "리시브가 부정확하면 네트에서 물러나 좌우 수비를 만들어야 한다. 셔틀을 띄운 쪽은 수비다."
+   }
+  },
+  "n-rc-03e": {
+   "scenario": "sc-receive",
+   "kind": "outcome",
+   "title": "좌우로 갈라 막는다",
+   "pos": {
+    "A1": [
+     420,
+     980
+    ],
+    "A2": [
+     180,
+     1000
+    ],
+    "B1": [
+     280,
+     480
+    ],
+    "B2": [
+     305,
+     260
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 180,
+     "printed_page": 151
+    },
+    {
+     "pdf_page": 191,
+     "printed_page": 162
+    }
+   ],
+   "formation": {
+    "A": "side_by_side"
+   },
+   "shuttle": [
+    {
+     "from": [
+      305,
+      260
+     ],
+     "to": [
+      190,
+      1000
+     ],
+     "shot": "smash",
+     "by": "B2"
+    }
+   ],
+   "result": "defense_held",
+   "summary": "리턴이 떴으면 물러나 좌우로 — 수비로 버틴다.",
+   "continue": "sc-def-counter",
+   "explain": {
+    "novice": "A1 이 물러나고 A2 가 옆으로 옮겨 나란히 섰다. B2 의 스매시를 둘이 나눠 받는다."
+   }
+  },
+  "n-rc-03f": {
+   "scenario": "sc-receive",
+   "kind": "outcome",
+   "title": "가운데 빈 곳으로 스매시",
+   "pos": {
+    "A1": [
+     355,
+     860
+    ],
+    "A2": [
+     300,
+     1090
+    ],
+    "B1": [
+     270,
+     460
+    ],
+    "B2": [
+     305,
+     265
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 180,
+     "printed_page": 151
+    },
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    }
+   ],
+   "formation": {
+    "A": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      305,
+      265
+     ],
+     "to": [
+      150,
+      960
+     ],
+     "shot": "smash",
+     "by": "B2"
+    }
+   ],
+   "result": "point_lost",
+   "summary": "띄운 뒤엔 좌우 — 앞뒤로 남으면 옆이 빈다.",
+   "explain": {
+    "novice": "A1 이 앞에, A2 가 뒤에 선 채로 있어 옆이 비었다. B2 가 왼쪽으로 내리꽂았다."
+   }
+  },
+  "n-sf-01": {
+   "scenario": "sc-serve-flick",
+   "kind": "decision",
+   "title": "리시브 준비 — 어디에 설까",
+   "pos": {
+    "A1": [
+     390,
+     900
+    ],
+    "A2": [
+     300,
+     1100
+    ],
+    "B1": [
+     270,
+     450
+    ],
+    "B2": [
+     305,
+     265
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    },
+    {
+     "pdf_page": 188,
+     "printed_page": 159
+    },
+    {
+     "pdf_page": 181,
+     "printed_page": 152
+    },
+    {
+     "pdf_page": 192,
+     "printed_page": 163
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-balanced",
+     "label": "조금 뒤·중앙에 서서 라켓을 몸 앞에",
+     "next": "n-sf-02a",
+     "quality": "ok",
+     "why": "리시브 위치와 라켓 위치를 바꿔 보는 것은 매뉴얼 연습의 일부다. 조금 물러서면 로우 서브에 덜 공격적이지만 플릭에 균형을 잃지 않는다. (매뉴얼 p.148, p.152)"
+    },
+    {
+     "id": "c-forward",
+     "label": "네트에 바짝 붙어 체중을 앞발에",
+     "next": "n-sf-02b",
+     "quality": "ok",
+     "why": "앞에 붙으면 로우 서브를 일찍 공격할 수 있지만, 플릭은 리시버를 뒤로 밀어 균형을 깬 채 치게 만든다. (매뉴얼 p.152, p.163)"
+    }
+   ],
+   "explain": {
+    "novice": "상대 B1 이 서브를 준비한다. 로우 서브인지 플릭인지는 맞아 봐야 안다. A1 은 어떻게 준비할까?",
+    "intermediate": "매뉴얼 연습은 리시버에게 위치(조금 넓게·조금 중앙으로)와 라켓 위치를 바꿔 보라고 하고, 서버는 그에 맞춰 서브를 바꾼다. 플릭은 리시버를 뒤로 밀어 균형을 깨는 서브다."
+   }
+  },
+  "n-sf-02a": {
+   "scenario": "sc-serve-flick",
+   "kind": "decision",
+   "title": "와이드 플릭 — 균형을 잡고 셔틀 뒤로 들어갔다",
+   "pos": {
+    "A1": [
+     470,
+     1220
+    ],
+    "A2": [
+     380,
+     880
+    ],
+    "B1": [
+     190,
+     380
+    ],
+    "B2": [
+     440,
+     320
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 182,
+     "printed_page": 153
+    },
+    {
+     "pdf_page": 193,
+     "printed_page": 164
+    },
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "shuttle": [
+    {
+     "from": [
+      270,
+      450
+     ],
+     "to": [
+      490,
+      1250
+     ],
+     "shot": "serve_flick",
+     "by": "B1"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-str",
+     "label": "스트레이트 선수에게 스매시",
+     "next": "n-sf-03a",
+     "quality": "good",
+     "why": "넓은 플릭에 균형이 잡혔다면 스트레이트 선수나 두 선수 사이로 스매시한다. (매뉴얼 p.153, p.164)"
+    },
+    {
+     "id": "c-drop",
+     "label": "두 선수 사이로 드롭",
+     "next": "n-sf-03b",
+     "quality": "good",
+     "why": "두 선수 사이 드롭도 유용한 변화다. (매뉴얼 p.153, p.164)"
+    },
+    {
+     "id": "c-cross",
+     "label": "크로스 스매시",
+     "next": "n-sf-03c",
+     "quality": "ok",
+     "why": "매뉴얼이 권하는 방향은 스트레이트 선수·가운데다. 크로스는 변화로만 쓴다. (매뉴얼 p.153, p.154)",
+     "levels": [
+      "intermediate"
+     ]
+    }
+   ],
+   "explain": {
+    "novice": "B1 이 오른쪽 깊은 곳으로 플릭했다. A1 은 제때 물러나 균형이 잡혔다. 상대는 좌우로 갈라 섰다.",
+    "intermediate": "넓게 플릭됐고 균형이 잡혔다면 스트레이트 선수나 두 선수 사이로 스매시, 두 선수 사이 드롭도 좋은 변화다."
+   }
+  },
+  "n-sf-03a": {
+   "scenario": "sc-serve-flick",
+   "kind": "outcome",
+   "title": "몸 쪽 스매시로 약한 리턴",
+   "pos": {
+    "A1": [
+     455,
+     1170
+    ],
+    "A2": [
+     400,
+     820
+    ],
+    "B1": [
+     200,
+     390
+    ],
+    "B2": [
+     440,
+     345
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 182,
+     "printed_page": 153
+    },
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      470,
+      1220
+     ],
+     "to": [
+      440,
+      350
+     ],
+     "shot": "smash",
+     "by": "A1"
+    }
+   ],
+   "result": "attack_gained",
+   "summary": "플릭을 리시브에서 공격으로 바꿨다.",
+   "continue": "sc-att-rear",
+   "explain": {
+    "novice": "B2 가 몸 쪽 스매시를 짧게 막았고 채널의 A2 가 기다린다."
+   }
+  },
+  "n-sf-03b": {
+   "scenario": "sc-serve-flick",
+   "kind": "outcome",
+   "title": "드롭 — 상대가 앞으로 끌려 나온다",
+   "pos": {
+    "A1": [
+     450,
+     1180
+    ],
+    "A2": [
+     340,
+     790
+    ],
+    "B1": [
+     260,
+     520
+    ],
+    "B2": [
+     390,
+     420
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 182,
+     "printed_page": 153
+    },
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      470,
+      1220
+     ],
+     "to": [
+      300,
+      560
+     ],
+     "shot": "drop",
+     "by": "A1"
+    }
+   ],
+   "result": "attack_gained",
+   "summary": "플릭 리턴을 드롭으로 — 상대가 들어 올리게 만든다.",
+   "continue": "sc-att-channel",
+   "explain": {
+    "novice": "드롭이 두 선수 사이 네트 앞에 떨어지고 A2 가 네트로 들어간다."
+   }
+  },
+  "n-sf-03c": {
+   "scenario": "sc-serve-flick",
+   "kind": "outcome",
+   "title": "크로스 리턴을 막아 냈다",
+   "pos": {
+    "A1": [
+     440,
+     1150
+    ],
+    "A2": [
+     230,
+     800
+    ],
+    "B1": [
+     200,
+     390
+    ],
+    "B2": [
+     430,
+     200
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 182,
+     "printed_page": 153
+    },
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      470,
+      1220
+     ],
+     "to": [
+      190,
+      390
+     ],
+     "shot": "smash",
+     "by": "A1"
+    },
+    {
+     "from": [
+      200,
+      390
+     ],
+     "to": [
+      160,
+      760
+     ],
+     "shot": "block",
+     "by": "B1"
+    }
+   ],
+   "result": "neutral",
+   "summary": "균형이 잡혔다면 스트레이트 선수·가운데가 먼저다.",
+   "continue": "sc-def-counter",
+   "explain": {
+    "intermediate": "B1 이 시간을 갖고 자기 앞 직선으로 블록해 A2 가 건너가 들어 올렸다."
+   }
+  },
+  "n-sf-02b": {
+   "scenario": "sc-serve-flick",
+   "kind": "decision",
+   "title": "와이드 플릭 — 늦어서 균형이 무너졌다",
+   "pos": {
+    "A1": [
+     460,
+     1250
+    ],
+    "A2": [
+     330,
+     1000
+    ],
+    "B1": [
+     190,
+     380
+    ],
+    "B2": [
+     440,
+     320
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 182,
+     "printed_page": 153
+    },
+    {
+     "pdf_page": 193,
+     "printed_page": 164
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      270,
+      450
+     ],
+     "to": [
+      490,
+      1270
+     ],
+     "shot": "serve_flick",
+     "by": "B1"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-half",
+     "label": "하프 스매시",
+     "next": "n-sf-03d",
+     "quality": "good",
+     "why": "균형을 잃은 채 받는 플릭에는 하프 스매시를 고려한다 — 균형을 되찾을 시간이 더 생긴다. (매뉴얼 p.153, p.164)"
+    },
+    {
+     "id": "c-drop",
+     "label": "두 선수 사이로 드롭",
+     "next": "n-sf-03e",
+     "quality": "good",
+     "why": "드롭도 균형을 되찾을 시간을 주는 리턴이다. (매뉴얼 p.153, p.164)"
+    },
+    {
+     "id": "c-clear",
+     "label": "스트레이트 클리어",
+     "next": "n-sf-03f",
+     "quality": "ok",
+     "why": "스트레이트 클리어도 시간을 벌어 준다(여복 쪽 설명). 대신 공격권은 상대에게 넘어간다. (매뉴얼 p.153)"
+    },
+    {
+     "id": "c-full",
+     "label": "온 힘으로 풀 스매시",
+     "next": "n-sf-03g",
+     "quality": "risky",
+     "why": "매뉴얼은 균형을 잃었을 때 시간을 버는 샷을 권한다. 풀 스매시는 그 반대로, 치고 난 뒤 회복할 시간이 없다. (매뉴얼 p.153, p.164)",
+     "levels": [
+      "intermediate"
+     ]
+    }
+   ],
+   "explain": {
+    "novice": "앞에 붙어 있던 A1 이 플릭에 늦게 쫓아가 뒤로 젖혀진 채 셔틀에 닿는다.",
+    "intermediate": "균형을 잃었을 때는 하프 스매시·드롭(여복은 스트레이트 클리어도)처럼 균형을 되찾을 시간을 더 주는 샷을 고려한다."
+   }
+  },
+  "n-sf-03d": {
+   "scenario": "sc-serve-flick",
+   "kind": "outcome",
+   "title": "하프 스매시 — 자세를 되찾았다",
+   "pos": {
+    "A1": [
+     440,
+     1150
+    ],
+    "A2": [
+     370,
+     870
+    ],
+    "B1": [
+     200,
+     390
+    ],
+    "B2": [
+     440,
+     345
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 182,
+     "printed_page": 153
+    },
+    {
+     "pdf_page": 193,
+     "printed_page": 164
+    }
+   ],
+   "formation": {
+    "A": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      460,
+      1250
+     ],
+     "to": [
+      440,
+      380
+     ],
+     "shot": "smash",
+     "by": "A1"
+    }
+   ],
+   "result": "attack_gained",
+   "summary": "무너졌을 땐 속도보다 회복 — 하프 스매시로 공격 유지.",
+   "continue": "sc-att-rear",
+   "explain": {
+    "novice": "속도를 줄인 스매시가 넘어가는 동안 A1 이 다시 중심을 잡았다. 앞뒤 공격이 이어진다."
+   }
+  },
+  "n-sf-03e": {
+   "scenario": "sc-serve-flick",
+   "kind": "outcome",
+   "title": "드롭으로 시간을 벌었다",
+   "pos": {
+    "A1": [
+     440,
+     1150
+    ],
+    "A2": [
+     340,
+     800
+    ],
+    "B1": [
+     260,
+     520
+    ],
+    "B2": [
+     400,
+     400
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 182,
+     "printed_page": 153
+    },
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      460,
+      1250
+     ],
+     "to": [
+      300,
+      560
+     ],
+     "shot": "drop",
+     "by": "A1"
+    }
+   ],
+   "result": "attack_gained",
+   "summary": "드롭으로 회복 시간을 벌며 공격을 이어 간다.",
+   "continue": "sc-att-rear",
+   "explain": {
+    "novice": "드롭이 떨어지는 동안 A1 이 중심을 되찾고 A2 는 네트로 들어간다."
+   }
+  },
+  "n-sf-03f": {
+   "scenario": "sc-serve-flick",
+   "kind": "outcome",
+   "title": "클리어 후 좌우 수비",
+   "pos": {
+    "A1": [
+     430,
+     1000
+    ],
+    "A2": [
+     190,
+     980
+    ],
+    "B1": [
+     380,
+     480
+    ],
+    "B2": [
+     455,
+     130
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 182,
+     "printed_page": 153
+    },
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    }
+   ],
+   "formation": {
+    "A": "side_by_side"
+   },
+   "shuttle": [
+    {
+     "from": [
+      460,
+      1250
+     ],
+     "to": [
+      460,
+      90
+     ],
+     "shot": "clear",
+     "by": "A1"
+    }
+   ],
+   "result": "defense_held",
+   "summary": "시간은 벌었지만 공격권은 넘겼다.",
+   "continue": "sc-def-counter",
+   "explain": {
+    "novice": "높은 스트레이트 클리어로 시간을 번 뒤 둘이 좌우로 섰다. 상대가 공격한다."
+   }
+  },
+  "n-sf-03g": {
+   "scenario": "sc-serve-flick",
+   "kind": "outcome",
+   "title": "치고 나서 돌아오지 못했다",
+   "pos": {
+    "A1": [
+     475,
+     1280
+    ],
+    "A2": [
+     330,
+     900
+    ],
+    "B1": [
+     200,
+     390
+    ],
+    "B2": [
+     440,
+     330
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 182,
+     "printed_page": 153
+    },
+    {
+     "pdf_page": 193,
+     "printed_page": 164
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      460,
+      1250
+     ],
+     "to": [
+      440,
+      340
+     ],
+     "shot": "smash",
+     "by": "A1"
+    },
+    {
+     "from": [
+      440,
+      330
+     ],
+     "to": [
+      480,
+      980
+     ],
+     "shot": "drive",
+     "by": "B2"
+    }
+   ],
+   "result": "point_lost",
+   "summary": "균형을 잃은 채 힘껏 치면 다음 공을 받을 수 없다.",
+   "continue": "sc-receive",
+   "explain": {
+    "intermediate": "풀 스매시 뒤 A1 이 뒤로 넘어질 듯 밀렸다. B2 가 A1 앞 미드코트 빈 곳으로 드라이브했다."
+   }
+  },
+  "n-cy-01": {
+   "scenario": "sc-rally-cycle",
+   "kind": "decision",
+   "title": "우리가 공격 중",
+   "pos": {
+    "A1": [
+     455,
+     1200
+    ],
+    "A2": [
+     395,
+     875
+    ],
+    "B1": [
+     445,
+     330
+    ],
+    "B2": [
+     175,
+     365
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 161,
+     "printed_page": 132
+    },
+    {
+     "pdf_page": 194,
+     "printed_page": 165
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "shuttle": [
+    {
+     "from": [
+      175,
+      365
+     ],
+     "to": [
+      460,
+      1230
+     ],
+     "shot": "lift",
+     "by": "B2"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-smash",
+     "label": "스트레이트 선수에게 스매시",
+     "next": "n-cy-02a",
+     "quality": "good",
+     "why": "스매시는 대부분 스트레이트 선수나 가운데로. (매뉴얼 p.154, p.165)"
+    },
+    {
+     "id": "c-drop",
+     "label": "가파른 드롭",
+     "next": "n-cy-02b",
+     "quality": "good",
+     "why": "가파른 드롭으로 상대를 압박한다. (매뉴얼 p.154, p.165)"
+    }
+   ],
+   "explain": {
+    "novice": "A1 이 오른쪽 뒤, A2 가 셔틀 쪽 미드코트. 앞뒤 공격 포메이션이다.",
+    "intermediate": "랠리의 상황은 공격·중립·수비 세 가지이고 셔틀의 높이와 네트와의 거리로 정해진다."
+   }
+  },
+  "n-cy-02a": {
+   "scenario": "sc-rally-cycle",
+   "kind": "step",
+   "title": "스매시 — 상대가 크로스 블록",
+   "pos": {
+    "A1": [
+     445,
+     1150
+    ],
+    "A2": [
+     390,
+     860
+    ],
+    "B1": [
+     440,
+     350
+    ],
+    "B2": [
+     190,
+     390
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 183,
+     "printed_page": 154
+    },
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      455,
+      1200
+     ],
+     "to": [
+      440,
+      360
+     ],
+     "shot": "smash",
+     "by": "A1"
+    },
+    {
+     "from": [
+      440,
+      350
+     ],
+     "to": [
+      170,
+      750
+     ],
+     "shot": "block",
+     "by": "B1"
+    }
+   ],
+   "next": "n-cy-03",
+   "explain": {
+    "novice": "B1 이 스매시를 받아 우리 왼쪽 네트로 크로스 블록한다. A2 반대쪽이다."
+   }
+  },
+  "n-cy-03": {
+   "scenario": "sc-rally-cycle",
+   "kind": "decision",
+   "title": "블록에 늦었다 — 셔틀이 낮다",
+   "pos": {
+    "A1": [
+     440,
+     1100
+    ],
+    "A2": [
+     230,
+     780
+    ],
+    "B1": [
+     400,
+     450
+    ],
+    "B2": [
+     210,
+     450
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 161,
+     "printed_page": 132
+    },
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    },
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    },
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-lift",
+     "label": "높고 깊게 띄우고 좌우로 선다",
+     "next": "n-cy-04a",
+     "quality": "good",
+     "why": "띄운 쪽은 수비 — 좌우 포메이션으로 바꿔 스매시를 나눠 받는다. (매뉴얼 p.148, p.157)"
+    },
+    {
+     "id": "c-net",
+     "label": "다시 네트로 떨어뜨린다",
+     "next": "n-cy-04b",
+     "quality": "risky",
+     "why": "낮은 셔틀은 수비 상황이다. 네트 앞에서 무리하게 맞받으면 일찍 닿은 상대가 내리꽂는다. (매뉴얼 p.132, p.155)"
+    }
+   ],
+   "explain": {
+    "novice": "A2 가 건너가 닿았지만 셔틀은 이미 네트 아래로 떨어지고 있다.",
+    "intermediate": "셔틀이 낮고 늦을수록 수비 상황이다. 이때 선택은 높고 깊게 띄워 자리를 잡을 시간을 버는 것이다."
+   }
+  },
+  "n-cy-04a": {
+   "scenario": "sc-rally-cycle",
+   "kind": "decision",
+   "title": "좌우로 섰다 — 스매시가 온다",
+   "pos": {
+    "A1": [
+     400,
+     970
+    ],
+    "A2": [
+     170,
+     1000
+    ],
+    "B1": [
+     230,
+     480
+    ],
+    "B2": [
+     150,
+     110
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    },
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 198,
+     "printed_page": 169
+    }
+   ],
+   "formation": {
+    "A": "side_by_side",
+    "B": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      230,
+      780
+     ],
+     "to": [
+      150,
+      100
+     ],
+     "shot": "lift",
+     "by": "A2"
+    },
+    {
+     "from": [
+      150,
+      110
+     ],
+     "to": [
+      175,
+      990
+     ],
+     "shot": "smash",
+     "by": "B2"
+    }
+   ],
+   "choices": [
+    {
+     "id": "c-block",
+     "label": "빈 곳으로 블록하고 앞으로",
+     "next": "n-cy-05a",
+     "quality": "good",
+     "why": "블록·드라이브를 빈 곳으로 보내고 친 선수가 앞으로 나와 상대가 띄우게 만든다. (매뉴얼 p.158, p.169)"
+    },
+    {
+     "id": "c-lift",
+     "label": "크로스 리프트로 버틴다",
+     "next": "n-cy-05b",
+     "quality": "ok",
+     "why": "크로스 리프트는 공격자를 움직이게 하지만 수비를 이어 갈 뿐 공격으로 바꾸지는 못한다. (매뉴얼 p.158, p.169)"
+    }
+   ],
+   "explain": {
+    "novice": "A2 가 깊게 띄우고 물러났고 A1 이 올라와 나란히 섰다. 이번엔 상대 B2 가 뒤에서 스매시한다.",
+    "intermediate": "공격 → 수비 전환 완료. 이제 수비 → 공격 전환을 노린다."
+   }
+  },
+  "n-cy-05a": {
+   "scenario": "sc-rally-cycle",
+   "kind": "outcome",
+   "title": "다시 공격으로 — 한 바퀴",
+   "pos": {
+    "A1": [
+     420,
+     1150
+    ],
+    "A2": [
+     180,
+     830
+    ],
+    "B1": [
+     120,
+     600
+    ],
+    "B2": [
+     200,
+     250
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 177,
+     "printed_page": 148
+    }
+   ],
+   "formation": {
+    "A": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      170,
+      990
+     ],
+     "to": [
+      110,
+      610
+     ],
+     "shot": "block",
+     "by": "A2"
+    },
+    {
+     "from": [
+      120,
+      600
+     ],
+     "to": [
+      440,
+      1240
+     ],
+     "shot": "lift",
+     "by": "B1"
+    }
+   ],
+   "result": "attack_gained",
+   "summary": "공격 → (띄움) → 수비 → (블록) → 공격. 셔틀 높이가 포메이션을 바꿨다.",
+   "continue": "sc-att-rear",
+   "explain": {
+    "novice": "A2 의 블록에 B1 이 네트에서 들어 올렸다. A1 은 뒤로, A2 는 앞으로 — 다시 앞뒤다."
+   }
+  },
+  "n-cy-05b": {
+   "scenario": "sc-rally-cycle",
+   "kind": "outcome",
+   "title": "수비 유지 — 오른쪽으로 함께",
+   "pos": {
+    "A1": [
+     440,
+     1000
+    ],
+    "A2": [
+     200,
+     970
+    ],
+    "B1": [
+     390,
+     480
+    ],
+    "B2": [
+     440,
+     140
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 187,
+     "printed_page": 158
+    },
+    {
+     "pdf_page": 186,
+     "printed_page": 157
+    }
+   ],
+   "formation": {
+    "A": "side_by_side",
+    "B": "front_back"
+   },
+   "shuttle": [
+    {
+     "from": [
+      175,
+      990
+     ],
+     "to": [
+      465,
+      90
+     ],
+     "shot": "lift",
+     "by": "A2"
+    }
+   ],
+   "result": "defense_held",
+   "summary": "수비는 이어 가지만 아직 공격을 되찾지 못했다.",
+   "continue": "sc-def-lift",
+   "explain": {
+    "novice": "크로스 리프트로 B2 를 반대쪽으로 뛰게 했다. 둘이 함께 셔틀 쪽으로 옮겨 선다."
+   }
+  },
+  "n-cy-04b": {
+   "scenario": "sc-rally-cycle",
+   "kind": "outcome",
+   "title": "네트 앞에서 내리꽂혔다",
+   "pos": {
+    "A1": [
+     420,
+     1050
+    ],
+    "A2": [
+     230,
+     790
+    ],
+    "B1": [
+     240,
+     560
+    ],
+    "B2": [
+     210,
+     450
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 161,
+     "printed_page": 132
+    },
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      230,
+      780
+     ],
+     "to": [
+      220,
+      640
+     ],
+     "shot": "net",
+     "by": "A2"
+    },
+    {
+     "from": [
+      240,
+      560
+     ],
+     "to": [
+      330,
+      1000
+     ],
+     "shot": "kill",
+     "by": "B1"
+    }
+   ],
+   "result": "point_lost",
+   "summary": "낮은 셔틀에 늦었으면 높고 깊게 띄워 수비로 넘어간다.",
+   "continue": "sc-receive",
+   "explain": {
+    "novice": "A2 의 낮은 네트샷에 B1 이 먼저 닿아 위에서 내리꽂았다."
+   }
+  },
+  "n-cy-02b": {
+   "scenario": "sc-rally-cycle",
+   "kind": "step",
+   "title": "드롭 — 전위가 네트로, 상대가 띄운다",
+   "pos": {
+    "A1": [
+     430,
+     1150
+    ],
+    "A2": [
+     340,
+     770
+    ],
+    "B1": [
+     430,
+     380
+    ],
+    "B2": [
+     280,
+     570
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    },
+    {
+     "pdf_page": 196,
+     "printed_page": 167
+    }
+   ],
+   "shuttle": [
+    {
+     "from": [
+      455,
+      1200
+     ],
+     "to": [
+      300,
+      560
+     ],
+     "shot": "drop",
+     "by": "A1"
+    },
+    {
+     "from": [
+      280,
+      570
+     ],
+     "to": [
+      170,
+      1235
+     ],
+     "shot": "lift",
+     "by": "B2"
+    }
+   ],
+   "next": "n-cy-03c",
+   "explain": {
+    "novice": "A2 가 네트로 들어가자 B2 가 왼쪽 깊은 곳으로 들어 올린다."
+   }
+  },
+  "n-cy-03c": {
+   "scenario": "sc-rally-cycle",
+   "kind": "outcome",
+   "title": "공격 유지 — 왼쪽으로 옮겨 앞뒤",
+   "pos": {
+    "A1": [
+     170,
+     1205
+    ],
+    "A2": [
+     230,
+     870
+    ],
+    "B1": [
+     435,
+     370
+    ],
+    "B2": [
+     175,
+     340
+    ]
+   },
+   "src": [
+    {
+     "pdf_page": 184,
+     "printed_page": 155
+    },
+    {
+     "pdf_page": 185,
+     "printed_page": 156
+    }
+   ],
+   "formation": {
+    "A": "front_back",
+    "B": "side_by_side"
+   },
+   "result": "attack_gained",
+   "summary": "상대가 계속 띄우는 한 우리는 앞뒤로 공격한다.",
+   "continue": "sc-att-rear",
+   "explain": {
+    "novice": "A1 이 왼쪽 뒤로, A2 가 같은 쪽 미드코트로 옮겨 공격을 이어 간다."
+   }
+  }
+ }
+}
