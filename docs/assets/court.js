@@ -26,7 +26,7 @@ const SHOT_STYLE = Object.freeze({
 const FALLBACK_STYLE = { stroke: '#DDDDDD', width: 3, dash: '6 6', bend: 0.05, marker: 'arrW', ms: 600 };
 const warned = new Set();
 
-function shotStyle(kind) {
+export function shotStyle(kind) {
   const st = SHOT_STYLE[kind];
   if (st) return st;
   if (!warned.has(kind)) {
@@ -36,14 +36,14 @@ function shotStyle(kind) {
   return FALLBACK_STYLE;
 }
 
-function el(tag, attrs, parent) {
+export function el(tag, attrs, parent) {
   const node = document.createElementNS(NS, tag);
   Object.entries(attrs ?? {}).forEach(([k, v]) => node.setAttribute(k, String(v)));
   if (parent) parent.appendChild(node);
   return node;
 }
 
-function curvePath(from, to, bend) {
+export function curvePath(from, to, bend) {
   const [x1, y1] = from;
   const [x2, y2] = to;
   const dx = x2 - x1;
@@ -75,7 +75,7 @@ function spreadForLabels(pos) {
 
 const isPoint = (p) => Array.isArray(p) && p.length === 2 && p.every(Number.isFinite);
 
-function drawBase(svg) {
+export function drawBase(svg) {
   const defs = el('defs', {}, svg);
   [['arrW', '#fff', 5], ['arrC', '#B9E6FF', 5], ['arrM', 'rgba(255,255,255,.6)', 4]].forEach(([id, fill, size]) => {
     const m = el('marker', { id, viewBox: '0 0 10 10', refX: 8, refY: 5, markerWidth: size, markerHeight: size, orient: 'auto' }, defs);

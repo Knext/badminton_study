@@ -3,7 +3,7 @@
 // URL(#/r/<scenario>/<node>)이 현재 노드를 정하고, 라우터가 goto() 를 부른다.
 
 import { createCourt, shotLegendHTML } from './court.js';
-import { html, raw, richHTML, plain, srcLabel } from './text.js';
+import { html, raw, richHTML, plain, srcLabel, revealInRow } from './text.js';
 import {
   visibleAt, hiddenHint, explainFor, isMixed, levelOf,
   CATEGORY_LABEL, RESULT_LABEL, QUALITY_LABEL, DISCIPLINE_LABEL,
@@ -53,6 +53,39 @@ export function createPlayer(host, db, scenarioId, { lv, navigate }) {
   const pathList = $('.pv-path ol');
   const notice = $('.pv-notice');
 
+  // 하단 시트 높이를 --sheet-h 로 알려 본문이 시트 뒤에 숨지 않게 한다(좁은 화면 CSS 가 사용).
+  const sheetObserver = typeof ResizeObserver === 'function'
+    ? new ResizeObserver(([entry]) => host.style.setProperty('--sheet-h', `${Math.ceil(entry.borderBoxSize?.[0]?.blockSize ?? entry.target.offsetHeight)}px`))
+    : null;
+  function watchSheet() {
+    sheetObserver?.disconnect();
+    const sheet = info.querySelector('.pv-sheet');
+    if (!sheet) return;
+    sheetObserver?.observe(sheet);
+    fitSheet(sheet);
+    // 시트 안에 아직 안 보인 내용이 있으면 표시(페이드 + 「더 보기」)
+    const mark = () => sheet.classList.toggle('has-more', sheet.scrollTop + sheet.clientHeight < sheet.scrollHeight - 4);
+    sheet.addEventListener('scroll', mark, { passive: true });
+    requestAnimationFrame(mark);
+  }
+  // 좁은 화면: 시트가 코트를 덮지 않게 최대 높이 = 화면 − 탭바 − (맨 위로 스크롤했을 때의 코트 아래끝).
+  // 넘치는 내용(판정·이유 등)은 시트 안에서 스크롤한다.
+  const narrow = window.matchMedia('(max-width: 719.98px)');
+  const SHEET_MIN = 150;
+  function fitSheet(sheet = info.querySelector('.pv-sheet')) {
+    if (!sheet) return;
+    if (!narrow.matches) { sheet.style.removeProperty('max-height'); return; }
+    const courtEl = host.querySelector('svg.court');
+    const tabbar = document.querySelector('.tabbar');
+    if (!courtEl) return;
+    const courtBottomDoc = courtEl.getBoundingClientRect().bottom + window.scrollY;
+    const tabTop = tabbar ? tabbar.getBoundingClientRect().top : window.innerHeight;
+    const room = Math.floor(tabTop - courtBottomDoc - 6);
+    sheet.style.maxHeight = `${Math.max(SHEET_MIN, room)}px`;
+  }
+  const onResize = () => fitSheet();
+  window.addEventListener('resize', onResize);
+
   const current = () => state.trail[state.trail.length - 1];
   const nodeOf = (id) => db.nodes[id];
 
@@ -69,8 +102,7 @@ export function createPlayer(host, db, scenarioId, { lv, navigate }) {
         ${choice ? html`<span class="picked q-${choice.quality}">→ ${choice.label}</span>` : ''}
       </li>`;
     })}`;
-    const curCrumb = pathList.querySelector('[aria-current]');
-    curCrumb?.scrollIntoView?.({ block: 'nearest', inline: 'nearest' });
+    revealInRow(pathList, pathList.querySelector('li:last-child'));
   }
 
   // ── 렌더: 상황 설명 + 선택지
@@ -79,15 +111,20 @@ export function createPlayer(host, db, scenarioId, { lv, navigate }) {
     const node = nodeOf(step.nodeId);
     const explain = explainFor(db, node.explain, state.lv);
     const kindBadge = { decision: '선택', step: '진행', outcome: '결과' }[node.kind] ?? node.kind;
+    // .pv-sheet: 좁은 화면에서는 하단 고정 시트(상황 제목 + 선택지·진행·결과), 넓은 화면에서는 본문 흐름 그대로.
     info.innerHTML = html`
       <p class="eyebrow">${state.trail.length}번째 상황 · ${kindBadge}</p>
       <h2 tabindex="-1">${node.title}</h2>
       ${explain ? html`<p class="explain">${richHTML(explain)}</p>` : ''}
-      ${node.kind === 'decision' ? decisionHTML(node) : ''}
-      ${node.kind === 'step' ? html`<div class="actions">
-          <a class="btn primary" href="${nodeHref(scenarioId, node.next, state.lv)}" data-act="advance-step">다음 →</a></div>` : ''}
-      ${node.kind === 'outcome' ? outcomeHTML(node) : ''}
+      <div class="pv-sheet">
+        <p class="sheet-title" aria-hidden="true"><span>${state.trail.length} · ${kindBadge}</span> ${plain(node.title)}</p>
+        ${node.kind === 'decision' ? decisionHTML(node) : ''}
+        ${node.kind === 'step' ? html`<div class="actions">
+            <a class="btn primary" href="${nodeHref(scenarioId, node.next, state.lv)}" data-act="advance-step">다음 →</a></div>` : ''}
+        ${node.kind === 'outcome' ? outcomeHTML(node) : ''}
+      </div>
       <p class="src">출처: ${srcLabel(node.src) || srcLabel(scenario.src) || '—'}</p>`;
+    watchSheet();
     court.setLabel(`${plain(node.title)}. ${plain(explain)}`);
   }
 
@@ -99,7 +136,7 @@ export function createPlayer(host, db, scenarioId, { lv, navigate }) {
     const pending = state.pending && shown.find((c) => c.id === state.pending);
     return html`
       <h3 class="ask">어떻게 할까요?</h3>
-      <div class="choices" role="group" aria-label="선택지">
+      <div class="choices${pending ? ' decided' : ''}" role="group" aria-label="선택지">
         ${shown.map((c) => html`<button type="button" class="choice${tried.has(c.id) ? ' tried' : ''}"
             data-choice="${c.id}" aria-pressed="${String(pending?.id === c.id)}">
             <span class="c-label">${c.label}</span>
@@ -108,9 +145,12 @@ export function createPlayer(host, db, scenarioId, { lv, navigate }) {
       </div>
       ${hint ? html`<p class="more">${hint.level.label}에서는 선택지가 ${hint.count}개 더 있어요.</p>` : ''}
       ${pending ? html`<div class="verdict q-${pending.quality}">
-          <p class="qbadge">${QUALITY_LABEL[pending.quality] ?? pending.quality}</p>
+          <p class="qbadge">${QUALITY_LABEL[pending.quality] ?? pending.quality}<span class="v-choice"> · ${pending.label}</span></p>
           <p class="why">${richHTML(pending.why)}</p>
-          <a class="btn primary" href="${nodeHref(scenarioId, pending.next, state.lv)}" data-act="advance">다음 상황 보기 →</a>
+          <div class="verdict-actions">
+            <a class="btn primary" href="${nodeHref(scenarioId, pending.next, state.lv)}" data-act="advance">다음 상황 보기 →</a>
+            <button type="button" class="btn repick" data-act="repick">다시 고르기</button>
+            <span class="more-hint" aria-hidden="true">↓ 밀어서 더 보기</span></div>
         </div>` : html`<p class="muted small">선택하면 먼저 그 선택이 왜 좋은지·위험한지 보여 주고, 그다음 선수들이 움직여요.</p>`}`;
   }
 
@@ -177,7 +217,7 @@ export function createPlayer(host, db, scenarioId, { lv, navigate }) {
   function focusInfo() {
     const stage = $('.pv-stage');
     const top = stage.getBoundingClientRect().top;
-    if (top < 0) stage.scrollIntoView({ block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+    if (top < 60) stage.scrollIntoView({ block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
     info.querySelector('h2')?.focus({ preventScroll: true });
   }
 
@@ -189,12 +229,15 @@ export function createPlayer(host, db, scenarioId, { lv, navigate }) {
     tried.add(choiceId);
     state.tried = new Map(state.tried).set(node.id, tried);
     renderInfo();
+    const sheet = info.querySelector('.pv-sheet');
+    if (sheet) sheet.scrollTop = 0; // 고른 선택지 → 판정·이유 순서로 위에서부터 보이게
     info.querySelector('.verdict .btn')?.focus({ preventScroll: true });
   }
 
   function onClick(ev) {
     const btn = ev.target.closest('[data-choice]');
     if (btn) { choose(btn.dataset.choice); return; }
+    if (ev.target.closest('[data-act="repick"]')) { state.pending = null; renderInfo(); return; }
     if (ev.target.closest('[data-act="replay"]')) court.replay();
   }
 
@@ -225,6 +268,9 @@ export function createPlayer(host, db, scenarioId, { lv, navigate }) {
       renderInfo();
     },
     destroy() {
+      sheetObserver?.disconnect();
+      window.removeEventListener('resize', onResize);
+      host.style.removeProperty('--sheet-h');
       document.removeEventListener('keydown', onKey);
       host.removeEventListener('click', onClick);
     },

@@ -1,6 +1,7 @@
 // 화면 조립 — 홈·모듈·토픽·로테이션 목록·용어집·소개. 모든 데이터 텍스트는 text.js 를 거친다.
 
 import { html, richHTML, srcLabel } from './text.js';
+import { practiceTeaser } from './practice.js';
 import {
   visibleAt, hiddenHint, levelOf, CATEGORY_LABEL, DISCIPLINE_LABEL,
 } from './data.js';
@@ -57,6 +58,7 @@ export function homeView(db, lv) {
       </div>
       ${others ? html`<p class="muted small">서브·전환 등 다른 시나리오 ${others}개는 로테이션 목록에 있어요.</p>` : ''}
     </section>
+    ${practiceTeaser(db, lv)}
     <section aria-labelledby="mod-h">
       <h2 id="mod-h">매뉴얼 목차</h2>
       <ol class="modules">${db.modules.map((m) => {

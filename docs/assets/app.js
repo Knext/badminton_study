@@ -5,6 +5,9 @@
 import { loadAll } from './data.js';
 import { createPlayer } from './player.js';
 import {
+  practiceListView, practiceDetailView, bindPracticeList, bindPracticeDetail,
+} from './practice.js';
+import {
   homeView, moduleView, topicView, rotationsView, glossaryView, bindGlossary,
   aboutView, notFoundView, errorView,
 } from './views.js';
@@ -15,6 +18,7 @@ const view = document.getElementById('view');
 const levelBar = document.getElementById('level-bar');
 let db = null;
 let player = null;
+let pageCleanup = null; // 화면별 정리(재생 중지·리스너 해제)
 
 const store = {
   get(key) { try { return window.localStorage.getItem(key); } catch { return null; } },
@@ -70,7 +74,7 @@ function renderLevelBar(lv) {
 
 function markNav(section) {
   document.querySelectorAll('a[data-base]').forEach((a) => {
-    if (a.closest('.site-nav')) {
+    if (a.closest('.site-nav, .tabbar')) {
       if (a.dataset.nav === section) a.setAttribute('aria-current', 'page');
       else a.removeAttribute('aria-current');
     }
@@ -81,13 +85,15 @@ function markNav(section) {
 function dropPlayer() {
   player?.destroy();
   player = null;
+  pageCleanup?.destroy();
+  pageCleanup = null;
 }
 
 function showPage(content, title, after) {
   dropPlayer();
   view.innerHTML = content;
   document.title = title ? `${title} · 배드민턴 복식 가이드` : '배드민턴 복식 가이드';
-  after?.(view);
+  pageCleanup = after?.(view) ?? null;
   window.scrollTo(0, 0);
 }
 
@@ -107,20 +113,28 @@ function routePlayer(parts, lv) {
   player.goto(nid ?? sc.start);
 }
 
+function routePractice(id, lv) {
+  if (!id) return showPage(practiceListView(db, lv), '연습방법', (root) => { bindPracticeList(root, db); });
+  const page = practiceDetailView(db, lv, id);
+  if (!page) return showPage(notFoundView('기술', id, lv), '찾을 수 없음');
+  return showPage(page, db.practice?.skillById.get(id)?.title ?? '연습방법', (root) => bindPracticeDetail(root, db, id));
+}
+
 function route() {
   if (!db) return;
   const { parts, params } = parseHash();
   const lv = currentLevel(params);
   renderLevelBar(lv);
   const [head, id] = parts;
-  const section = { r: 'r', m: 'home', t: 'home', glossary: 'glossary', about: 'about' }[head] ?? 'home';
+  const section = { r: 'r', p: 'p', m: 'home', t: 'home', glossary: 'glossary', about: 'about' }[head] ?? 'home';
   markNav(section);
   switch (head) {
-    case undefined: return showPage(homeView(db, lv), '');
+    case undefined: return showPage(homeView(db, lv), '', (root) => { bindPracticeList(root, db); });
+    case 'p': return routePractice(id, lv);
     case 'm': return showPage(moduleView(db, lv, id), db.moduleById.get(id)?.title);
     case 't': return showPage(topicView(db, lv, id), db.topicById.get(id)?.title);
     case 'r': return id ? routePlayer(parts, lv) : showPage(rotationsView(db, lv), '로테이션');
-    case 'glossary': return showPage(glossaryView(db, lv, id), '용어집', (root) => bindGlossary(root, id));
+    case 'glossary': return showPage(glossaryView(db, lv, id), '용어집', (root) => { bindGlossary(root, id); });
     case 'about': return showPage(aboutView(db, lv), '소개');
     default: return showPage(notFoundView('화면', parts.join('/'), lv), '찾을 수 없음');
   }

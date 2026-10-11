@@ -2,6 +2,8 @@
 // 사이트는 docs/data/*.json 만 읽는다. 생성은 curator·designer 소유.
 
 const FILES = ['levels', 'guide', 'rotations', 'glossary'];
+// 연습방법 탭 데이터 — 없거나 깨져도 다른 화면은 살린다(연습방법 화면만 안내 문구).
+const OPTIONAL = ['practice'];
 
 // 개발 스위치: ?data=fixtures 이면 저장소의 _workspace/fixtures/ 를 읽는다
 // (저장소 루트에서 서버를 띄울 때만 의미가 있다). 배포본에는 _workspace 가 없으므로
@@ -24,7 +26,15 @@ async function fetchJSON(url) {
 export async function loadAll() {
   const base = dataBase();
   const entries = await Promise.all(FILES.map(async (f) => [f, await fetchJSON(`${base}${f}.json`)]));
-  return buildIndex(Object.fromEntries(entries));
+  const optional = await Promise.all(OPTIONAL.map(async (f) => {
+    try {
+      return [f, await fetchJSON(`${base}${f}.json`)];
+    } catch (err) {
+      console.warn(`[data] ${f}.json 없음 — 해당 화면은 준비 중으로 표시합니다.`, err.message);
+      return [f, null];
+    }
+  }));
+  return buildIndex(Object.fromEntries([...entries, ...optional]));
 }
 
 function buildIndex(raw) {
@@ -52,6 +62,16 @@ function buildIndex(raw) {
     scenarioById: new Map(scenarios.map((s) => [s.id, s])),
     nodes: raw.rotations?.nodes ?? {},
     players: raw.rotations?.players ?? {},
+    practice: raw.practice ? indexPractice(raw.practice) : null,
+  });
+}
+
+function indexPractice(p) {
+  const skills = p.skills ?? [];
+  return Object.freeze({
+    categories: p.categories ?? [],
+    skills,
+    skillById: new Map(skills.map((s) => [s.id, s])),
   });
 }
 

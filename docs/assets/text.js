@@ -51,3 +51,12 @@ export function html(strings, ...values) {
 export function richHTML(value) {
   return new SafeHTML(rich(value));
 }
+
+// 가로 스크롤 띠 안에서만 항목을 보이게 한다(scrollIntoView 는 페이지 세로 스크롤까지 움직인다).
+export function revealInRow(row, item) {
+  if (!row || !item) return;
+  const r = row.getBoundingClientRect();
+  const it = item.getBoundingClientRect();
+  if (it.left < r.left) row.scrollLeft -= r.left - it.left + 8;
+  else if (it.right > r.right) row.scrollLeft += it.right - r.right + 8;
+}
