@@ -50,7 +50,9 @@
   /* 플레이 중에는 분류·요약을 숨겨(요약은 로테이션 목록 카드에 있다) 코트를 위로, 시트를 크게 */
   .pv-path h2, .pv-path .hint, .pv-path .picked { display: none; }
   .pv-path ol { margin: 0; gap: 6px; scrollbar-width: none; }
-  .pv-path li { flex-direction: row; align-items: center; min-height: 44px; max-width: 200px; padding: 0 12px; }
+  .pv-path li { flex-direction: row; align-items: stretch; min-height: 44px; max-width: 200px; padding: 0; }
+  /* 링크가 칩 상자 전체를 채워 위아래 여백을 눌러도 이동하게(터치 대상 44px) */
+  .pv-path .crumb { display: block; line-height: 44px; min-height: 44px; padding: 0 12px; max-width: 100%; }
   .pv-path li:has(.q-good) { border-left: 4px solid var(--good); }
   .pv-path li:has(.q-ok) { border-left: 4px solid var(--ok); }
   .pv-path li:has(.q-risky) { border-left: 4px solid var(--risky); }
